@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
+
+    <meta name="theme-color" content="#ffffff">
+    <title>Новое слово</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap&subset=cyrillic-ext"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&amp;subset=cyrillic-ext"
+        rel="stylesheet">
+</head>
+
+<body class="flex-center">
+    <div class="links-wrapper links-wrapper_form">
+        <a class="new-words-link" a href="index.html">Тренажер</a>
+        <a class="new-words-link" a href="dictionary.html" style="margin-left: 10px;">Словарь</a>
+    </div>
+    <div class="white-plate white-plate--payment">
+        
+        <div class="container-fluid">
+
+            <div class="white-plate__header text-center">
+                <p class="white-plate__logo">
+                    <span>Новое</span> слово
+                </p>
+            </div>
+
+            <div class="white-plate__line-between white-plate__line-between--main"></div>
+
+            <form method="POST" id="bid-form">
+                <label>Введите слово:</label>
+                <div class="form-group">
+                    <input type="text" id="question" name="question" class="form-control"
+                        placeholder="Слово на русском" required>
+                </div> 
+                <div class="form-group">
+                    <input type="text" id="answer" name="answer" class="form-control"
+                        placeholder="Перевод на иностранный" required>
+                </div>
+               
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-lg btn-primary btn-block">Сохранить значения</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+   
+    <script src="js/model.js"></script>
+    <script src="js/form.js"></script>
+</body>
+
+</html>
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- http://best-turn.surge.sh/ -->
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+	<link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+	<link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
+
+	<meta name="theme-color" content="#ffffff">
+	
+	<title>Английские слова - тренажёр</title>
+</head>
+
+<link href="css/style.css" rel="stylesheet">
+	<body>
+		<div class="proverb">
+			<div class="proverb-expression">
+				<span class='click-me'>&times</span>
+				<p></p>
+			</div>
+		</div>
+		<div class="links-wrapper">
+			<a class="new-words-link" href="form.html">Новое слово</a>
+			<button class="new-words-link download-csv">Сохранить csv</button>
+			<button class="new-words-link reset-data">Сбросить словарь/Выбрать все</button>
+			<a class="new-words-link" a href="dictionary.html">Словарь</a>
+			<button class="new-words-link fifty">От 0 до 50</button>
+			<button class="new-words-link cent">От 0 до 100</button>
+			<button class="new-words-link centfifty">После 100</button>
+			<button class="new-words-link lastfifty">Последние 50</button>
+		</div>
+		<nav class="nav">
+			<input type="checkbox" class="nav__cb" id="menu-cb" />
+			<div class="nav__content">
+				<ul class="nav__items">
+					<li class="nav__item">
+						<a class="nav__item-text" href="form.html">
+							Новое слово
+						</a>
+					</li>
+					<li class="nav__item">
+						<span class="nav__item-text reset-data">
+							Сбросить/Выбрать все
+						</span>
+					</li>
+					<li class="nav__item">
+						<span class="nav__item-text fifty">
+							От 0 до 50
+						</span>
+					</li>
+					<li class="nav__item">
+						<span class="nav__item-text cent">
+							От 0 до 100
+						</span>
+					</li>
+					<li class="nav__item">
+						<span class="nav__item-text centfifty">
+							После 100
+						</span>
+					</li>
+					<li class="nav__item">
+						<span class="nav__item-text lastfifty">
+							Последние 50
+						</span>
+					</li>
+					<!-- <li class="nav__item">
+						<span class="nav__item-text" onclick="chooseArray100()">
+							Выбрать от 100 до 150
+						</span>
+					</li> -->
+				</ul>
+			</div>
+			<label class="nav__btn" for="menu-cb"></label>
+		</nav>
+		<div class="container">
+			<div class="expression-number"></div>
+			<div class="question">
+			</div>
+			<div class="preposition"></div>
+			
+			<div class="answers">
+			</div>
+			<div class="checking checking-incorrect hidden">Неверно. Выберите заново</div>
+			<div class="checking checking-correct hidden">Верно. Можно продолжать</div>
+			<div class="buttons-wrapper">
+				<div class="reload-btn">Начать заново</div>
+				<button class="nextButton">Дальше</button>
+			</div>
+			
+		</div>
+		<div class="version">Обновлено: <span>17 март 2022</span></div>
+	
+	<!-- <script type="module" src="js/idAssignment.js"></script> -->
+	<script src="js/model.js"></script>
+	<script src="js/main.js"></script>
+	</body>
+</html>
