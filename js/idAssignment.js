@@ -1,27 +1,201 @@
 const clickBtn = document.getElementById('click');
 
 let newArr = [{
-          
-            //     id: 0,
-            //     question: 'hinder',
-            //     answer: ''
-        //  }, {
-            //     id: 0,
-            //     question: '',
-            //     answer: ''
-            // }, {
-            //     id: 0,
-            //     question: '',
-            //     answer: ''
-            // }, {
-            //     id: 0,
-            //     question: '',
-            //     answer: ''
-            // }, {
-            //     id: 0,
-            //     question: '',
-            //     answer: ''
+ 
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+//     id: 0,
+//     question: '',
+//     answer: ''
+//  }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+    //     id: 0,
+    //     question: '',
+    //     answer: ''
+    //  }, {
+    //     id: 0,
+    //     question: '',
+    //     answer: ''
+    // }, {
+    //     id: 0,
+    //     question: '',
+    //     answer: ''
+    // }, {
+    //     id: 0,
+    //     question: '',
+    //     answer: ''
+    // }, {
+    //     id: 0,
+    //     question: '',
+    //     answer: ''
+
+    // }, {
+    //     id: 0,
+    //     question: '',
+    //     answer: ''
+    // }, {
+    //     id: 0,
+    //     question: '',
+    //     answer: ''
+    //   }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+//  }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
         
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+//     id: 0,
+//     question: '',
+//     answer: ''
+//  }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+//     id: 0,
+//     question: '',
+//     answer: ''
+//  }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+//   }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+//  }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+
 // }, {
 //     id: 0,
 //     question: '',
@@ -42,7 +216,7 @@ clickBtn.addEventListener('click', function(){
     // const upperCaseMonth = month.toString().toUpperCase();
     // console.log(date, upperCaseMonth);
     
-    let i = 284;
+    let i = 320;
 
 
     newArr.forEach(item => item.id = i++);

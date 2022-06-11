@@ -1300,7 +1300,106 @@ const base = [{
         "id": 312,
         "question": "истощиться",
         "answer": "dwindle"
-}];
+    },
+    {
+        "id": 313,
+        "question": "усилитель",
+        "answer": "amp"
+    }, {
+        "id": 314,
+        "question": "кривой",
+        "answer": "wry/rai"
+    }, {
+        "id": 315,
+        "question": "вызывающе",
+        "answer": "defiantly"
+    }, {
+        "id": 316,
+        "question": "идиот",
+        "answer": "prat"
+    }, {
+        "id": 317,
+        "question": "мужлан",
+        "answer": "loon"
+    }, {
+        "id": 318,
+        "question": "проходить украдкой",
+        "answer": "sidle/saidl"
+    }, {
+        "id": 319,
+        "question": "потрясение",
+        "answer": "bemusement"
+    },
+    {
+        "id": 320,
+        "question": "могущий быть удостоверенным",
+        "answer": "certifiable"
+    }, {
+        "id": 321,
+        "question": "зловещий",
+        "answer": "ominous"
+    }, {
+        "id": 322,
+        "question": "место проведения",
+        "answer": "venue"
+    }, {
+        "id": 323,
+        "question": "падать в обморок",
+        "answer": "swoon"
+    }, {
+        "id": 324,
+        "question": "жажда",
+        "answer": "lust/A"
+    }, {
+        "id": 325,
+        "question": "перебивать (в разговоре)",
+        "answer": "heckle"
+    }, {
+        "id": 326,
+        "question": "хитрый/хитрость",
+        "answer": "cunning"
+    }, {
+        "id": 327,
+        "question": "вдрызг пьяный",
+        "answer": "sozzled"
+    }, {
+        "id": 328,
+        "question": "бездельничать",
+        "answer": "faff around"
+    }, {
+        "id": 329,
+        "question": "нетронутый",
+        "answer": "pristine/pristAIn"
+    }, {
+        "id": 330,
+        "question": "бедствие",
+        "answer": "calAmity"
+    }, {
+        "id": 331,
+        "question": "тошнота",
+        "answer": "nausea/nOsje"
+    }, {
+        "id": 332,
+        "question": "удар/колотить",
+        "answer": "bash"
+    }, {
+        "id": 333,
+        "question": "явный",
+        "answer": "blatant/blEitent"
+    }, {
+        "id": 334,
+        "question": "разврат",
+        "answer": "lechery/lEtcheri"
+    }, {
+        "id": 335,
+        "question": "толпа",
+        "answer": "scrum"
+    }, {
+        "id": 336,
+        "question": "сдерживание",
+        "answer": "deterrence"
+    }
+];
 
 const proverbList = [
     "Don’t cross the bridge until you come to it.<br />Не говори «гоп», пока не перепрыгнешь.",
