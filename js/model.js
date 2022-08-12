@@ -1398,7 +1398,17 @@ const base = [{
         "id": 336,
         "question": "сдерживание",
         "answer": "deterrence"
-    }
+    },
+    {"id":337,"question":"проверенный человек","answer":"safe pair of hands"},
+    {"id":338,"question":"быть в компании с","answer":"to knock around with"},
+    {"id":339,"question":"держаться особняком","answer":"to keep themselves to themselves"},
+    {"id":340,"question":"привязываться","answer":"to bond"},
+    {"id":341,"question":"ответить взаимностью","answer":"to recIprocate"},
+    {"id":342,"question":"засиживаться","answer":"to outstay"},
+    {"id":343,"question":"не разговаривать друг с другом","answer":"not to be on speaking terms"},
+    {"id":344,"question":"из всех слоев","answer":"from all walks of life"},
+    {"id":345,"question":"подружиться","answer":"hit it off with"},
+    {"id":346,"question":"вносить свою долю, вклад","answer":"to   pitch in"}
 ];
 
 const proverbList = [
