@@ -1408,7 +1408,25 @@ const base = [{
     {"id":343,"question":"не разговаривать друг с другом","answer":"not to be on speaking terms"},
     {"id":344,"question":"из всех слоев","answer":"from all walks of life"},
     {"id":345,"question":"подружиться","answer":"hit it off with"},
-    {"id":346,"question":"вносить свою долю, вклад","answer":"to   pitch in"}
+    {"id":346,"question":"вносить свою долю, вклад","answer":"to pitch in"},
+    {"id":347,"question":"грабительский","answer":"extortionate"},
+    {"id":348,"question":"невнимательный к другим","answer":"inconsIderate"},
+    {"id":349,"question":"заботливый","answer":"consIderate"},
+    {"id":350,"question":"копить","answer":"to lay aside"},
+    {"id":351,"question":"осмеивать","answer":"to rIdicule"},
+    {"id":352,"question":"полагающийся на свои собственные силы","answer":"self-reliant"},
+    {"id":353,"question":"души не чаять","answer":"to dote"},
+    {"id":354,"question":"постоять за/рассчитывать на","answer":"to fend for myself"},
+    {"id":355,"question":"подавлять чрезмерной заботой","answer":"to smother"},
+    {"id":356,"question":"бережливый","answer":"thrifty"},
+    {"id":357,"question":"быть в компании с","answer":"to knock around with"},
+    {"id":358,"question":"засиживаться","answer":"to outstay one’s welcome."},
+    {"id":359,"question":"смягчать","answer":"to tone down"},
+    {"id":360,"question":"притворяться в чем-то","answer":"to put it on"},
+    {"id":361,"question":"усваивать","answer":"to cotton on"},
+    {"id":362,"question":"готовиться психологически","answer":"to psych up"},
+    {"id":363,"question":"отталкивать","answer":"to put off"},{"id":364,"question":"напрямик","answer":"bluntly/He spoke bluntly"},
+    {"id":365,"question":"ограничение доступа","answer":"gatekeeping"}
 ];
 
 const proverbList = [

@@ -3,81 +3,82 @@ const clickBtn = document.getElementById('click');
 let newArr = [{
  
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'грабительский',
+//     answer: 'extortionate'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'невнимательный к другим',
+//     answer: 'inconsIderate'
 
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'заботливый',
+//     answer: 'consIderate'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'копить',
+//     answer: 'to lay aside'
+// }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'осмеивать',
+//     answer: 'to rIdicule'
 //  }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'полагающийся на свои собственные силы',
+//     answer: 'self-reliant'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'души не чаять',
+//     answer: 'to dote'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'постоять за/рассчитывать на',
+//     answer: 'to fend for myself'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
-
+//     question: 'подавлять чрезмерной заботой',
+//     answer: 'to smother'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'бережливый',
+//     answer: 'thrifty'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'быть в компании с',
+//     answer: 'to knock around with'
+// }, {
     //     id: 0,
-    //     question: '',
-    //     answer: ''
+    //     question: 'засиживаться',
+    //     answer: 'to outstay one’s welcome.'
     //  }, {
     //     id: 0,
-    //     question: '',
-    //     answer: ''
+    //     question: 'смягчать',
+    //     answer: 'to tone down'
     // }, {
     //     id: 0,
-    //     question: '',
-    //     answer: ''
+    //     question: 'притворяться в чем-то',
+    //     answer: 'to put it on'
     // }, {
     //     id: 0,
-    //     question: '',
-    //     answer: ''
+    //     question: 'усваивать',
+    //     answer: 'to cotton on'
     // }, {
     //     id: 0,
-    //     question: '',
-    //     answer: ''
+    //     question: 'готовиться психологически',
+    //     answer: 'to psych up'
 
     // }, {
     //     id: 0,
-    //     question: '',
-    //     answer: ''
+    //     question: 'отталкивать',
+    //     answer: 'to put off'
     // }, {
     //     id: 0,
-    //     question: '',
-    //     answer: ''
+    //     question: 'напрямик',
+    //     answer: 'bluntly/He spoke bluntly'
     //   }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'ограничение доступа',
+//     answer: 'gatekeeping'
 //  }, {
 //     id: 0,
 //     question: '',
