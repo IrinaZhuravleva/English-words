@@ -1,85 +1,6 @@
 const clickBtn = document.getElementById('click');
 
 let newArr = [{
- 
-//     id: 0,
-//     question: 'грабительский',
-//     answer: 'extortionate'
-// }, {
-//     id: 0,
-//     question: 'невнимательный к другим',
-//     answer: 'inconsIderate'
-
-// }, {
-//     id: 0,
-//     question: 'заботливый',
-//     answer: 'consIderate'
-// }, {
-//     id: 0,
-//     question: 'копить',
-//     answer: 'to lay aside'
-// }, {
-//     id: 0,
-//     question: 'осмеивать',
-//     answer: 'to rIdicule'
-//  }, {
-//     id: 0,
-//     question: 'полагающийся на свои собственные силы',
-//     answer: 'self-reliant'
-// }, {
-//     id: 0,
-//     question: 'души не чаять',
-//     answer: 'to dote'
-// }, {
-//     id: 0,
-//     question: 'постоять за/рассчитывать на',
-//     answer: 'to fend for myself'
-// }, {
-//     id: 0,
-//     question: 'подавлять чрезмерной заботой',
-//     answer: 'to smother'
-// }, {
-//     id: 0,
-//     question: 'бережливый',
-//     answer: 'thrifty'
-// }, {
-//     id: 0,
-//     question: 'быть в компании с',
-//     answer: 'to knock around with'
-// }, {
-    //     id: 0,
-    //     question: 'засиживаться',
-    //     answer: 'to outstay one’s welcome.'
-    //  }, {
-    //     id: 0,
-    //     question: 'смягчать',
-    //     answer: 'to tone down'
-    // }, {
-    //     id: 0,
-    //     question: 'притворяться в чем-то',
-    //     answer: 'to put it on'
-    // }, {
-    //     id: 0,
-    //     question: 'усваивать',
-    //     answer: 'to cotton on'
-    // }, {
-    //     id: 0,
-    //     question: 'готовиться психологически',
-    //     answer: 'to psych up'
-
-    // }, {
-    //     id: 0,
-    //     question: 'отталкивать',
-    //     answer: 'to put off'
-    // }, {
-    //     id: 0,
-    //     question: 'напрямик',
-    //     answer: 'bluntly/He spoke bluntly'
-    //   }, {
-//     id: 0,
-//     question: 'ограничение доступа',
-//     answer: 'gatekeeping'
-//  }, {
 //     id: 0,
 //     question: '',
 //     answer: ''
@@ -91,83 +12,6 @@ let newArr = [{
 //     id: 0,
 //     question: '',
 //     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-        
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-//     id: 0,
-//     question: '',
-//     answer: ''
-//  }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-//     id: 0,
-//     question: '',
-//     answer: ''
-//  }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-
 // }, {
 //     id: 0,
 //     question: '',
@@ -217,7 +61,7 @@ clickBtn.addEventListener('click', function(){
     // const upperCaseMonth = month.toString().toUpperCase();
     // console.log(date, upperCaseMonth);
     
-    let i = 320;
+    let i = 367;
 
 
     newArr.forEach(item => item.id = i++);
