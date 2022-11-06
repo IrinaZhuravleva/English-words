@@ -1428,7 +1428,7 @@ const base = [{
     {"id":363,"question":"отталкивать","answer":"to put off"},
     {"id":364,"question":"напрямик","answer":"bluntly/He spoke bluntly"},
     {"id":365,"question":"ограничение доступа","answer":"gatekeeping"},
-    {"id":366,"question":"громоздкий/сложный","answer":"cumbersome"}
+    {"id":366,"question":"громоздкий/сложный","answer":"cumbersome"},
     {"id":367,"question":"акт насилия","answer":"an outrage"},
     {"id":368,"question":"делить пополам","answer":"to halve"},{"id":369,"question":"уговорить","answer":"to win over"},{"id":370,"question":"непомерная цена","answer":"extortion"},{"id":371,"question":"незначительный","answer":"inconsiderable"},{"id":372,"question":"поддерживать","answer":"to uphold"},{"id":373,"question":"грызть","answer":"to gnaw"},{"id":374,"question":"выгодная партия","answer":"a catch"},{"id":375,"question":"клятва","answer":"a vow/vAu"},{"id":376,"question":"непрошенный","answer":"unsolicited"},{"id":377,"question":"несклонный","answer":"disinclined"},{"id":378,"question":"отказываться","answer":"to opt out"},{"id":379,"question":"проливающий свет","answer":"eye-opening"},{"id":380,"question":"причуда","answer":"a quirk"},{"id":381,"question":"невнимательный к другим","answer":"inconsiderate"},{"id":382,"question":"внимательный к другим","answer":"considerate"},{"id":383,"question":"кустарник","answer":"shrubbery"},
     {"id":384,"question":"внимательно рассматривать","answer":"to peruse"} 

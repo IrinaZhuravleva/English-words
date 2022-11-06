@@ -283,9 +283,9 @@ button,
 .number,
 .reload-btn,
 .delete-btn {
-  border: 2px solid black;
-  color: white;
-  background-color: black;
+  border: 2px solid lightblue;
+  color: black;
+  background-color: #ebfbff;
   border-radius: 15px;
   padding: 10px;
 }
@@ -400,7 +400,7 @@ button {
 button.new-words-link {
   font-size: 16px;
   line-height: 24px;
-  border: 2px solid black;
+  border: 2px solid lightblue;
   color: #000;
   background-color: #fff;
   border-radius: 15px;
