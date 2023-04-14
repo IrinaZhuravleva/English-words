@@ -23,12 +23,17 @@
 </head>
 
 <body class="body--dashboard">
-    <div class="links-wrapper">
+    <div class="dictionary-wrapper">
         <a class="new-words-link" a href="index.html">Тренажер</a>
-        <a class="new-words-link" a href="form.html">Новое слово</a>
+        <div class="col-md-6 align-self-center">
+            <input
+                type="text"
+                class="form-control"
+                id="filter"
+                placeholder="Поиск по списку..."
+            />
+        </div>
     </div>
-    
-    <!-- main-wrapper -->
     <div class="main-wrapper">
         <div class="container-fluid">
             <!-- <div class="admin-heading-1">Словарь</div> -->
@@ -46,15 +51,8 @@
             </table>
         </div>
     </div>
-    <div class="version">©IrinaZhuravleva Updated: <span>05 NOV 2022</span></div>
-    <!-- <script src="js/utils.js"></script>
-    <script src="js/settings.js"></script> -->
-
     <script src="js/model.js"></script>
-
     <script src="js/table.js"></script>
-    <!-- <script src="js/table.controller.js"></script> -->
-
 </body>
 
 </html>

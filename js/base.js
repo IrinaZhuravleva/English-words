@@ -853,7 +853,7 @@ export const base = [{
 }, {
     id: 202,
     question: 'дождевик',
-    answer: 'cagoule/kəˈɡuːl'
+    answer: 'cagoule/kəɡuːl'
 }, {
     id: 203,
     question: 'отменять/упразднять',
@@ -886,7 +886,6 @@ export const base = [{
     id: 210,
     question: 'превзойти (кого-то)',
     answer: 'outdo smb'
-
 }, {
     id: 211,
     question: 'проницательность',

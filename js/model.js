@@ -12,7 +12,6 @@ const base = [{
     id: 2,
     question: 'успокаивать',
     answer: 'mollify'
-
 }, {
     id: 3,
     question: 'застенчивый',
@@ -110,12 +109,10 @@ const base = [{
     id: 26,
     question: 'разъединять',
     answer: 'sever'
-
 }, {
     id: 27,
     question: 'разобрать',
     answer: 'make out'
-
 }, {
     id: 28,
     question: 'украшать',
@@ -197,7 +194,6 @@ const base = [{
     id: 47,
     question: 'пошлина',
     answer: 'toll'
-
 }, {
     id: 48,
     question: 'сельхоз рабочий',
@@ -214,7 +210,6 @@ const base = [{
     id: 51,
     question: 'грубый',
     answer: 'roughshod'
-
 }, {
     id: 52,
     question: 'сад',
@@ -236,12 +231,10 @@ const base = [{
     id: 56,
     question: 'медленный',
     answer: 'dilatory'
-
 }, {
     id: 57,
     question: 'вялый',
     answer: 'sluggish'
-
 }, {
     id: 58,
     question: 'тосковать',
@@ -258,7 +251,6 @@ const base = [{
     id: 61,
     question: 'сбегать от',
     answer: 'flake out on'
-
 }, {
     id: 62,
     question: 'несоответствие',
@@ -323,7 +315,6 @@ const base = [{
     id: 77,
     question: 'радость',
     answer: 'mirth'
-
 }, {
     id: 78,
     question: 'ошпаривать',
@@ -332,12 +323,10 @@ const base = [{
     id: 79,
     question: 'пенистый (капуччино)',
     answer: 'frothy'
-
 }, {
     id: 80,
     question: 'задумчивый',
     answer: 'wistful'
-
 }, {
     id: 81,
     question: 'изобретать, умудряться',
@@ -346,12 +335,10 @@ const base = [{
     id: 82,
     question: 'дрянной, сырный',
     answer: 'cheesy'
-
 }, {
     id: 83,
     question: 'скомкать',
     answer: 'crumple'
-
 }, {
     id: 84,
     question: 'локоны',
@@ -364,7 +351,6 @@ const base = [{
     id: 86,
     question: 'ссора',
     answer: 'sqabble'
-
 }, {
     id: 89,
     question: 'рискнуть',
@@ -373,12 +359,10 @@ const base = [{
     id: 90,
     question: 'корпеть, размышлять',
     answer: 'pore over'
-
 }, {
     id: 91,
     question: 'насмешливый',
     answer: 'derisive/dirAIsiv'
-
 }, {
     id: 92,
     question: 'ликование',
@@ -387,12 +371,10 @@ const base = [{
     id: 93,
     question: 'контрольный/сигнальный',
     answer: 'telltale'
-
 }, {
     id: 94,
     question: 'безбожный',
     answer: 'ungodly'
-
 }, {
     id: 95,
     question: 'пульсировать',
@@ -405,12 +387,10 @@ const base = [{
     id: 97,
     question: 'хриплый',
     answer: 'raucous'
-
 }, {
     id: 98,
     question: 'бормотать/тараторить',
     answer: 'gabble'
-
 }, {
     id: 99,
     question: 'малыш',
@@ -419,12 +399,10 @@ const base = [{
     id: 100,
     question: 'упрощенный',
     answer: 'nofrills'
-
 }, {
     id: 101,
     question: 'нападение',
     answer: 'Onslaught'
-
 }, {
     id: 102,
     question: 'вот это да',
@@ -433,12 +411,10 @@ const base = [{
     id: 103,
     question: 'поразительный',
     answer: 'astound'
-
 }, {
     id: 104,
     question: 'перемирие',
     answer: 'truce'
-
 }, {
     id: 105,
     question: 'всё же',
@@ -447,7 +423,6 @@ const base = [{
     id: 106,
     question: 'острый',
     answer: 'pUngent'
-
 }, {
     id: 107,
     question: 'содрогание',
@@ -456,12 +431,10 @@ const base = [{
     id: 108,
     question: 'приободриться',
     answer: 'perk up'
-
 }, {
     id: 109,
     question: 'форма для выпечки',
     answer: 'cake tin'
-
 }, {
     id: 110,
     question: 'камбуз/галера/гранка',
@@ -474,12 +447,10 @@ const base = [{
     id: 112,
     question: 'неразборчиво',
     answer: 'unintelligibly'
-
 }, {
     id: 113,
     question: 'лепетать',
     answer: 'babble'
-
 }, {
     id: 114,
     question: 'исказить',
@@ -496,7 +467,6 @@ const base = [{
     id: 117,
     question: 'ухмылка',
     answer: 'smirk'
-
 }, {
     id: 118,
     question: 'пустельга',
@@ -645,337 +615,332 @@ const base = [{
     id: 152,
     question: 'боярышник',
     answer: 'hauthorn/hoTHon'
-     }, {
-         id: 153,
-         question: 'замкнутый',
-         answer: 'insular'
     }, {
-        id: 154,
-        question: 'само по себе',
-        answer: 'in its own right'
-    // Self-development is important in its own right, not only in combination with education.
-    }, {
-        id: 155,
-        question: 'бесстрашный ',
-        answer: 'intrEpid'
-    }, {
-        id: 156,
-        question: 'неуверенный',
-        answer: 'tEntative'
-    }, {
-        id: 157,
-        question: 'непреклонный',
-        answer: 'Adamant'
-    }, {
-        id: 158,
-        question: 'лозоискатель',
-        answer: 'dowser'
-    }, {
-        id: 159,
-        question: 'лишайник',
-        answer: 'lichen/lAiken'
-    }, {
-        id: 160,
-        question: 'встревоженный',
-        answer: 'dismAyed'
-    }, {
-        id: 161,
-        question: 'ошибочность',
-        answer: 'fallibility/fэlibIliti'
-    }, {
-        id: 162,
-        question: 'истощиться',
-        answer: 'dwindle'
-   }, {
-       id: 163,
-       question: 'перевозчик',
-       answer: 'haulier/hOlje'
-   }, {
-       id: 164,
-       question: 'грязь',
-       answer: 'grime/graim'
-   }, {
-       id: 165,
-       question: 'создавать помехи/ковылять',
-       answer: 'hobble'
-   }, {
-       id: 166,
-       question: 'пашня/пахотный',
-       answer: 'arable/Эrebl/land'
-   }, {
-       id: 167,
-       question: 'сумрачный',
-       answer: 'sulky'
+        id: 153,
+        question: 'замкнутый',
+        answer: 'insular'
+}, {
+    id: 154,
+    question: 'само по себе',
+    answer: 'in its own right'
+// Self-development is important in its own right, not only in combination with education.
+}, {
+    id: 155,
+    question: 'бесстрашный ',
+    answer: 'intrEpid'
+}, {
+    id: 156,
+    question: 'неуверенный',
+    answer: 'tEntative'
+}, {
+    id: 157,
+    question: 'непреклонный',
+    answer: 'Adamant'
+}, {
+    id: 158,
+    question: 'лозоискатель',
+    answer: 'dowser'
+}, {
+    id: 159,
+    question: 'лишайник',
+    answer: 'lichen/lAiken'
+}, {
+    id: 160,
+    question: 'встревоженный',
+    answer: 'dismAyed'
+}, {
+    id: 161,
+    question: 'ошибочность',
+    answer: 'fallibility/fэlibIliti'
+}, {
+    id: 162,
+    question: 'истощиться',
+    answer: 'dwindle'
+}, {
+    id: 163,
+    question: 'перевозчик',
+    answer: 'haulier/hOlje'
+}, {
+    id: 164,
+    question: 'грязь',
+    answer: 'grime/graim'
+}, {
+    id: 165,
+    question: 'создавать помехи/ковылять',
+    answer: 'hobble'
+}, {
+    id: 166,
+    question: 'пашня/пахотный',
+    answer: 'arable/Эrebl/land'
+}, {
+    id: 167,
+    question: 'сумрачный',
+    answer: 'sulky'
 // sulky teenager
-   }, {
-       id: 168,
-       question: 'лысуха/простак',
-       answer: 'coot'
-   }, {
-       id: 169,
-       question: 'кряква',
-       answer: 'mallard/mЭled'
-   }, {
-       id: 170,
-       question: 'дергать',
+}, {
+    id: 168,
+    question: 'лысуха/простак',
+    answer: 'coot'
+}, {
+    id: 169,
+    question: 'кряква',
+    answer: 'mallard/mЭled'
+}, {
+    id: 170,
+    question: 'дергать',
        answer: 'yank/jЭnk'
-   }, {
-       id: 171,
-       question: 'исключать',
-       answer: 'rule out smth./smb.'
+}, {
+    id: 171,
+    question: 'исключать',
+    answer: 'rule out smth./smb.'
+}, {
+    id: 172,
+    question: 'медь',
+    answer: 'brass'
+}, {
+    id: 173,
+    question: 'сланец',
+    answer: 'shale'
+}, {
+    id: 174,
+    question: 'утесник обыкновенный',
+    answer: 'gorse'
+}, {
+    id: 175,
+    question: 'глыба/скопление',
+    answer: 'clump'
+}, {
+    id: 176,
+    question: 'горностай',
+    answer: 'stoat'
+}, {
+    id: 177,
+    question: 'невозмутимый',
+    answer: 'unpertUrbed'
+}, {
+    id: 178,
+    question: 'вздрагивать',
+    answer: 'flinch'
+}, {
+    id: 179,
+    question: 'сверхпрочный/сверхмощный',
+    answer: 'heavy-duty'
+}, {
+    id: 180,
+    question: 'осторожный',
+    answer: 'precautious'
+}, {
+    id: 181,
+    question: 'отвалить/бесить',
+    answer: 'piss off'
+}, {
+    id: 182,
+    question: 'нюхать/фыркать',
+    answer: 'snort'
+}, {
+    id: 183,
+    question: 'туберкулезный',
+    answer: 'consumptive'
+}, {
+    id: 184,
+    question: 'рвано',
+    answer: 'raggedly'
+}, {
+    id: 185,
+    question: 'боярышник',
+    answer: 'hAwthorn'
+}, {
+    id: 186,
+    question: 'ограничение',
+    answer: 'stint'
+}, {
+    id: 187,
+    question: 'резкий',
+    answer: 'garish'
 
-   }, {
-       id: 172,
-       question: 'медь',
-       answer: 'brass'
-    }, {
-        id: 173,
-        question: 'сланец',
-        answer: 'shale'
-    }, {
-        id: 174,
-        question: 'утесник обыкновенный',
-        answer: 'gorse'
-    }, {
-        id: 175,
-        question: 'глыба/скопление',
-        answer: 'clump'
+}, {
+    id: 188,
+    question: 'мрачный',
+    answer: 'dIsmal'
+}, {
+    id: 189,
+    question: 'специфический/свойственный to',
+    answer: 'peculiar'
+}, {
+    id: 190,
+    question: 'угрюмый',
+    answer: 'morose/merEuz'
+}, {
+    id: 191,
+    question: 'падение/провал/погружение',
+    answer: 'dip'
 
-    }, {
-        id: 176,
-        question: 'горностай',
-        answer: 'stoat'
-    }, {
-        id: 177,
-        question: 'невозмутимый',
-        answer: 'unpertUrbed'
-    }, {
-        id: 178,
-        question: 'вздрагивать',
-        answer: 'flinch'
-    }, {
-        id: 179,
-        question: 'сверхпрочный/сверхмощный',
-        answer: 'heavy-duty'
+}, {
+    id: 192,
+    question: 'неосторожный',
+    answer: 'unwary'
+}, {
+    id: 193,
+    question: 'лакомый кусочек',
+    answer: 'tIdbit'
+}, {
+    id: 194,
+    question: 'соблюдение/соответствие/согласие',
+    answer: 'compliance'
+}, {
+    id: 195,
+    question: 'несоответствие',
+    answer: 'discrEpancy'
 
-    }, {
-        id: 180,
-        question: 'осторожный',
-        answer: 'precautious'
-    }, {
-        id: 181,
-        question: 'отвалить/бесить',
-        answer: 'piss off'
-    }, {
-        id: 182,
-        question: 'нюхать/фыркать',
-        answer: 'snort'
-    }, {
-        id: 183,
-        question: 'туберкулезный',
-        answer: 'consumptive'
+}, {
+    id: 196,
+    question: 'пособие',
+    answer: 'dole/deul'
 
-    }, {
-        id: 184,
-        question: 'рвано',
-        answer: 'raggedly'
-    }, {
-        id: 185,
-        question: 'боярышник',
-        answer: 'hAwthorn'
-    }, {
-        id: 186,
-        question: 'ограничение',
-        answer: 'stint'
-    }, {
-        id: 187,
-        question: 'резкий',
-        answer: 'garish'
+}, {
+    id: 197,
+    question: 'злобный',
+    answer: 'spitefule/ai'
+}, {
+    id: 198,
+    question: 'потрепанный',
+    answer: 'scruffy'
+}, {
+    id: 199,
+    question: 'ветхий/дряхлый',
+    answer: 'decrepit/dikrEpit'
+}, {
+    id: 200,
+    question: 'сделанный на заказ',
+    answer: 'bespoke'
+}, {
+    id: 201,
+    question: 'протокол результатов/карта показателей',
+    answer: 'scorecard'
 
-    }, {
-        id: 188,
-        question: 'мрачный',
-        answer: 'dIsmal'
-    }, {
-        id: 189,
-        question: 'специфический/свойственный to',
-        answer: 'peculiar'
-    }, {
-        id: 190,
-        question: 'угрюмый',
-        answer: 'morose/merEuz'
-    }, {
-        id: 191,
-        question: 'падение/провал/погружение',
-        answer: 'dip'
+}, {
+    id: 202,
+    question: 'дождевик',
+    answer: 'cagoule/kəˈɡuːl'
+}, {
+    id: 203,
+    question: 'отменять/упразднять',
+    answer: 'abOlish'
+}, {
+    id: 204,
+    question: 'доверчивый',
+    answer: 'crEdulous'
+}, {
+    id: 205,
+    question: 'фыркать/нюхать',
+    answer: 'snort'
+}, {
+    id: 206,
+    question: 'страх/трепет/благоговение',
+    answer: 'awe/o:'
+}, {
+    id: 207,
+    question: 'присяга/клятва',
+    answer: 'oath/outh'
+}, {
+    id: 208,
+    question: 'клятва',
+    answer: 'vow/vau'
+}, {
+    id: 209,
+    question: 'ученичество',
+    answer: 'apprenticeship'
+}, {
+    id: 210,
+    question: 'превзойти (кого-то)',
+    answer: 'outdo smb'
+}, {
+    id: 211,
+    question: 'проницательность',
+    answer: 'astuteness/ə-stüt'
 
-    }, {
-        id: 192,
-        question: 'неосторожный',
-        answer: 'unwary'
-    }, {
-        id: 193,
-        question: 'лакомый кусочек',
-        answer: 'tIdbit'
-    }, {
-        id: 194,
-        question: 'соблюдение/соответствие/согласие',
-        answer: 'compliance'
-    }, {
-        id: 195,
-        question: 'несоответствие',
-        answer: 'discrEpancy'
+}, {
+    id: 212,
+    question: 'торопливо',
+    answer: 'hastily/hEistili'
+}, {
+    id: 213,
+    question: 'выносить/выдерживать',
+    answer: 'put up with'
+}, {
+    id: 214,
+    question: 'претерпевать/пребывать',
+    answer: 'abide'
+}, {
+    id: 215,
+    question: 'автомобилист',
+    answer: 'mOtorist'
 
-    }, {
-        id: 196,
-        question: 'пособие',
-        answer: 'dole/deul'
+}, {
+    id: 216,
+    question: 'укреплять',
+    answer: 'stiffen'
 
-    }, {
-        id: 197,
-        question: 'злобный',
-        answer: 'spitefule/ai'
-    }, {
-        id: 198,
-        question: 'потрепанный',
-        answer: 'scruffy'
-    }, {
-        id: 199,
-        question: 'ветхий/дряхлый',
-        answer: 'decrepit/dikrEpit'
-    }, {
-        id: 200,
-        question: 'сделанный на заказ',
-        answer: 'bespoke'
-    }, {
-        id: 201,
-        question: 'протокол результатов/карта показателей',
-        answer: 'scorecard'
-
-    }, {
-        id: 202,
-        question: 'дождевик',
-        answer: 'cagoule/kəˈɡuːl'
-    }, {
-        id: 203,
-        question: 'отменять/упразднять',
-        answer: 'abOlish'
-    }, {
-        id: 204,
-        question: 'доверчивый',
-        answer: 'crEdulous'
-    }, {
-        id: 205,
-        question: 'фыркать/нюхать',
-        answer: 'snort'
-    }, {
-        id: 206,
-        question: 'страх/трепет/благоговение',
-        answer: 'awe/o:'
-    }, {
-        id: 207,
-        question: 'присяга/клятва',
-        answer: 'oath/outh'
-    }, {
-        id: 208,
-        question: 'клятва',
-        answer: 'vow/vau'
-    }, {
-        id: 209,
-        question: 'ученичество',
-        answer: 'apprenticeship'
-    }, {
-        id: 210,
-        question: 'превзойти (кого-то)',
-        answer: 'outdo smb'
-
-    }, {
-        id: 211,
-        question: 'проницательность',
-        answer: 'astuteness/ə-stüt'
-
-    }, {
-        id: 212,
-        question: 'торопливо',
-        answer: 'hastily/hEistili'
-    }, {
-        id: 213,
-        question: 'выносить/выдерживать',
-        answer: 'put up with'
-    }, {
-        id: 214,
-        question: 'претерпевать/пребывать',
-        answer: 'abide'
-    }, {
-        id: 215,
-        question: 'автомобилист',
-        answer: 'mOtorist'
-
-    }, {
-        id: 216,
-        question: 'укреплять',
-        answer: 'stiffen'
-
-    }, {
-        id: 217,
-        question: 'раздражительно',
-        answer: 'petulantly/pEtʃ.ə.lənt.li'
-    }, {
-        id: 218,
-        question: 'безрассудство',
-        answer: 'temErity'
-    }, {
-        id: 219,
-        question: 'установленный законом',
-        answer: 'stAtutory'
-    }, {
-        id: 220,
-        question: 'сдерживание',
-        answer: 'detErrence'
-    }, {
-        "id": 221,
-        "answer": "look down on",
-        "questionquestion": "смотреть сверху вниз"
-    }, {
-        "id": 222,
-        "answer": "to get wearing",
-        "questionquestion": "надоедать"
-    }, {
-        "id": 223,
-        "answer": "to do one's head in",
-        "questionquestion": "раздражать/смущать"
-    }, {
-        "id": 224,
-        "answer": "to build up",
-        "questionquestion": "собираться/накапливаться"
-    }, {
-        "id": 225,
-        "answer": "to bug smb. with smth.",
-        "question": "доставать кого-л. чем-л."
-    }, {
-        "id": 226,
-        "answer": "clock in",
-        "question": "начинать работать/открываться"
-    }, {
-        "id": 227,
-        "answer": "gruelling",
-        "question": "изнурительный"
-    }, {
-        "id": 228,
-        "answer": "courtesy bus",
-        "question": "бесплатный автобус"
-        }, {
-        "id": 229, 
-        "question": "трещина", 
-        "answer": "cranny"
-    }, {
-        "id": 230,
-        "question": "придумать",
-        "answer": "concoct/kenkOkt"
-    }, {
-        "id": 231,
-        "question": "выдумка/сливочная помадка/уклоняться",
-        "answer": "fudge"
+}, {
+    id: 217,
+    question: 'раздражительно',
+    answer: 'petulantly/pEtʃ.ə.lənt.li'
+}, {
+    id: 218,
+    question: 'безрассудство',
+    answer: 'temErity'
+}, {
+    id: 219,
+    question: 'установленный законом',
+    answer: 'stAtutory'
+}, {
+    id: 220,
+    question: 'сдерживание',
+    answer: 'detErrence'
+}, {
+    "id": 221,
+    "answer": "look down on",
+    "questionquestion": "смотреть сверху вниз"
+}, {
+    "id": 222,
+    "answer": "to get wearing",
+    "questionquestion": "надоедать"
+}, {
+    "id": 223,
+    "answer": "to do one's head in",
+    "questionquestion": "раздражать/смущать"
+}, {
+    "id": 224,
+    "answer": "to build up",
+    "questionquestion": "собираться/накапливаться"
+}, {
+    "id": 225,
+    "answer": "to bug smb. with smth.",
+    "question": "доставать кого-л. чем-л."
+}, {
+    "id": 226,
+    "answer": "clock in",
+    "question": "начинать работать/открываться"
+}, {
+    "id": 227,
+    "answer": "gruelling",
+    "question": "изнурительный"
+}, {
+    "id": 228,
+    "answer": "courtesy bus",
+    "question": "бесплатный автобус"
+}, {
+    "id": 229, 
+    "question": "трещина", 
+    "answer": "cranny"
+}, {
+    "id": 230,
+    "question": "придумать",
+    "answer": "concoct/kenkOkt"
+}, {
+    "id": 231,
+    "question": "выдумка/сливочная помадка/уклоняться",
+    "answer": "fudge"
     }, {
         "id": 232,
         "question": "снимать с должности/свергать",
@@ -1047,7 +1012,7 @@ const base = [{
     }, {
         "id": 249,
         "question": "вносить свою лепту",
-        "answer": "to   do one's share"
+        "answer": "to do one's share"
     }, {
         "id": 250,
         "question": "суетливый",
@@ -1236,202 +1201,202 @@ const base = [{
         "id": 296,
         "question": "попасться на крючок",
         "answer": "to fall for"
-    }, {
-        "id": 297,
-        "question": "изнашивать",
-        "answer": "to wear down"
-    }, {
-        "id": 298,
-        "question": "разойтись (о паре/семье)",
-        "answer": "to split up"
-    }, {
-        "id": 299,
-        "question": "помириться",
-        "answer": "make up"
-    }, {
-        "id": 300,
-        "question": "нудный",
-        "answer": "humdrum"
-    }, {
-        "id": 301,
-        "question": "причуда, конек",
-        "answer": "fad"
-    }, {
-        "id": 302,
-        "question": "коммуникабельный",
-        "answer": "outgoing"
-    }, {
-        "id": 303,
-        "question": "добиться",
-        "answer": "notch up"
-    }, {
-        "id": 304,
-        "question": "обман",
-        "answer": "deception"
-    }, {
-        "id": 305,
-        "question": "колебаться/трепетать",
-        "answer": "dither"
-    }, {
-        "id": 306,
-        "question": "раздражительность",
-        "answer": "fretfulness"
-    }, {
-        "id": 307,
-        "question": "препятствовать",
-        "answer": "hinder"
-    }, {
-        "id": 308,
-        "question": "неуловимый",
-        "answer": "elusive"
-    }, {
-        "id": 309,
-        "question": "подающий надежды",
-        "answer": "aspiring"
-    }, {
-        "id": 310,
-        "question": "приемлемый",
-        "answer": "eligible"
-    }, {
-        "id": 311,
-        "question": "неустойчивый",
-        "answer": "erratic"
-    }, {
-        "id": 312,
-        "question": "истощиться",
-        "answer": "dwindle"
-    },
-    {
-        "id": 313,
-        "question": "усилитель",
-        "answer": "amp"
-    }, {
-        "id": 314,
-        "question": "кривой",
-        "answer": "wry/rai"
-    }, {
-        "id": 315,
-        "question": "вызывающе",
-        "answer": "defiantly"
-    }, {
-        "id": 316,
-        "question": "идиот",
-        "answer": "prat"
-    }, {
-        "id": 317,
-        "question": "мужлан",
-        "answer": "loon"
-    }, {
-        "id": 318,
-        "question": "проходить украдкой",
-        "answer": "sidle/saidl"
-    }, {
-        "id": 319,
-        "question": "потрясение",
-        "answer": "bemusement"
-    },
-    {
-        "id": 320,
-        "question": "могущий быть удостоверенным",
-        "answer": "certifiable"
-    }, {
-        "id": 321,
-        "question": "зловещий",
-        "answer": "ominous"
-    }, {
-        "id": 322,
-        "question": "место проведения",
-        "answer": "venue"
-    }, {
-        "id": 323,
-        "question": "падать в обморок",
-        "answer": "swoon"
-    }, {
-        "id": 324,
-        "question": "жажда",
-        "answer": "lust/A"
-    }, {
-        "id": 325,
-        "question": "перебивать (в разговоре)",
-        "answer": "heckle"
-    }, {
-        "id": 326,
-        "question": "хитрый/хитрость",
-        "answer": "cunning"
-    }, {
-        "id": 327,
-        "question": "вдрызг пьяный",
-        "answer": "sozzled"
-    }, {
-        "id": 328,
-        "question": "бездельничать",
-        "answer": "faff around"
-    }, {
-        "id": 329,
-        "question": "нетронутый",
-        "answer": "pristine/pristAIn"
-    }, {
-        "id": 330,
-        "question": "бедствие",
-        "answer": "calAmity"
-    }, {
-        "id": 331,
-        "question": "тошнота",
-        "answer": "nausea/nOsje"
-    }, {
-        "id": 332,
-        "question": "удар/колотить",
-        "answer": "bash"
-    }, {
-        "id": 333,
-        "question": "явный",
-        "answer": "blatant/blEitent"
-    }, {
-        "id": 334,
-        "question": "разврат",
-        "answer": "lechery/lEtcheri"
-    }, {
-        "id": 335,
-        "question": "толпа",
-        "answer": "scrum"
-    }, {
-        "id": 336,
-        "question": "сдерживание",
-        "answer": "deterrence"
-    },
-    {"id":337,"question":"проверенный человек","answer":"safe pair of hands"},
-    {"id":338,"question":"быть в компании с","answer":"to knock around with"},
-    {"id":339,"question":"держаться особняком","answer":"to keep themselves to themselves"},
-    {"id":340,"question":"привязываться","answer":"to bond"},
-    {"id":341,"question":"ответить взаимностью","answer":"to recIprocate"},
-    {"id":342,"question":"засиживаться","answer":"to outstay"},
-    {"id":343,"question":"не разговаривать друг с другом","answer":"not to be on speaking terms"},
-    {"id":344,"question":"из всех слоев","answer":"from all walks of life"},
-    {"id":345,"question":"подружиться","answer":"hit it off with"},
-    {"id":346,"question":"вносить свою долю, вклад","answer":"to pitch in"},
-    {"id":347,"question":"грабительский","answer":"extortionate"},
-    {"id":348,"question":"невнимательный к другим","answer":"inconsIderate"},
-    {"id":349,"question":"заботливый","answer":"consIderate"},
-    {"id":350,"question":"копить","answer":"to lay aside"},
-    {"id":351,"question":"осмеивать","answer":"to rIdicule"},
-    {"id":352,"question":"полагающийся на свои собственные силы","answer":"self-reliant"},
-    {"id":353,"question":"души не чаять","answer":"to dote"},
-    {"id":354,"question":"постоять за/рассчитывать на","answer":"to fend for myself"},
-    {"id":355,"question":"подавлять чрезмерной заботой","answer":"to smother"},
-    {"id":356,"question":"бережливый","answer":"thrifty"},
-    {"id":357,"question":"быть в компании с","answer":"to knock around with"},
-    {"id":358,"question":"засиживаться","answer":"to outstay one’s welcome."},
-    {"id":359,"question":"смягчать","answer":"to tone down"},
-    {"id":360,"question":"притворяться в чем-то","answer":"to put it on"},
-    {"id":361,"question":"усваивать","answer":"to cotton on"},
-    {"id":362,"question":"готовиться психологически","answer":"to psych up"},
-    {"id":363,"question":"отталкивать","answer":"to put off"},
-    {"id":364,"question":"напрямик","answer":"bluntly/He spoke bluntly"},
-    {"id":365,"question":"ограничение доступа","answer":"gatekeeping"},
-    {"id":366,"question":"громоздкий/сложный","answer":"cumbersome"},
-    {"id":367,"question":"акт насилия","answer":"an outrage"},
-    {"id":368,"question":"делить пополам","answer":"to halve"},{"id":369,"question":"уговорить","answer":"to win over"},{"id":370,"question":"непомерная цена","answer":"extortion"},{"id":371,"question":"незначительный","answer":"inconsiderable"},{"id":372,"question":"поддерживать","answer":"to uphold"},{"id":373,"question":"грызть","answer":"to gnaw"},{"id":374,"question":"выгодная партия","answer":"a catch"},{"id":375,"question":"клятва","answer":"a vow/vAu"},{"id":376,"question":"непрошенный","answer":"unsolicited"},{"id":377,"question":"несклонный","answer":"disinclined"},{"id":378,"question":"отказываться","answer":"to opt out"},{"id":379,"question":"проливающий свет","answer":"eye-opening"},{"id":380,"question":"причуда","answer":"a quirk"},{"id":381,"question":"невнимательный к другим","answer":"inconsiderate"},{"id":382,"question":"внимательный к другим","answer":"considerate"},{"id":383,"question":"кустарник","answer":"shrubbery"},
-    {"id":384,"question":"внимательно рассматривать","answer":"to peruse"} 
+}, {
+    "id": 297,
+    "question": "изнашивать",
+    "answer": "to wear down"
+}, {
+    "id": 298,
+    "question": "разойтись (о паре/семье)",
+    "answer": "to split up"
+}, {
+    "id": 299,
+    "question": "помириться",
+    "answer": "make up"
+}, {
+    "id": 300,
+    "question": "нудный",
+    "answer": "humdrum"
+}, {
+    "id": 301,
+    "question": "причуда, конек",
+    "answer": "fad"
+}, {
+    "id": 302,
+    "question": "коммуникабельный",
+    "answer": "outgoing"
+}, {
+    "id": 303,
+    "question": "добиться",
+    "answer": "notch up"
+}, {
+    "id": 304,
+    "question": "обман",
+    "answer": "deception"
+}, {
+    "id": 305,
+    "question": "колебаться/трепетать",
+    "answer": "dither"
+}, {
+    "id": 306,
+    "question": "раздражительность",
+    "answer": "fretfulness"
+}, {
+    "id": 307,
+    "question": "препятствовать",
+    "answer": "hinder"
+}, {
+    "id": 308,
+    "question": "неуловимый",
+    "answer": "elusive"
+}, {
+    "id": 309,
+    "question": "подающий надежды",
+    "answer": "aspiring"
+}, {
+    "id": 310,
+    "question": "приемлемый",
+    "answer": "eligible"
+}, {
+    "id": 311,
+    "question": "неустойчивый",
+    "answer": "erratic"
+}, {
+    "id": 312,
+    "question": "истощиться",
+    "answer": "dwindle"
+},
+{
+    "id": 313,
+    "question": "усилитель",
+    "answer": "amp"
+}, {
+    "id": 314,
+    "question": "кривой",
+    "answer": "wry/rai"
+}, {
+    "id": 315,
+    "question": "вызывающе",
+    "answer": "defiantly"
+}, {
+    "id": 316,
+    "question": "идиот",
+    "answer": "prat"
+}, {
+    "id": 317,
+    "question": "мужлан",
+    "answer": "loon"
+}, {
+    "id": 318,
+    "question": "проходить украдкой",
+    "answer": "sidle/saidl"
+}, {
+    "id": 319,
+    "question": "потрясение",
+    "answer": "bemusement"
+},
+{
+    "id": 320,
+    "question": "могущий быть удостоверенным",
+    "answer": "certifiable"
+}, {
+    "id": 321,
+    "question": "зловещий",
+    "answer": "ominous"
+}, {
+    "id": 322,
+    "question": "место проведения",
+    "answer": "venue"
+}, {
+    "id": 323,
+    "question": "падать в обморок",
+    "answer": "swoon"
+}, {
+    "id": 324,
+    "question": "жажда",
+    "answer": "lust/A"
+}, {
+    "id": 325,
+    "question": "перебивать (в разговоре)",
+    "answer": "heckle"
+}, {
+    "id": 326,
+    "question": "хитрый/хитрость",
+    "answer": "cunning"
+}, {
+    "id": 327,
+    "question": "вдрызг пьяный",
+    "answer": "sozzled"
+}, {
+    "id": 328,
+    "question": "бездельничать",
+    "answer": "faff around"
+}, {
+    "id": 329,
+    "question": "нетронутый",
+    "answer": "pristine/pristAIn"
+}, {
+    "id": 330,
+    "question": "бедствие",
+    "answer": "calAmity"
+}, {
+    "id": 331,
+    "question": "тошнота",
+    "answer": "nausea/nOsje"
+}, {
+    "id": 332,
+    "question": "удар/колотить",
+    "answer": "bash"
+}, {
+    "id": 333,
+    "question": "явный",
+    "answer": "blatant/blEitent"
+}, {
+    "id": 334,
+    "question": "разврат",
+    "answer": "lechery/lEtcheri"
+}, {
+    "id": 335,
+    "question": "толпа",
+    "answer": "scrum"
+}, {
+    "id": 336,
+    "question": "сдерживание",
+    "answer": "deterrence"
+},
+{"id":337,"question":"проверенный человек","answer":"safe pair of hands"},
+{"id":338,"question":"быть в компании с","answer":"to knock around with"},
+{"id":339,"question":"держаться особняком","answer":"to keep themselves to themselves"},
+{"id":340,"question":"привязываться","answer":"to bond"},
+{"id":341,"question":"ответить взаимностью","answer":"to recIprocate"},
+{"id":342,"question":"засиживаться","answer":"to outstay"},
+{"id":343,"question":"не разговаривать друг с другом","answer":"not to be on speaking terms"},
+{"id":344,"question":"из всех слоев","answer":"from all walks of life"},
+{"id":345,"question":"подружиться","answer":"hit it off with"},
+{"id":346,"question":"вносить свою долю, вклад","answer":"to pitch in"},
+{"id":347,"question":"грабительский","answer":"extortionate"},
+{"id":348,"question":"невнимательный к другим","answer":"inconsIderate"},
+{"id":349,"question":"заботливый","answer":"consIderate"},
+{"id":350,"question":"копить","answer":"to lay aside"},
+{"id":351,"question":"осмеивать","answer":"to rIdicule"},
+{"id":352,"question":"полагающийся на свои собственные силы","answer":"self-reliant"},
+{"id":353,"question":"души не чаять","answer":"to dote"},
+{"id":354,"question":"постоять за/рассчитывать на","answer":"to fend for myself"},
+{"id":355,"question":"подавлять чрезмерной заботой","answer":"to smother"},
+{"id":356,"question":"бережливый","answer":"thrifty"},
+{"id":357,"question":"быть в компании с","answer":"to knock around with"},
+{"id":358,"question":"засиживаться","answer":"to outstay one’s welcome."},
+{"id":359,"question":"смягчать","answer":"to tone down"},
+{"id":360,"question":"притворяться в чем-то","answer":"to put it on"},
+{"id":361,"question":"усваивать","answer":"to cotton on"},
+{"id":362,"question":"готовиться психологически","answer":"to psych up"},
+{"id":363,"question":"отталкивать","answer":"to put off"},
+{"id":364,"question":"напрямик","answer":"bluntly/He spoke bluntly"},
+{"id":365,"question":"ограничение доступа","answer":"gatekeeping"},
+{"id":366,"question":"громоздкий/сложный","answer":"cumbersome"},
+{"id":367,"question":"акт насилия","answer":"an outrage"},
+{"id":368,"question":"делить пополам","answer":"to halve"},{"id":369,"question":"уговорить","answer":"to win over"},{"id":370,"question":"непомерная цена","answer":"extortion"},{"id":371,"question":"незначительный","answer":"inconsiderable"},{"id":372,"question":"поддерживать","answer":"to uphold"},{"id":373,"question":"грызть","answer":"to gnaw"},{"id":374,"question":"выгодная партия","answer":"a catch"},{"id":375,"question":"клятва","answer":"a vow/vAu"},{"id":376,"question":"непрошенный","answer":"unsolicited"},{"id":377,"question":"несклонный","answer":"disinclined"},{"id":378,"question":"отказываться","answer":"to opt out"},{"id":379,"question":"проливающий свет","answer":"eye-opening"},{"id":380,"question":"причуда","answer":"a quirk"},{"id":381,"question":"невнимательный к другим","answer":"inconsiderate"},{"id":382,"question":"внимательный к другим","answer":"considerate"},{"id":383,"question":"кустарник","answer":"shrubbery"},
+{"id":384,"question":"внимательно рассматривать","answer":"to peruse"} 
 ];
 
 const proverbList = [

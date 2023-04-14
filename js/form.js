@@ -2,7 +2,7 @@ document.querySelector('#bid-form').addEventListener("submit", function (event) 
     event.preventDefault();
     let name = document.querySelector('#question').value;
     let answer = document.querySelector('#answer').value;
-    //    debugger
+
     let ID;
     if (data.length > 0) {
         //если есть, то находим индекс последнего эл-та в массиве
