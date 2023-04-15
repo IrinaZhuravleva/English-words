@@ -11,7 +11,6 @@ const centfifty = document.querySelectorAll('.centfifty');
 const lastfifty = document.querySelectorAll('.lastfifty');
 const downloadCSVBtn = document.querySelector('.download-csv');
 const resetDataBtn = document.querySelectorAll('.reset-data');
-const reloadBtn = document.querySelector('.reload-btn');
 const proverbExpression = document.querySelector('.proverb-expression');
 const proverbPhrase = document.querySelector('.proverb-expression p')
 const answersBlock = document.querySelector('.answers');
@@ -89,11 +88,8 @@ let elements = [...allLinksPopup].forEach(item => {
 a.addEventListener('click', () => {
     if (!linkPopup.classList.contains('active')) {
         linkPopup.classList.add('active');
-        // linksPopup.classList.add('active');
-        // console.log('ok');
     } else {
         linkPopup.classList.remove('active');
-        // linksPopup.classList.remove('active');
     }
 })
 
@@ -130,14 +126,12 @@ function nextButtonClickHandler() {
         });
     }
 
-
     if (currentQuestionIndex === tralivaliShuffled.length - 1) {
         clearAnswersHTML();
         if (document.querySelector('.checking-correct').style.display == 'block') {
             document.querySelector('.checking-correct').style.display = 'none';
         }
         document.querySelector('.nextButton').style.display = 'none';
-
         document.querySelector('.question').innerHTML = `Поздравляем!!! Вы справились))). Хотите продолжить?<button style="color: black; background-color: #ffffff;  " onClick="location.reload()">Повторить</button>`;
         
     } else {
@@ -245,18 +239,10 @@ function resetData() {
     });
 });
 
-downloadCSVBtn.addEventListener('click', () => {
-    downloadCSV();
-});
-
 [...resetDataBtn].forEach(function (item) {
     item.addEventListener('click', () => {
         resetData();
     });
-});
-
-reloadBtn.addEventListener('click', () => {
-    location.reload();
 });
 
 //случайное число от 0 до tralivaliShuffled.length - это индекс вопроса/ответа
