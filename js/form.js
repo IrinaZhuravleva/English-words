@@ -5,10 +5,7 @@ document.querySelector('#bid-form').addEventListener("submit", function (event) 
 
     let ID;
     if (data.length > 0) {
-        //если есть, то находим индекс последнего эл-та в массиве
         var lastIndex = data.length - 1;
-        //получаем по этому индексу сам элемент, берем его id и увеличиваем на единицу, чтобы получить ID
-        //для нового элемента (последний элемент в массиве будет иметь последний ID)
         ID = data[lastIndex].id + 1;
     } else {
         ID = 0;

@@ -47,12 +47,12 @@ const base = [{
     answer: 'infer'
 }, {
     id: 11,
-    question: 'считать',
-    answer: 'reckon'
+    question: 'презрительно',
+    answer: 'scornfully'
 }, {
     id: 12,
-    question: 'предполагать',
-    answer: 'assume'
+    question: 'извергающийся',
+    answer: 'gushing'
 }, {
     id: 13,
     question: 'третичный',
@@ -71,8 +71,8 @@ const base = [{
     answer: 'disapprove'
 }, {
     id: 17,
-    question: 'опровергать',
-    answer: 'disprove'
+    question: 'деревушка',
+    answer: 'hamlet'
 }, {
     id: 18,
     question: 'рассеивать',
@@ -1047,8 +1047,8 @@ const base = [{
         "answer": "outspoken"
     }, {
         "id": 258,
-        "question": "выдумка/помадка",
-        "answer": "fudge"
+        "question": "снисходительный",
+        "answer": "lenient"
     }, {
         "id": 259,
         "question": "whip into a frenzy",
@@ -1403,7 +1403,9 @@ const base = [{
 {"id":389,"question":"неодушевленный","answer":"inanimate"},{"id":390,"question":"получать удовольствие","answer":"get a kick out of something"},{"id":391,"question":"посещение нескольких пабов","answer":"pub crawl"},{"id":392,"question":"значение /последствие","answer":"implication"},{"id":393,"question":"памятка","answer":"jotting"},{"id":394,"question":"свободное время","answer":"downtime"},{"id":395,"question":"успокаивающий","answer":"therapeutic"},{"id":396,"question":"безрезультатный","answer":"futile"},{"id":397,"question":"вынужденный","answer":"compelled"},{"id":398,"question":"основная предпосылка","answer":"underlying assumption"},{"id":399,"question":"наслаждаться каждым моментом","answer":"savour one's time"},{"id":400,"question":"отдушина /выход /магазин","answer":"outlet"},{"id":401,"question":"слабое оправдание","answer":"feeble excuse"},{"id":402,"question":"хвастаться","answer":"boast"},{"id":403,"question":"мягкий /доброкачественной","answer":"benign"},{"id":404,"question":"злокачественный","answer":"malignant"},{"id":405,"question":"смотреть запоем","answer":"binge watch"},{"id":406,"question":"апатичный","answer":"lethargic"},{"id":407,"question":"предотвратить","answer":"stave off"},{"id":408,"question":"вызывать","answer":"induce"},{"id":409,"question":"иметь дела поважнее","answer":"have bigger fish to fry"},{"id":410,"question":"нарушать","answer":"infringe"},{"id":411,"question":"истощать","answer":"leech off"},{"id":412,"question":"трудиться","answer":"beaver away"},{"id":413,"question":"быть заметным","answer":"leap out"},{"id":414,"question":"снижаться","answer":"tail off"},{"id":415,"question":"замолкать","answer":"clam up"},{"id":416,"question":"струсить","answer":"chicken out"},{"id":417,"question":"подставить себя под удар","answer":"bell the cat"},{"id":418,"question":"приводить дела в порядок","answer":"get your ducks in a row"},{"id":419,"question":"сходиться во мнениях","answer":"see eye to eye"},{"id":420,"question":"глухое, забытое место; глушь","answer":"backwater"},{"id":421,"question":"cтремительный рост","answer":"skyrocketing"},{"id":422,"question":"порыв","answer":"gust"},{"id":423,"question":"редкая вещь","answer":"curio"},{"id":424,"question":"умозаключение","answer":"inference"},{"id":425,"question":"вызывающий","answer":"brassy"},{"id":426,"question":"расширять горизонты","answer":"broaden your horisons"},{"id":427,"question":"приступ растерянности /тошнота","answer":"qualm"},{"id":428,"question":"a sharp blow","answer":"thwack"},{"id":429,"question":"ослабевать /flicker","answer":"to waver"},{"id":430,"question":"несоответственный","answer":"incoungruous"},
 {"id":431,"question":"укомплектовать /управлять","answer":"to man"},
 {"id":432,"question":"напрягаться /укреплять","answer":"stiffen"},{"id":433,"question":"морская сажень /постигать","answer":"fathom"},{"id":434,"question":"смутный","answer":"bleary"},{"id":435,"question":"презрение к себе","answer":"self-contempt"},{"id":436,"question":"опрометчивый","answer":"heady"},{"id":437,"question":"томиться","answer":"languish"},{"id":438,"question":"осушать","answer":"quaff"},{"id":439,"question":"говорливый","answer":"loquacious"},{"id":440,"question":"предаться /умереть","answer":"succumb"},{"id":441,"question":"have a drink","answer":"wet one's wistle"},{"id":442,"question":"клубок /рычать /брюзжать","answer":"snarl"},{"id":443,"question":"дождь со снегом","answer":"sleet"},{"id":444,"question":"смягчать","answer":"mitigate"},{"id":445,"question":"напортачить","answer":"screw up"},{"id":446,"question":"измотанный","answer":"knackered"},{"id":447,"question":"вычисление","answer":"computation"},{"id":448,"question":"формулировка","answer":"wording"},{"id":449,"question":"приземленный","answer":"mundane"},{"id":450,"question":"я был потрясен","answer":"I was blown away with the beaty"},{"id":451,"question":"у меня нет слов","answer":"I'm at a loss for words"},{"id":452,"question":"неудачный дубль","answer":"blooper"},{"id":453,"question":"я потрясен","answer":"I am running out of adjectives"},{"id":454,"question":"окровенный","answer":"outspoken"},{"id":455,"question":"копить","answer":"hoard"},{"id":456,"question":"щит, забор вокруг стройплощадки","answer":"hoarding"},{"id":457,"question":"копить","answer":"hoard"},{"id":458,"question":"коровник","answer":"byre"},{"id":459,"question":"прихоть","answer":"whim"},{"id":460,"question":"надвигаться","answer":"impend"},{"id":461,"question":"здравомыслие","answer":"sanity"},{"id":462,"question":"исполнение /представление","answer":"rendition"},{"id":463,"question":"беспрепятственный","answer":"unhindered"},{"id":464,"question":"рой","answer":"swarm"},{"id":465,"question":"безвкусный","answer":"gaudy"},{"id":466,"question":"умерщвленный","answer":"mortified"},{"id":467,"question":"буреть, красновато -коричневый","answer":"russet"},{"id":468,"question":"измученный","answer":"frazzled"},{"id":469,"question":"разочаровывающий","answer":"anticlimactic"},{"id":470,"question":"околдованный","answer":"bewitched"},{"id":471,"question":"плотина","answer":"weir"},{"id":472,"question":"to be excited by","answer":"get off on"},{"id":473,"question":"to be old or getting old","answer":"to be long in the tooth"},
-{"id":474,"question":"я понятия не имею","answer":"I do not have a clue"}
+{"id":474,"question":"я понятия не имею","answer":"I do not have a clue"},
+{"id":475,"question":"бесплодный /пустошь","answer":"barren"},{"id":476,"question":"явный","answer":"sheer"},{"id":477,"question":"say smth. quiqly and irritably","answer":"snap"},{"id":478,"question":"навес","answer":"awning"},{"id":479,"question":"nervous or unable to relax","answer":"jittery"},{"id":480,"question":"(inf) a petty quarrel between friends or lovers","answer":"tiff"},{"id":481,"question":"давнишний","answer":"lingering"},{"id":482,"question":"чертежник /рисовальщик","answer":"draughtsman/ draftsman"},{"id":483,"question":"try to satisfy","answer":"cater to"},{"id":484,"question":"вотчина","answer":"fiefdom"},{"id":485,"question":"самодовольный","answer":"smug"},{"id":486,"question":"вмешаться","answer":"chime in"},{"id":487,"question":"горестный","answer":"whoeful"},{"id":488,"question":"отстойник","answer":"sump"},{"id":489,"question":"нищета","answer":"squalor"},{"id":490,"question":"тревожащий","answer":"unsettling"},{"id":491,"question":"прорыв /a large meal or social gathering","answer":"blowout"},{"id":492,"question":"поморщиться от","answer":"wince at"},{"id":493,"question":"тупость","answer":"bluntness"},{"id":494,"question":"чудак","answer":"weirdo"},{"id":495,"question":"грозно","answer":"sternly"},
+{"id":496,"question":"разобраться","answer":"sort it out"}
 ];
 
 const proverbList = [
@@ -1426,7 +1428,7 @@ const proverbList = [
 ]
 
 let data;
-
+// sibsonm@gmail.com
 if (localStorage.getItem("data") != null) {
     data = JSON.parse(localStorage.getItem('data'));
         

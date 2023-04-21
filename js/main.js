@@ -14,17 +14,15 @@ const resetDataBtn = document.querySelectorAll('.reset-data');
 const proverbExpression = document.querySelector('.proverb-expression');
 const proverbPhrase = document.querySelector('.proverb-expression p')
 const answersBlock = document.querySelector('.answers');
-// const version = document.querySelector('.version span');
-// version.innerText = date;
-// const version = document.querySelector('.version');
+const questionElem = document.querySelector('.question');
+const version = document.querySelector('.version span');
 let questionCounter = 0;
 let currentQuestionIndex = 0;
 let length = base.length;
 nextButton.disabled = true;
-// const v = new Date;
-// const date = v.toISOString().split('T').join(' ').slice(0, 19);
-
-
+const v = new Date;
+const date = v.toISOString().split('T').join(' ').slice(0, 19);
+version.innerHTML = date;
 
 expressionNumber.innerText = `Слово: ${currentQuestionIndex + 1} из ${data.length}`;
 
@@ -35,8 +33,6 @@ function showQuestion() {
     //функция добавления вопроса на сайт, принимающая слово для показа
     addQuestionToSite(questionToShow);
 }
-
-//проверка, если индекс вопроса == индекс ответа
 
 let tralivaliShuffled = shuffle(data);
 
@@ -54,7 +50,7 @@ function selectQuestion() {
 let correct;
 
 function addQuestionToSite(item) {
-    document.querySelector('.question').innerHTML = item.question;
+    questionElem.innerHTML = item.question;
     correct = item.answer;
     let shuffledAnswers = shuffle(answers);
 
@@ -111,7 +107,7 @@ answersBlock.addEventListener('click', (e) => {
 
 function nextQuestion() {
     checkVisibility();
-    document.querySelector('.question').innerHTML = tralivaliShuffled[currentQuestionIndex].question;
+    questionElem.innerHTML = tralivaliShuffled[currentQuestionIndex].question;
 }
 
 function nextButtonClickHandler() {
@@ -132,7 +128,7 @@ function nextButtonClickHandler() {
             document.querySelector('.checking-correct').style.display = 'none';
         }
         document.querySelector('.nextButton').style.display = 'none';
-        document.querySelector('.question').innerHTML = `Поздравляем!!! Вы справились))). Хотите продолжить?<button style="color: black; background-color: #ffffff;  " onClick="location.reload()">Повторить</button>`;
+        questionElem.innerHTML = `Поздравляем!!! Вы справились))). Хотите продолжить?<button style="color: black; background-color: #ffffff;  " onClick="location.reload()">Повторить</button>`;
         
     } else {
         clearAnswersHTML();
