@@ -2,16 +2,8 @@ const clickBtn = document.getElementById('click');
 
 let newArr = [{
 //     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-//  }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'аннотация /реклама',
+//     answer: 'blurb'
 // }, {
 //     id: 0,
 //     question: '',
@@ -52,11 +44,35 @@ let newArr = [{
 //     id: 0,
 //     question: '',
 //     answer: ''
-//   }, {
+// }, {
 //     id: 0,
 //     question: '',
 //     answer: ''
-//  }, {
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
+//     id: 0,
+//     question: '',
+//     answer: ''
+// }, {
 //     id: 0,
 //     question: '',
 //     answer: ''
@@ -104,7 +120,7 @@ clickBtn.addEventListener('click', function(){
     // const upperCaseMonth = month.toString().toUpperCase();
     // console.log(date, upperCaseMonth);
     
-    let i = 497; // уже обновила
+    let i = 520; // уже обновила
 
     newArr.forEach(item => item.id = i++);
     console.log(JSON.stringify(newArr)); //то, что надо
