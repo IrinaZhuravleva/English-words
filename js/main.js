@@ -30,22 +30,14 @@ function showQuestion() {
     let questionToShow = selectQuestion();
     nextButton.disabled = true;
 
-    //функция добавления вопроса на сайт, принимающая слово для показа
+    //функция добавления вопроса на сайт, принимающая слово для показа - СЮДА ВСТАВИТЬ addAnswerToSite С УСЛОВИЕМ ФЛАГА 
     addQuestionToSite(questionToShow);
 }
 
 let tralivaliShuffled = shuffle(data);
-
-let questions = tralivaliShuffled.map(function (item, i) {
-    return tralivaliShuffled[i].question;
-});
-let answers = tralivaliShuffled.map(function (item, i) {
-    return tralivaliShuffled[i].answer;
-});
-
-function selectQuestion() {
-    return tralivaliShuffled[currentQuestionIndex];
-}
+let questions = tralivaliShuffled.map((item, i) => tralivaliShuffled[i].question);
+let answers = tralivaliShuffled.map((item, i) => tralivaliShuffled[i].answer);
+const selectQuestion= () => tralivaliShuffled[currentQuestionIndex];
 
 let correct;
 
@@ -62,10 +54,30 @@ function addQuestionToSite(item) {
         readyAnswers = shuffle(readyAnswers);
     }
     
+    readyAnswers.forEach((item) => {
+        answersBlock.insertAdjacentHTML("beforeend", "<button>" + item + "</button> &nbsp;")
+    })
+}
+
+function addAnswerToSite(item) {
+    questionElem.innerHTML = item.answer;
+    correct = item.question;
+    let shuffledAnswers = shuffle(questions);
+
+    let readyAnswers = shuffledAnswers.length > 5 ? shuffledAnswers.slice(1, 5) : shuffledAnswers;
+  
+    if (!readyAnswers.includes(item.question)) {
+        readyAnswers.push(item.question);
+        readyAnswers.splice(0, 1);
+        readyAnswers = shuffle(readyAnswers);
+    }
+    
     readyAnswers.forEach(function (answer, index) {
         answersBlock.insertAdjacentHTML("beforeend", "<button>" + answer + "</button> &nbsp;")
     })
 }
+
+
 const a = document.querySelector('.nav .nav__btn');
 const linkPopup = document.querySelector('.nav');
 const linksPopup = document.querySelector('.nav__content');
@@ -116,7 +128,7 @@ function nextButtonClickHandler() {
         let j = randomInteger(0, proverbList.length - 1);
         proverbPhrase.insertAdjacentHTML("beforeend", proverbList[j])
        
-        document.querySelector('.click-me').addEventListener("click", function () {
+        document.querySelector('.click-me').addEventListener("click", () => {
             proverb.style.display = "none";
             proverbPhrase.innerHTML = "";
         });
@@ -144,7 +156,7 @@ function clearAnswersHTML() {
     answersBlock.innerHTML = "";
 }
 
-nextButton.addEventListener('click', function () {
+nextButton.addEventListener('click', () => {
     questionCounter++;
     nextButtonClickHandler();
 })
@@ -211,31 +223,31 @@ function resetData() {
     location.reload();
 }
 
-[...fifty].forEach(function (item) {
+[...fifty].forEach((item) => {
     item.addEventListener('click', () => {
         chooseArray50();
     });
 });
 
-[...cent].forEach(function (item) {
+[...cent].forEach((item) => {
     item.addEventListener('click', () => {
         chooseArray100();
     });
 });
 
-[...centfifty].forEach(function (item) {
+[...centfifty].forEach((item) => {
     item.addEventListener('click', () => {
         chooseArrayAfter100();
     });
 });
 
-[...lastfifty].forEach(function (item) {
+[...lastfifty].forEach((item) => {
     item.addEventListener('click', () => {
         chooseArrayLast();
     });
 });
 
-[...resetDataBtn].forEach(function (item) {
+[...resetDataBtn].forEach((item) => {
     item.addEventListener('click', () => {
         resetData();
     });
@@ -243,7 +255,6 @@ function resetData() {
 
 //случайное число от 0 до tralivaliShuffled.length - это индекс вопроса/ответа
 function randomInteger(min, max) {
-    // получить случайное число от (min-0.5) до (max+0.5)
     let rand = min - 0.5 + Math.random() * (max - min + 1);
     return Math.round(rand);
 }

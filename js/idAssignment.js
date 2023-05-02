@@ -6,92 +6,92 @@ let newArr = [{
 //     answer: 'blurb'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'мы почти закончили',
+//     answer: `we're rather coming to the dregs`
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'кружится голова',
+//     answer: 'to feel faint'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'поднимать /вертикальные колебания',
+//     answer: 'heave'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'грязный',
+//     answer: 'filthy'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'потертый',
+//     answer: 'threadbare (carpet)'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'неистовый',
+//     answer: 'frenetic'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'перебежать /сильный дождь',
+//     answer: 'pelt across/ down'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'замешкаться',
+//     answer: 'fumble'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'темный /затуманенный',
+//     answer: 'murky'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'непосредственный',
+//     answer: 'unmediated'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'трепаться',
+//     answer: 'schmooze'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'терпеть что-то',
+//     answer: 'put up with smth'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'я не теряю бдительности',
+//     answer: 'keep me on my toes'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'у него сорвало крышу',
+//     answer: 'he blew his gasket'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'ров',
+//     answer: 'moat'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'сказываться на чем-то',
+//     answer: 'take a toll on smth'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'постоять за себя',
+//     answer: 'speak up'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'отговорка /увертка',
+//     answer: 'subterfuge'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'злорадство',
+//     answer: 'shadenfreude'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'препирательство',
+//     answer: 'altercation'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'партия',
+//     answer: 'batch'
 // }, {
 //     id: 0,
-//     question: '',
-//     answer: ''
+//     question: 'extremely drunk',
+//     answer: 'get plastered'
 // }, {
 //     id: 0,
 //     question: '',
