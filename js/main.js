@@ -16,6 +16,7 @@ const proverbPhrase = document.querySelector('.proverb-expression p')
 const answersBlock = document.querySelector('.answers');
 const questionElem = document.querySelector('.question');
 const version = document.querySelector('.version span');
+const switchToEnglish = document.querySelector('#flexCheckChecked');
 let questionCounter = 0;
 let currentQuestionIndex = 0;
 let length = base.length;
@@ -159,6 +160,15 @@ function clearAnswersHTML() {
 nextButton.addEventListener('click', () => {
     questionCounter++;
     nextButtonClickHandler();
+})
+
+function switchLanguage() {
+    // location.reload()
+    addAnswerToSite();
+};
+
+switchToEnglish.addEventListener('change', () => {
+    switchLanguage();
 })
 
 showQuestion();
