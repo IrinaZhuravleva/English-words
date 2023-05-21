@@ -1,372 +1,40 @@
 const clickBtn = document.getElementById('click');
+const id = 595; // уже обновила
+// questions  - русские слова
+// answers - английские слова
+const newArr = ['in hindsight', 'непредусмотрительно',
+'at the eleventh hour', 'в последний момент',
+'at the drop of a hat', 'сразу, без раздумий',
+'casualties', 'жертвы',
+'cormorant', 'баклан',
+'a mazer bowl', 'деревянный кубок',
+'wrap up', 'завершить',
+'sermon', 'проповедь',
 
-let newArr = [{
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-// }, {
-//     id: 0,
-//     question: '',
-//     answer: ''
-}];
+]
 
-// It must be said that natural beauty is not just in the eye of the beholder.
-// Maintaining one 's work-life balance is definitely a key ingredient for happiness.
-// feel like they always have a fellow shoulder to lean on when times get tough
-// const date = '';
+
+
+
+
+const getWords = () => {
+    const   questions = [],
+            answers = [],
+            words = Array(newArr.length / 2)
+                .fill('')
+                .map((item) => item = { id: '', question: '', answer: ''});
+
+    for (const [index, value] of newArr.entries()) { index % 2 !== 0 ? questions.push(value) : answers.push(value) };
+    
+    for(const[index, word] of words.entries()) {
+        word.id = id + index;
+        word.question = questions[index];
+        word.answer = answers[index];
+    };
+        
+    console.log(JSON.stringify(words)); 
+};
+
 clickBtn.addEventListener('click', function(){
-    // const date = Date().split(' ').splice(2, 1);
-    // const month = Date().split(' ').splice(1, 1);
-    // const upperCaseMonth = month.toString().toUpperCase();
-    // console.log(date, upperCaseMonth);
-    
-    let i = 547; // уже обновила
-
-    newArr.forEach(item => item.id = i++);
-    console.log(JSON.stringify(newArr)); //то, что надо
-
-    newArr.forEach(item => {
-        item.id = 0;
-        item.question = '';
-        item.answer = '';
-    });
-    
-    console.log(JSON.stringify(newArr)); //то, что надо
-    // return date;
+    getWords();
 })
-
-
-// var array = [{
-//         "Item": "A",
-//         "Quantity": 2
-//     },
-//     {
-//         "Item": "B",
-//         "Quantity": 7
-//     },
-//     {
-//         "Item": "C",
-//         "Quantity": 1
-//     }
-// ];
-// var result = array.map(function (item) {
-//     return "(" + item.Item + "," + item.Quantity + ")"
-// }).join(",");
-

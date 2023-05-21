@@ -167,9 +167,9 @@ function switchLanguage() {
     addAnswerToSite();
 };
 
-switchToEnglish.addEventListener('change', () => {
-    switchLanguage();
-})
+// switchToEnglish.addEventListener('change', () => {
+//     switchLanguage();
+// })
 
 showQuestion();
 
