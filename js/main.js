@@ -205,8 +205,8 @@ function chooseArrayAfter100() {
 
 function chooseArrayLast() {
     window.localStorage.removeItem('data');
-    let beginningLastFifty = length - 50;
-    data = base.slice(beginningLastFifty, length);
+    // let beginningLastFifty = length - 100;
+    data = base.slice((length - 100), length);
     localStorage.setItem('data', JSON.stringify(data));
     location.reload();
 }

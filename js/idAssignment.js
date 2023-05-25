@@ -1,21 +1,12 @@
 const clickBtn = document.getElementById('click');
-const id = 595; // уже обновила
+const id = lastId + 1; // lastId - последний id в базе данных
 // questions  - русские слова
 // answers - английские слова
-const newArr = ['in hindsight', 'непредусмотрительно',
-'at the eleventh hour', 'в последний момент',
-'at the drop of a hat', 'сразу, без раздумий',
-'casualties', 'жертвы',
-'cormorant', 'баклан',
-'a mazer bowl', 'деревянный кубок',
-'wrap up', 'завершить',
-'sermon', 'проповедь',
-
-]
-
-
-
-
+const newArr = [
+    'yokel', 'деревенщина',
+    'yoke', 'ярмо',
+    
+];
 
 const getWords = () => {
     const   questions = [],
