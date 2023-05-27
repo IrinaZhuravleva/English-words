@@ -1,3 +1,25 @@
+const showTranslation = document.querySelector('#show-translation');
+const translationIntoEnglish = document.querySelectorAll('table td:nth-child(2)');
+
+showTranslation.addEventListener('click', () => {   
+    if (showTranslation.classList.contains('active')) {
+        showTranslation.classList.remove('active');
+        showTranslation.style.backgroundColor = 'white';
+        showTranslation.style.color = 'black';
+        [...translationIntoEnglish].forEach(item => {
+            item.style.display = 'block';
+        });
+    } else {
+        console.log('active');
+        showTranslation.classList.add('active');
+        showTranslation.style.backgroundColor = 'black';
+        showTranslation.style.color = 'white';
+        [...translationIntoEnglish].forEach(item => {
+            item.style.display = 'none';
+        });
+    }
+});
+
 const filter = document.getElementById('filter');
 setTable(data);
 
