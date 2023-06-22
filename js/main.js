@@ -39,7 +39,7 @@ function showQuestion() {
 let tralivaliShuffled = shuffle(data);
 let questions = tralivaliShuffled.map((item, i) => tralivaliShuffled[i].question);
 let answers = tralivaliShuffled.map((item, i) => tralivaliShuffled[i].answer);
-const selectQuestion= () => tralivaliShuffled[currentQuestionIndex];
+const selectQuestion = () => tralivaliShuffled[currentQuestionIndex];
 
 let correct;
 
