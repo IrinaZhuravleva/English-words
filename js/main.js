@@ -23,9 +23,8 @@ let questionCounter = 0;
 let currentQuestionIndex = 0;
 let length = base.length;
 nextButton.disabled = true;
-const v = new Date;
-const date = v.toISOString().split('T').join(' ').slice(0, 19);
-version.innerHTML = date;
+
+version.innerHTML = (new Date).toISOString().split('T').join(' ').slice(0, 19);
 
 expressionNumber.innerText = `Слово: ${currentQuestionIndex + 1} из ${data.length}`;
 
@@ -57,24 +56,6 @@ function addQuestionToSite(item) {
     
     readyAnswers.forEach((item) => {
         answersBlock.insertAdjacentHTML("beforeend", "<button>" + item + "</button> &nbsp;")
-    })
-}
-
-function addAnswerToSite(item) {
-    questionElem.innerHTML = item.answer;
-    correct = item.question;
-    let shuffledAnswers = shuffle(questions);
-
-    let readyAnswers = shuffledAnswers.length > 5 ? shuffledAnswers.slice(1, 5) : shuffledAnswers;
-  
-    if (!readyAnswers.includes(item.question)) {
-        readyAnswers.push(item.question);
-        readyAnswers.splice(0, 1);
-        readyAnswers = shuffle(readyAnswers);
-    }
-    
-    readyAnswers.forEach(function (answer) {
-        answersBlock.insertAdjacentHTML("beforeend", "<button>" + answer + "</button> &nbsp;")
     })
 }
 
