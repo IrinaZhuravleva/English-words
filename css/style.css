@@ -307,7 +307,16 @@ button,
 .answers button {
   margin-bottom: 10px;
   cursor: pointer;
+  color: #000;
+  background-color: #fff;
 }
+
+
+.answers button:hover {
+  color: #fff;
+  background-color: #000;
+}
+
 
 button {
   font-size: 24px;

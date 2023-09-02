@@ -1,6 +1,3 @@
-// import { date } from './idAssignment.js';
-// import { proverbList } from './proverbs.js';
-// import { base } from './model.js';
 const button = document.querySelector('button');
 const nextButton = document.querySelector('button.nextButton');
 const expressionNumber = document.querySelector('.expression-number');
@@ -16,7 +13,11 @@ const proverbPhrase = document.querySelector('.proverb-expression p')
 const answersBlock = document.querySelector('.answers');
 const questionElem = document.querySelector('.question');
 const version = document.querySelector('.version span');
-const switchToEnglish = document.querySelector('#flexCheckChecked');
+
+const navBtn = document.querySelector('.nav .nav__btn');
+const linkPopup = document.querySelector('.nav');
+const linksPopup = document.querySelector('.nav__content');
+const allLinksPopup = document.querySelectorAll('.nav__content .nav__item');
 
 let questionCounter = 0;
 let currentQuestionIndex = 0;
@@ -31,14 +32,12 @@ expressionNumber.innerText = `Слово: ${currentQuestionIndex + 1} из ${dat
 function showQuestion() {
     let questionToShow = selectQuestion();
     nextButton.disabled = true;
-
-    //функция добавления вопроса на сайт, принимающая слово для показа - СЮДА ВСТАВИТЬ addAnswerToSite С УСЛОВИЕМ ФЛАГА 
     addQuestionToSite(questionToShow);
 }
 
 let tralivaliShuffled = shuffle(data);
-let questions = tralivaliShuffled.map((item, i) => tralivaliShuffled[i].question);
-let answers = tralivaliShuffled.map((item, i) => tralivaliShuffled[i].answer);
+let questions = tralivaliShuffled.map(({question}) => question);
+let answers = tralivaliShuffled.map(({answer}) => answer);
 const selectQuestion = () => tralivaliShuffled[currentQuestionIndex];
 
 let correct;
@@ -74,28 +73,18 @@ function addAnswerToSite(item) {
         readyAnswers = shuffle(readyAnswers);
     }
     
-    readyAnswers.forEach(function (answer, index) {
+    readyAnswers.forEach(function (answer) {
         answersBlock.insertAdjacentHTML("beforeend", "<button>" + answer + "</button> &nbsp;")
     })
 }
 
-
-const a = document.querySelector('.nav .nav__btn');
-const linkPopup = document.querySelector('.nav');
-const linksPopup = document.querySelector('.nav__content');
-const allLinksPopup = document.querySelectorAll('.nav__content .nav__item');
-
 let elements = [...allLinksPopup].forEach(item => {
     item.addEventListener('click', () => {
-        if (linkPopup.classList.contains('active')) {
-            linkPopup.classList.remove('active');
-        } else {
-            linkPopup.classList.add('active');
-        }
+        linkPopup.classList.contains('active') ? linkPopup.classList.remove('active') : linkPopup.classList.add('active');
     });
 });
 
-a.addEventListener('click', () => {
+navBtn.addEventListener('click', () => {
     if (!linkPopup.classList.contains('active')) {
         linkPopup.classList.add('active');
     } else {
@@ -104,12 +93,14 @@ a.addEventListener('click', () => {
 })
 
 answersBlock.addEventListener('click', (e) => {
-    let target = e.target;
-    if (correct == target.innerText) {
+    if (correct === e.target.innerText) {
         document.querySelector('.checking-correct').style.display = 'block';
+       
         if (nextButton.disabled) {
             nextButton.disabled = false;
         }
+        e.target.style.backgroundColor = 'black';
+        e.target.style.color = 'white';
 
     } else {
         document.querySelector('.checking-incorrect').style.display = 'block';
@@ -147,7 +138,6 @@ function nextButtonClickHandler() {
     } else {
         clearAnswersHTML();
         currentQuestionIndex++;
-     
         document.querySelector('.expression-number').innerText = `Номер слова: ${currentQuestionIndex + 1} из ${tralivaliShuffled.length}`;
         checkVisibility()
         showQuestion();
@@ -162,15 +152,6 @@ nextButton.addEventListener('click', () => {
     questionCounter++;
     nextButtonClickHandler();
 })
-
-function switchLanguage() {
-    // location.reload()
-    addAnswerToSite();
-};
-
-// switchToEnglish.addEventListener('change', () => {
-//     switchLanguage();
-// })
 
 showQuestion();
 
@@ -206,7 +187,6 @@ function chooseArrayAfter100() {
 
 function chooseArrayLast() {
     window.localStorage.removeItem('data');
-    // let beginningLastFifty = length - 100;
     data = base.slice((length - 100), length);
     localStorage.setItem('data', JSON.stringify(data));
     location.reload();
@@ -269,5 +249,3 @@ function randomInteger(min, max) {
     let rand = min - 0.5 + Math.random() * (max - min + 1);
     return Math.round(rand);
 }
-
-
