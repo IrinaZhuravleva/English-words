@@ -19,27 +19,25 @@ const linkPopup = document.querySelector('.nav');
 const linksPopup = document.querySelector('.nav__content');
 const allLinksPopup = document.querySelectorAll('.nav__content .nav__item');
 
-let questionCounter = 0;
-let currentQuestionIndex = 0;
+let questionCounter = 0; // useState
+let currentQuestionIndex = 0; // useState - currentQuestionIndex
 let length = base.length;
 nextButton.disabled = true;
 
-version.innerHTML = (new Date).toISOString().split('T').join(' ').slice(0, 19);
 
-expressionNumber.innerText = `Слово: ${currentQuestionIndex + 1} из ${data.length}`;
+let tralivaliShuffled = shuffle(data); // в самом начале при загрузке страницы перемешиваем массив БД
+let questions = tralivaliShuffled.map(({question}) => question); // создаем массив вопросов
+let answers = tralivaliShuffled.map(({answer}) => answer); // создаем массив ответов
+const selectQuestion = () => tralivaliShuffled[currentQuestionIndex]; 
+// по перемешанному массиву БД выбираем вопрос из массива вопросов - setState for currentQuestionIndex
+
+let correct;
 
 function showQuestion() {
     let questionToShow = selectQuestion();
     nextButton.disabled = true;
     addQuestionToSite(questionToShow);
 }
-
-let tralivaliShuffled = shuffle(data);
-let questions = tralivaliShuffled.map(({question}) => question);
-let answers = tralivaliShuffled.map(({answer}) => answer);
-const selectQuestion = () => tralivaliShuffled[currentQuestionIndex];
-
-let correct;
 
 function addQuestionToSite(item) {
     questionElem.innerHTML = item.question;
@@ -230,3 +228,7 @@ function randomInteger(min, max) {
     let rand = min - 0.5 + Math.random() * (max - min + 1);
     return Math.round(rand);
 }
+
+version.innerHTML = (new Date).toISOString().split('T').join(' ').slice(0, 19);
+
+expressionNumber.innerText = `Слово: ${currentQuestionIndex + 1} из ${data.length}`;

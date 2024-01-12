@@ -1,16 +1,28 @@
 const clickBtn = document.getElementById('click');
 const id = lastId + 1; // lastId - последний id в базе данных
+// const id = 440;
 // questions  - русские слова
 // answers - английские слова
 const newArr = [
-   'scruffy', 'потрепанный / неряшливый',
-   'prIvet', 'бирючина',
-   'to be in the crush', 'быть в толпе',
-   'lunch or gym friend', 'товарищ по тренировкам',
-   'impending', 'предстоящий',
-   'to have the gall to', 'иметь наглость',
-   'fret', 'беспокоиться',
-   
+    'mooch around', 'бродить без цели',
+    'loiter', 'бродить',
+    'fug', '(inf). туман, warm, stuffy atmosphere',
+    'bona fide', 'добросовестный, законный',
+    'a slouch', 'лентяй, бездельник',
+    'cram', 'зубрить/запихать',
+    'with great panache', 'c бравадой, шиком',
+    'jerry-build', 'построить небрежно',
+    'to feel off-kilter', 'не в своей тарелке',
+    'teal', 'чирок',
+    'How is the sticks?', 'Как там в провинции?',
+    'to be in the sticks', 'быть в провинции',
+    'a run-in', 'ссора, конфликт',
+    'niggle', 'критика, раздражение',
+    'pout', 'дуться',
+    'twinge', 'укол боли',
+    'vintner', 'виноторговец',
+    'lower end', 'низкого уровня',
+    
 
   
 ];
