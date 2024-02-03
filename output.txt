@@ -1,0 +1,17 @@
+[
+  {
+    "id": 59,
+    "question": "импровизированный",
+    "answer": "makeshift"
+  },
+  {
+    "id": 60,
+    "question": "приход",
+    "answer": "dwindle"
+  },
+  {
+    "id": 61,
+    "question": "приход",
+    "answer": "parish"
+  }
+]

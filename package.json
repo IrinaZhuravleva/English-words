@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "jest test.spec.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "chai": "^5.0.3"
+  }
+}
