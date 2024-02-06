@@ -24,7 +24,7 @@ const { base } = require('./js/model.js');
 const fs = require('fs');
 
 // ПРОВЕРКИ
-const array1 = base.map(item => item.question);
+const array1 = base.map(item => item.answer);
 const array2 = [...new Set(array1)];
 
 function checkDiff(arr1, arr2) {
