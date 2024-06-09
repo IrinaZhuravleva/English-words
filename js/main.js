@@ -95,7 +95,7 @@ function nextQuestion() {
 }
 
 function nextButtonClickHandler() {
-    if (questionCounter % 20 === 0) {
+    if (questionCounter % 5 === 0) {
         proverb.style.display = "flex";
         let j = randomInteger(0, proverbList.length - 1);
         proverbPhrase.insertAdjacentHTML("beforeend", proverbList[j])
