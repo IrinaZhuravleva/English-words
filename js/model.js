@@ -2908,7 +2908,7 @@ const base = [
     question: "поднять еще на одну ступень",
     answer: "ramp up another notch",
   },
-  { id: 1182, question: "вышибала", answer: "bouncer" },
+  { id: 1182, question: "свисать/лицо обвисло", answer: "droop" },
   { id: 1183, question: "inf опасный", answer: "hairy" },
   { id: 1184, question: "покалывание", answer: "tingle" },
   { id: 1185, question: "напиток перед сном", answer: "nightcap" },
@@ -3019,7 +3019,6 @@ const base = [
   { id: 1250, question: "волноваться", answer: "fluster up" },
   { id: 1251, question: "исчезать", answer: "go out the window" },
   { id: 1252, question: "осознать, впитать", answer: "sink in" },
-  { id: 1253, question: "свисать/лицо обвисло", answer: "droop" },
 ];
 
 const lastId = base[base.length - 1].id;
@@ -3051,8 +3050,7 @@ wildlife protection.`,
   `Well in general I would say that I'm quite passionate about Italian food, bo be more specific
 I would probably say that I'n really into pizza and pasta. This is mainly because my husband
  always cooks Italian cuisine at home.`,
-  //  Bean curd, also commonly known as tofu, is made from ground,
-  // pressed soybeans and has been eaten for over 2,000 years.
+  //  Bean curd, also commonly known as tofu, is made from ground, pressed soybeans and has been eaten for over 2,000 years.
   `Well to be quite honest, in general I sould say that I'm actually keen on..., but in particular
   I would probably have to say that I' really into..., you know, things like....I guess the reason
    why I'm a fan of ...is because I adore.... In addition to this I suppose I'm also pretty
@@ -3077,7 +3075,7 @@ high in nutritional value.`,
      (type 1) is that ....In fact/so/because/but...(detail). Another form of ...(topic) worth mentioning
       could be ...(type 2). And the main characteristic of ...(type 2) is that ...(detail) 
       (+linkin word/complex structure). And naturally, there's things like ....(2-3 other types).`,
-  `Well in all fairness, I think I sould have to say that it really depends, Like for instance, if 
+  `Well in all fairness, I think I sould have to say that it really depends. Like for instance, if 
     I have the money, than it's quite possible that I will watch a movie in the cinema, one or two
      times a month. You know cinema tickets are pretty pricey in Russia. Whereas in contrast, if I'm 
      broke, it's more likely that i'll watch movies at hone on DVD, you probably know that DVDs

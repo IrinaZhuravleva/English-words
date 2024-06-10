@@ -219,12 +219,15 @@ a.nav__item-text {
 }
 
 .click-me {
+  border: 5px solid #50C77A;
+  padding: 5px 15px;
+  border-radius: 50%;
+  color: #50C77A;
+  background-color: white;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: calc(50% - 15px);
+  right: -30px;
   cursor: pointer;
-  width: 30px;
-  height: 30px;
 }
 
 button {

@@ -13,11 +13,14 @@ const proverbPhrase = document.querySelector('.proverb-expression p')
 const answersBlock = document.querySelector('.answers');
 const questionElem = document.querySelector('.question');
 const version = document.querySelector('.version span');
+const versionWrapper = document.querySelector(".version");
 
 const navBtn = document.querySelector('.nav .nav__btn');
 const linkPopup = document.querySelector('.nav');
-const linksPopup = document.querySelector('.nav__content');
+const linksPopup = document.querySelector(".nav__content");
 const allLinksPopup = document.querySelectorAll('.nav__content .nav__item');
+
+const buttonsWrapper = document.querySelector(".buttons-wrapper");
 
 let questionCounter = 0; // useState
 let currentQuestionIndex = 0; // useState - currentQuestionIndex
@@ -99,10 +102,14 @@ function nextButtonClickHandler() {
         proverb.style.display = "flex";
         let j = randomInteger(0, proverbList.length - 1);
         proverbPhrase.insertAdjacentHTML("beforeend", proverbList[j])
+        buttonsWrapper.style.display = "none";
+        versionWrapper.style.display = "none";
        
         document.querySelector('.click-me').addEventListener("click", () => {
             proverb.style.display = "none";
             proverbPhrase.innerHTML = "";
+            buttonsWrapper.style.display = "flex";
+            versionWrapper.style.display = "block";
         });
     }
 
