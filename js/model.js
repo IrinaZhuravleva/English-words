@@ -1,4 +1,4 @@
-let tralivali;
+// let tralivali;
 
 const base = [
   {
@@ -2266,7 +2266,7 @@ const base = [
   { id: 762, question: "извергнуть", answer: "regurgitate" },
   { id: 763, question: "скамья", answer: "pew" },
   { id: 764, question: "прогуливаться", answer: "amble" },
-  { id: 765, question: "блевать", answer: "bluck" },
+  { id: 765, question: "датчик", answer: "gauge" },
   { id: 766, question: "кривые зубы", answer: "buck teeth" },
   { id: 767, question: "многословный", answer: "verbose" },
   { id: 768, question: "увядать", answer: "wither" },
@@ -2277,7 +2277,7 @@ const base = [
   { id: 773, question: "импульс", answer: "momentum" },
   { id: 774, question: "привередливый", answer: "fastidious" },
   { id: 775, question: "раздражающий", answer: "maddening" },
-  { id: 776, question: "пагубный", answer: "nefarious" },
+  { id: 776, question: "пагубный  /низкий", answer: "nefarious" },
   { id: 777, question: "ненадежный /опасный", answer: "precarious" },
   { id: 778, question: "проклятие на что-то", answer: "kind of jinx on smth" },
   { id: 779, question: "бродить без цели", answer: "mooch around" },
@@ -2326,7 +2326,7 @@ const base = [
   { id: 813, question: "происходить от", answer: "derive from" },
   { id: 814, question: "поддерживать", answer: "bolster" },
   { id: 815, question: "взъерошить", answer: "rumple" },
-  { id: 816, question: "растянутый", answer: "splawling" },
+  { id: 816, question: "растянувшийся", answer: "sprawling (metropolis) " },
   { id: 817, question: "кинза", answer: "cilantro" },
   { id: 818, question: "сухо", answer: "drily" },
   { id: 819, question: "помощник", answer: "sidekick" },
@@ -2740,14 +2740,18 @@ const base = [
   { id: 1051, question: "считать", answer: "deem" },
   { id: 1052, question: "сумасшедший", answer: "barmy inf" },
   { id: 1053, question: "неохотно", answer: "begrudgingly" },
-  { id: 1054, question: "без эмоций", answer: "deadpanned" },
+  {
+    id: 1054,
+    question: "пошутить с серьезным выражением лица",
+    answer: "deadpan",
+  },
   { id: 1055, question: "неубедительный", answer: "lacklustre" },
   { id: 1056, question: "полосатый", answer: "tabby cat" },
   { id: 1057, question: "спасибо за визит", answer: "thanks for stopping by" },
   { id: 1058, question: "сутулый", answer: "hunched" },
   {
     id: 1059,
-    question: "всеми волокнами души",
+    question: "всеми фибрами души",
     answer: "with every fibre of my being",
   },
   { id: 1060, question: "сырой", answer: "dank appartment" },
@@ -2766,19 +2770,19 @@ const base = [
   { id: 1069, question: "благотворительный магазин", answer: "thrift store" },
   { id: 1070, question: "скромный", answer: "frugal" },
   { id: 1071, question: "беспечно", answer: "nonchalantly" },
-  { id: 1072, question: "восхитительный", answer: "delightful" },
+  { id: 1072, question: "быть по уши", answer: "be up to your ears" },
   { id: 1073, question: "унижать", answer: "belittle" },
   { id: 1074, question: "чирок", answer: "teal" },
   { id: 1075, question: "докучаемый", answer: "badgered" },
-  { id: 1076, question: "прыгать", answer: "prance about" },
-  { id: 1077, question: "пастбище", answer: "paddock" },
+  { id: 1076, question: "гарцевать /важничать", answer: "prance about" },
+  { id: 1077, question: "пастбище", answer: "загон" },
   { id: 1078, question: "рвать", answer: "yank (flowers)" },
   { id: 1079, question: "возражать", answer: "retort" },
   { id: 1080, question: "построить небрежно", answer: "jerry-build" },
   { id: 1081, question: "хриплый", answer: "gruff" },
   { id: 1082, question: "ирландский акцент", answer: "brogue" },
   { id: 1083, question: "выпрямить /приминать", answer: "flatten" },
-  { id: 1084, question: "представлять", answer: "fancied" },
+  { id: 1084, question: "крен, покачнуться", answer: "lurch" },
   { id: 1085, question: "неряшливый", answer: "frumpy" },
   { id: 1086, question: "шумный /бурный", answer: "tumultuous" },
   {
@@ -2794,7 +2798,7 @@ const base = [
   { id: 1089, question: "развратный", answer: "promiscuous" },
   { id: 1090, question: "тщеславный", answer: "conceited" },
   { id: 1091, question: "крупный", answer: "hefty" },
-  { id: 1092, question: "подходящий", answer: "an apt time" },
+  { id: 1092, question: "в подходящий момент", answer: "an apt time" },
   { id: 1093, question: "сдвинутый", answer: "loopy" },
   { id: 1094, question: "отчитать /выговорить", answer: "pull him up on it" },
   { id: 1095, question: "отчаявшийся", answer: "distraught" },
@@ -2813,8 +2817,8 @@ const base = [
     question: "после того как вы пройдете площадь, поверните направо",
     answer: "after you go past the sqaire, take a right",
   },
-  { id: 1107, question: "делать заметки", answer: "take notes" },
-  { id: 1108, question: "безалкогольный напиток", answer: "soft drink" },
+  { id: 1107, question: "односторонне, однобоко", answer: "lopsIdedly" },
+  { id: 1108, question: "хлюпать (по грязи)", answer: "squelch" },
   { id: 1109, question: "предположить", answer: "surmise" },
   { id: 1110, question: "выпуклый", answer: "embossed" },
   { id: 1111, question: "шататься /разрушаться", answer: "totter" },
@@ -2822,7 +2826,7 @@ const base = [
   { id: 1113, question: "клок", answer: "hank" },
   { id: 1114, question: "слюнявые мальчики", answer: "drooling boys" },
   { id: 1115, question: "c бравадой, шиком", answer: "with great panache" },
-  { id: 1116, question: "остукленевшие глаза", answer: "eyes flinty" },
+  { id: 1116, question: "остекленевшие глаза", answer: "eyes flinty" },
   { id: 1117, question: "приторный", answer: "treacly" },
   { id: 1118, question: "бродить", answer: "loiter" },
   { id: 1119, question: "растрепанный", answer: "straggly" },
@@ -2848,7 +2852,7 @@ const base = [
   { id: 1131, question: "вырубиться", answer: "pass out" },
   { id: 1132, question: "быть разорванным", answer: "to be torn" },
   { id: 1133, question: "капризный", answer: "mardy" },
-  { id: 1134, question: "трусы", answer: "knickers" },
+  { id: 1134, question: "крепкая (хватка)", answer: "tenAcious" },
   { id: 1135, question: "рыться", answer: "rummage" },
   { id: 1136, question: "мрачный/суровый /холодный", answer: "bleak" },
   { id: 1137, question: "здравый смысл", answer: "common sense" },
@@ -2923,7 +2927,7 @@ const base = [
     question: "выговорить /привлечь к ответственности",
     answer: "pull someone up for/over/on",
   },
-  { id: 1193, question: "я закончил", answer: "i am done" },
+  { id: 1193, question: "волноваться", answer: "fluster up" },
   {
     id: 1194,
     question: "капать на мозги",
@@ -2936,7 +2940,7 @@ const base = [
     answer: "mottled with old grime",
   },
   { id: 1197, question: "ползать /пресмыкаться", answer: "grovel" },
-  { id: 1198, question: "крапива", answer: "nettle" },
+  { id: 1198, question: "исчезать", answer: "go out the window" },
   { id: 1199, question: "импульсивный", answer: "impetuous" },
   {
     id: 1200,
@@ -2968,7 +2972,7 @@ const base = [
   { id: 1211, question: "отвратительный", answer: "heinous" },
   { id: 1212, question: "разделить оптимизм", answer: "share your optimism" },
   { id: 1213, question: "быть на иголках", answer: "to be on tenterhooks" },
-  { id: 1214, question: "через полчаса", answer: "in half an hour" },
+  { id: 1214, question: "осознать, впитать", answer: "sink in" },
   { id: 1215, question: "отвлекать /перенаправлять", answer: "divert" },
   { id: 1216, question: "печально известный", answer: "notorious" },
   {
@@ -3006,80 +3010,117 @@ const base = [
   { id: 1237, question: "сжатый", answer: "succInct" },
   { id: 1238, question: "подлый", answer: "sneaky" },
   { id: 1239, question: "аккуратный", answer: "snug" },
-  { id: 1240, question: "пока всё хорошо", answer: "so far so good" },
+  { id: 1240, question: "лень", answer: "sloth" },
   { id: 1241, question: "ненавидеть", answer: "loathe" },
   { id: 1242, question: "брезгливый (к)", answer: "squEamish (about)" },
   { id: 1243, question: "печальный", answer: "lugUbrious" },
   { id: 1244, question: "inf быть сексуальным", answer: "to be quite a dish" },
-  { id: 1245, question: "быть по уши", answer: "be up to your ears" },
-  { id: 1246, question: "крен, покачнуться", answer: "lurch" },
-  { id: 1247, question: "односторонне, однобоко", answer: "lopsIdedly" },
-  { id: 1248, question: "хлюпать (по грязи)", answer: "squelch" },
-  { id: 1249, question: "крепкая (хватка)", answer: "tenAcious" },
-  { id: 1250, question: "волноваться", answer: "fluster up" },
-  { id: 1251, question: "исчезать", answer: "go out the window" },
-  { id: 1252, question: "осознать, впитать", answer: "sink in" },
+  { id: 1245, question: "паршивая крыса", answer: "lousy tipper" },
+  { id: 1246, question: "коллекция мелких вещей", answer: "bits and bobs" },
+  { id: 1247, question: "берлога (перен смысл)", answer: "bolthole" },
+  { id: 1248, question: "работяги /шушера", answer: "riff-raff" },
+  { id: 1249, question: "иметь что-то в опыте", answer: "under my belt" },
+  { id: 1250, question: "шнурок", answer: "lanyard" },
+  { id: 1251, question: "огромный /избиение", answer: "whopping" },
+  { id: 1252, question: "золотое дно", answer: "windfall" },
+  {
+    id: 1253,
+    question: "зашибись /smth that is very good",
+    answer: "a stonker",
+  },
+  { id: 1254, question: "пылесборники в интерьере", answer: "knick-knacks" },
+  { id: 1255, question: "категория допуска", answer: "security clearance" },
+  { id: 1256, question: "справиться с чем-то", answer: "to pull it off" },
+  { id: 1257, question: "довести до конца", answer: "wrap up" },
+  { id: 1258, question: "скосить /застрелить", answer: "mow down" },
+  { id: 1259, question: "простейшая версия", answer: "plain vanilla" },
+  { id: 1260, question: "пфф", answer: "pish posh" },
+  {
+    id: 1261,
+    question: "улететь ночным рейсом",
+    answer: "fly out on the red eye flight",
+  },
+  {
+    id: 1262,
+    question: "спасибо за уделенное время",
+    answer: "appreciate your time",
+  },
+  { id: 1263, question: "грязнуля", answer: "little scruff" },
+  { id: 1264, question: "хитрый взгляд /смотреть искоса", answer: "leer" },
+  { id: 1265, question: "предчувствие", answer: "foreboding" },
+  { id: 1266, question: "отвратительный", answer: "hideous" },
+  { id: 1267, question: "заглядывать из-за спины", answer: "gander" },
+  { id: 1268, question: "корпоративный ретрит", answer: "office retreat" },
+  { id: 1269, question: "дрожь", answer: "quiver" },
+  { id: 1270, question: "шлюпка", answer: "dinghy" },
+  { id: 1271, question: "привязь", answer: "tether" },
+  { id: 1272, question: "подробнейший", answer: "blow-by-blow" },
+  { id: 1273, question: "низкий /подлый", answer: "nefarious" },
+  { id: 1274, question: "причудливый", answer: "quirky" },
+  { id: 1275, question: "претендент", answer: "contender" },
+  {
+    id: 1276,
+    question: "кухня, где шкафчики по обе стороны",
+    answer: "galley kitchen",
+  },
+  { id: 1277, question: "самомнение", answer: "presumption" },
+  {
+    id: 1278,
+    question: "разделять (по категориям)",
+    answer: "compartmentalize",
+  },
+  { id: 1279, question: "повестка в суд", answer: "subpoena" },
+  { id: 1280, question: "светило", answer: "luminary" },
+  { id: 1281, question: "жесткая неделька", answer: "rough week" },
+  { id: 1282, question: "нагло врать", answer: "lie through my teeth" },
+  {
+    id: 1283,
+    question: "молить об одолжении",
+    answer: "call in all kinds of favour",
+  },
+  { id: 1284, question: "шататься", answer: "totter around" },
+  { id: 1285, question: "мерзкий", answer: "ghoulish" },
+  { id: 1286, question: "пресыщенный", answer: "jaded" },
+  { id: 1287, question: "первоклассный", answer: "copacetic" },
+  {
+    id: 1288,
+    question: "сильноветряный (день)",
+    answer: "whuthering (day) /A",
+  },
+  {
+    id: 1289,
+    question: "нелепое крючкотворство",
+    answer: "ludicrous pettifoggery",
+  },
+  { id: 1290, question: "сглазить", answer: "jinx" },
+  { id: 1291, question: "шикарный", answer: "swanky" },
+  { id: 1292, question: "лишенный света", answer: "aphotic" },
+  {"id":1293,"question":"буровая установка","answer":"rig"},{"id":1294,"question":"задиристый /дерзкий","answer":"cocky"},{"id":1295,"question":"роща","answer":"grove"},{"id":1296,"question":"распутный /неряшливый","answer":"slutty"},{"id":1297,"question":"отсрочить","answer":"defer"},{"id":1298,"question":"огрызаться","answer":"snap at"},{"id":1299,"question":"воровать","answer":"pilfer"},{"id":1300,"question":"разрушенный /опустошенный","answer":"gutted"},{"id":1301,"question":"сторонник порядка","answer":"stickler"},{"id":1302,"question":"перхоть","answer":"dandruff"},{"id":1303,"question":"шило","answer":"bodkin"},{"id":1304,"question":"дело /содеянное","answer":"deed"},{"id":1305,"question":"позиция /стойка","answer":"stance"},{"id":1306,"question":"доска","answer":"plank"},{"id":1307,"question":"приманка","answer":"bait"},{"id":1308,"question":"слабый","answer":"feeble"},{"id":1309,"question":"безжалостный","answer":"ruthless"},{"id":1310,"question":"топь","answer":"slough"},{"id":1311,"question":"брошенный","answer":"derelict"},{"id":1312,"question":"крыльцо /сутулость /наклоняться","answer":"stoop"},{"id":1313,"question":"взмах /вилять","answer":"wag"},{"id":1314,"question":"явный","answer":"overt /[ˈəuvə:t]"},{"id":1315,"question":"прямой /откровенный","answer":"outright"},{"id":1316,"question":"неаккуратный /сентиментальный","answer":"sloppy"},{"id":1317,"question":"отклонить","answer":"deflect"},
+  {"id":1318,"question":"плот","answer":"raft"},{"id":1319,"question":"земельный участок / место","answer":"stead"},{"id":1320,"question":"шквал","answer":"flurry /a"},{"id":1321,"question":"упрек","answer":"rebuke"},{"id":1322,"question":"грубая ошибка /промах ","answer":"blunder"},{"id":1323,"question":"отсрочка","answer":"rEspite"},{"id":1324,"question":"шарнир","answer":"swivel"},{"id":1325,"question":"дроссель /регулировать /душить","answer":"throttle"},
+  {"id":1326,"question":"устойчивый /эластичный","answer":"resilient"},
+  {"id":1327,"question":"взъерошенный/забрызганный грязью","answer":"bedraggled"},{"id":1328,"question":"тазобедренная часть/окорок","answer":"haunch"},{"id":1329,"question":"высмеивать/колкость","answer":"taunt"},{"id":1330,"question":"спешить/нестись","answer":"scurry"},{"id":1331,"question":"непроницаемый/невосприимчивый","answer":"imprevious"},{"id":1332,"question":"взвешенный/готовый к действию","answer":"poised"},{"id":1333,"question":"пребывание","answer":"soujourn"},{"id":1334,"question":"привлекательный","answer":"endearing"},{"id":1335,"question":"рваный/изношенный","answer":"ragged"},{"id":1336,"question":"смущенный","answer":"abashed"},{"id":1337,"question":"ругать/бранить","answer":"scold"},{"id":1338,"question":"драться/шумная ссора","answer":"brawl"},{"id":1339,"question":"неприятный/недружелюбный","answer":"insentive"},{"id":1340,"question":"мотивация/стимул","answer":"incentive"},{"id":1341,"question":"понижение в должности","answer":"demotion"},{"id":1342,"question":"колхоз","answer":"kibbutz"},{"id":1343,"question":"вмешательство/непрошенный гость","answer":"interloper"},{"id":1344,"question":"сдавливание/подавление","answer":"squelching"},{"id":1345,"question":"препирательство","answer":"altercation"},{"id":1346,"question":"отстраненный/недружелюбный","answer":"aloof"},{"id":1347,"question":"насупиться","answer":"scowl"},{"id":1348,"question":"истощение/распад","answer":"attrition"},{"id":1349,"question":"кучка земли/курган","answer":"mound"},{"id":1350,"question":"прогулка/путешествие","answer":"jaunt"},{"id":1351,"question":"враг","answer":"foe"},{"id":1352,"question":"уступить/признать","answer":"concede"},{"id":1353,"question":"последствие","answer":"repercussion"},{"id":1354,"question":"влажный/мрачный","answer":"dank"},
+  {"id":1355,"question":"мрачный/тоскливый","answer":"dreary"}
 ];
 
 const lastId = base[base.length - 1].id;
 
 const proverbList = [
-  `No, I've never worn a wig. I think that people who wear wigs sound and look ridiculous.
-  <br />
-  I think they really just do it for attention or to be funny, which isn't funny at all, to be honest`,
-  `Well in all fairness, I don't know much about this topic. I'm not from India and I don't know much
-  about cooking. But if I had to give an answer, it's very difficult to predict the future,
-  but what I would say is maybe AI will change how the restaurants take orders, and how they
-  deliver the food to their customers, But that's just a complete guess.`,
-  `Well you know, my honetown in Korolev and you might not know this but Korolev is very modern,
-so I suppose I sould have to say I like the architecture. Actually, all over the city, 
-there are lots of new fascinating structures being built. In fact, it's quite intriguing to consider that when I was younger, 
-most of the edifices looked the same, so, you know, it wasn't as appealing as it is nowadays.`,
-  `Well as you can probably guess I come from Korolev and I have lived here all my life, alshough at the
-moment I'm studying in another city - Moscow. I suppose if I have to describe Moscow, the first
-thing I would say is taht it'absolutely enormous, maybe even one of the biggest cities I guess. 
-It's so colossal in fact that even the locals have problems finding their way around. Another significant
-caracteristic is that if offers examples of both classical and contemporary architecture. Actually
-some of the Russia's most renowned landmarks are 'slap-bang' in the middle of Moscow`,
-  `Well to be quite honest, in general I sould say that I'm actually quite keen on animals,
-but in particular I would probably have to say that I'm really into domestic pets like dogs. I guess
-the reason why I'm a fan of dogs is because I adore their loyalty and companionship. In addition
-to dogs I suppose I'm also pretty passionate about endangered species, especially dolphins
-and thing like that and this is due to the fact I feel some degree of responsibility towards
-wildlife protection.`,
-  `Well in general I would say that I'm quite passionate about Italian food, bo be more specific
-I would probably say that I'n really into pizza and pasta. This is mainly because my husband
- always cooks Italian cuisine at home.`,
-  //  Bean curd, also commonly known as tofu, is made from ground, pressed soybeans and has been eaten for over 2,000 years.
-  `Well to be quite honest, in general I sould say that I'm actually keen on..., but in particular
-  I would probably have to say that I' really into..., you know, things like....I guess the reason
-   why I'm a fan of ...is because I adore.... In addition to this I suppose I'm also pretty
-    passionate about..., especially... and things like that, and this is due to the fact that ...`,
-  `As well as this, I'm quite partial to vegetarian food especially things like bean curd. 
-This could be because...I'm quite consious of healthy eating and bean curd is a fat-free food and it's 
-high in nutritional value.`,
-  `(what's wrong with your city?) Of course I think I'd have to say that I'm not so keen on the weather. To be more precise, I really
- can't stand the summer months. This is due to the fact that the temperatures can get as high as
-  40 degrees so it can be quite uncomfortable if you don't have aire conditioning in your house. 
-  In addition to this, I'm not really that fond of the public transport system. And I guess 
-  this is probably because the buses are too old and the seats are really hard, so long journeys 
-  are usually pretty bumpy.`,
-  `Of course, it goes without saying that there's quite a mixed variety of public transport in my city.
-   Though I think the most commonly-used would potentially be buses. And the explanation for this could 
-   be that they are so cheap and reliable. In gact the average bus fare in my city is about 5o roubles
-    for a single journey. As well as buses, a second variety of public transport would be something 
-    like taxis. And one exceptional aspect with (taxis) is that they are certainly the quickest way to 
-    get around town. So ir you're in a hurry then taxis are the best bet (= the best choice)`,
-  `Of course, it goes without saying there's quite an extensive diversity of ...(topic). Still, 
-    I suspect that the most + <i>adj</i> could perhaps be...(type 1). And what you have to realise with
-     (type 1) is that ....In fact/so/because/but...(detail). Another form of ...(topic) worth mentioning
-      could be ...(type 2). And the main characteristic of ...(type 2) is that ...(detail) 
-      (+linkin word/complex structure). And naturally, there's things like ....(2-3 other types).`,
-  `Well in all fairness, I think I sould have to say that it really depends. Like for instance, if 
-    I have the money, than it's quite possible that I will watch a movie in the cinema, one or two
-     times a month. You know cinema tickets are pretty pricey in Russia. Whereas in contrast, if I'm 
-     broke, it's more likely that i'll watch movies at hone on DVD, you probably know that DVDs
-     are quite cheap here, especially compared to the price of a cinema ticket.`,
+    "Don’t cross the bridge until you come to it.<br />Не говори «гоп», пока не перепрыгнешь.",
+    "Don’t make a mountain out of an anthill.<br />Не делай из мухи слона.",
+    "Put your best foot forward.<br />Старайся предстать в наилучшем свете.",
+    "It’s better to be safe than sorry.<br />Береженого Бог бережет.",
+    "Don’t bite off more than you can chew.<br />Не бери на себя слишком много.",
+    "Still waters run deep.<br />В тихом омуте черти водятся.",
+    "You scratch my back, I’ll scratch yours.<br />Ты — мне, я — тебе.",
+    "The squeaky wheel gets the grease.<br />Под лежачий камень вода не течет.",
+    "No man is an island.<br />Один в поле не воин.",
+    "Birds of a feather flock together.<br />Рыбак рыбака видит издалека.",
+    "There's no such thing as a free lunch.<br />Бесплатный сыр — только в мышеловке.",
+    "The early bird catches the worm.<br />Кто рано встает, тому Бог подает.",
+    "Beggars can't be choosers.<br />На безрыбье и рак — рыба",
+    "A little knowledge is a dangerous thing.<br />Полузнание хуже невежества.",
+    "All good things must come to an end.<br />Хорошего понемножку.",
+    "One drop of poison infects the whole tun of wine.<br />Ложка дегтя в бочке меда."
 ];
 
 let data;
