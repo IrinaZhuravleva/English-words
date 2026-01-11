@@ -1,5 +1,3 @@
-// let tralivali;
-
 const base = [
   {
     id: 0,
@@ -31,7 +29,7 @@ const base = [
     question: "козырек",
     answer: "visor",
   },
-  { id: 6, question: "грубый /наглый", answer: "lairy" },
+  { id: 6, question: "задиристый", answer: "lairy" },
   {
     id: 7,
     question: "заметный",
@@ -254,7 +252,7 @@ const base = [
   },
   {
     id: 51,
-    question: "грубый /подкованный на шипы",
+    question: "подкованный на шипы",
     answer: "roughshod",
   },
   {
@@ -385,7 +383,7 @@ const base = [
     question: "пенистый (капуччино)",
     answer: "frothy",
   },
-  { id: 80, question: "(inf). туман, warm, stuffy atmosphere", answer: "fug" },
+  { id: 80, question: "туман с паром", answer: "fug" },
   {
     id: 81,
     question: "изобретать, умудряться",
@@ -458,7 +456,7 @@ const base = [
   },
   {
     id: 97,
-    question: "хриплый /шумный",
+    question: "шумный с хриповым тоном",
     answer: "raucous",
   },
   {
@@ -548,7 +546,7 @@ const base = [
   },
   {
     id: 115,
-    question: "высокомерный /презрительный",
+    question: "презрительный",
     answer: "contemptuous",
   },
   {
@@ -627,11 +625,7 @@ const base = [
     question: "ручная мельница",
     answer: "quern",
   },
-  {
-    id: 132,
-    question: "ругать",
-    answer: "scolde",
-  },
+  {"id":132,"question":"спешить/нестись","answer":"scurry"},
   {
     id: 133,
     question: "игра слов/каламбур",
@@ -639,7 +633,7 @@ const base = [
   },
   {
     id: 134,
-    question: "надоедливый /противный",
+    question: "противный",
     answer: "pesky",
   },
   {
@@ -714,8 +708,8 @@ const base = [
   },
   {
     id: 147,
-    question: "шуршать/шелестеть",
-    answer: "rustling",
+    question: "тишина",
+    answer: "hush",
   },
   {
     id: 148,
@@ -724,7 +718,7 @@ const base = [
   },
   {
     id: 149,
-    question: "переполнять /зубрить /запихать",
+    question: "зубрить /запихать",
     answer: "cram",
   },
   { id: 150, question: "трактат", answer: "treatise" },
@@ -754,11 +748,7 @@ const base = [
     question: "бесстрашный ",
     answer: "intrEpid",
   },
-  {
-    id: 156,
-    question: "неуверенный",
-    answer: "tEntative",
-  },
+  {"id":156,"question":"смущенный","answer":"abashed"},
   {
     id: 157,
     question: "непреклонный",
@@ -811,7 +801,7 @@ const base = [
   },
   {
     id: 167,
-    question: "сумрачный",
+    question: "хмурый",
     answer: "sulky",
     // sulky teenager
   },
@@ -852,7 +842,7 @@ const base = [
   },
   {
     id: 175,
-    question: "глыба/скопление",
+    question: "скопление",
     answer: "clump",
   },
   {
@@ -887,7 +877,7 @@ const base = [
   },
   {
     id: 180,
-    question: "different from or not directly connected",
+    question: "косвенный (источник)",
     answer: "tangEntial (source)",
   },
   {
@@ -918,7 +908,7 @@ const base = [
   { id: 186, question: "облагораживание", answer: "gentrification" },
   {
     id: 189,
-    question: "специфический/свойственный to",
+    question: "специфический/свойственный",
     answer: "peculiar",
   },
   {
@@ -960,7 +950,7 @@ const base = [
   {
     id: 198,
     question: "потрепанный",
-    answer: "scruffy /tatty",
+    answer: "scruffy",
   },
   {
     id: 199,
@@ -1004,7 +994,7 @@ const base = [
   },
   {
     id: 207,
-    question: "присяга/клятва",
+    question: "присяга",
     answer: "oath/outh",
   },
   {
@@ -1047,7 +1037,7 @@ const base = [
     question: "автомобилист",
     answer: "mOtorist",
   },
-  { id: 216, question: "добрый", answer: "benIgn" },
+  {"id":216,"question":"пребывание","answer":"soujourn"},
   {
     id: 217,
     question: "раздражительно",
@@ -1081,7 +1071,7 @@ const base = [
   {
     id: 223,
     answer: "to do one's head in",
-    question: "раздражать/смущать",
+    question: "раздражать",
   },
   {
     id: 224,
@@ -1141,7 +1131,7 @@ const base = [
   {
     id: 235,
     question: "приобретать",
-    answer: "to take up a new habit",
+    answer: "to take up new habit",
   },
   {
     id: 236,
@@ -1166,7 +1156,7 @@ const base = [
   {
     id: 240,
     question: "быть НА собрании",
-    answer: "to be IN a meeting",
+    answer: "to be IN  meeting",
   },
   {
     id: 241,
@@ -1175,17 +1165,17 @@ const base = [
   },
   {
     id: 242,
-    question: "головокружительный/very fast and dangerous",
+    question: "стремительный",
     answer: "break-neck",
   },
   {
     id: 243,
-    question: "to try to get or win something",
+    question: "пытаться получить или выиграть что-то",
     answer: "to go for",
   },
   {
     id: 244,
-    question: "not as good as people say",
+    question: "не так хорош, как говорят люди",
     answer: "not all it is cracked up to be",
   },
   {
@@ -1205,7 +1195,7 @@ const base = [
   },
   {
     id: 248,
-    question: "стабильный/устойчивый",
+    question: "стабильный",
     answer: "sustainable",
   },
   {
@@ -1221,7 +1211,7 @@ const base = [
   {
     id: 251,
     question: "рутина/колея",
-    answer: "a rut/а",
+    answer: " rut/а",
   },
   {
     id: 252,
@@ -1260,14 +1250,10 @@ const base = [
   },
   {
     id: 259,
-    question: "whip into a frenzy",
-    answer: "become very excited",
+    question: " взвинтить до истерики",
+    answer: "whip into  frenzy",
   },
-  {
-    id: 260,
-    question: "дуться /надувать губы",
-    answer: "to pout about",
-  },
+  {"id":260,"question":"шарнир","answer":"swivel"},
   {
     id: 261,
     question: "срыв",
@@ -1275,7 +1261,7 @@ const base = [
   },
   {
     id: 262,
-    question: "продумать/придумать",
+    question: "продумать",
     answer: "think up",
   },
   {
@@ -1291,7 +1277,7 @@ const base = [
   {
     id: 265,
     question: "попытаться",
-    answer: "give it a shot",
+    answer: "give it  shot",
   },
   {
     id: 266,
@@ -1301,7 +1287,7 @@ const base = [
   {
     id: 267,
     question: "избавиться от привычки",
-    answer: "subtract a habit",
+    answer: "subtract  habit",
   },
   {
     id: 268,
@@ -1345,7 +1331,7 @@ const base = [
   },
   {
     id: 276,
-    question: "пожирать (еду)/бормотать",
+    question: "пожирать (еду)",
     answer: "gobble",
   },
   {
@@ -1356,7 +1342,7 @@ const base = [
   {
     id: 278,
     question: "отвыкать от лекарств /пристастий",
-    answer: "to wean somebody off smth (a substance)",
+    answer: "to wean somebody off smth ( substance)",
   },
   {
     id: 279,
@@ -1365,7 +1351,7 @@ const base = [
   },
   {
     id: 280,
-    question: "to become difficult to control",
+    question: "выйти из-под контроля",
     answer: "to get out of hand",
   },
   {
@@ -1390,7 +1376,7 @@ const base = [
   },
   {
     id: 285,
-    question: "ссора/шум",
+    question: "шум",
     answer: "row (BR)",
   },
   {
@@ -1416,7 +1402,7 @@ const base = [
   {
     id: 290,
     question: "создавать напряжение",
-    answer: "to put a strain on",
+    answer: "to put  strain on",
   },
   {
     id: 291,
@@ -1490,7 +1476,7 @@ const base = [
   },
   {
     id: 305,
-    question: "колебаться/трепетать",
+    question: "трепетать",
     answer: "dither",
   },
   {
@@ -1498,11 +1484,7 @@ const base = [
     question: "раздражительность",
     answer: "fretfulness",
   },
-  {
-    id: 307,
-    question: "препятствовать",
-    answer: "hinder",
-  },
+  {"id":307,"question":"враг","answer":"foe"},
   {
     id: 308,
     question: "неуловимый",
@@ -1550,8 +1532,8 @@ const base = [
   },
   {
     id: 317,
-    question: "мужлан /гагара",
-    answer: "loon",
+    question: "мужлан",
+    answer: "loon /yokel",
   },
   {
     id: 318,
@@ -1586,7 +1568,7 @@ const base = [
   {
     id: 324,
     question: "жажда",
-    answer: "lust/A",
+    answer: "lust/",
   },
   {
     id: 325,
@@ -1664,8 +1646,8 @@ const base = [
   { id: 346, question: "вносить свою долю, вклад", answer: "to pitch in" },
   { id: 347, question: "грабительский", answer: "extortionate" },
   { id: 348, question: "невнимательный к другим", answer: "inconsIderate" },
-  { id: 349, question: "заботливый", answer: "consIderate" },
-  { id: 350, question: "копить /откладывать", answer: "to lay aside" },
+  {"id":349,"question":"привлекательный","answer":"endearing"},
+  { id: 350, question: "откладывать", answer: "to lay aside" },
   { id: 351, question: "осмеивать", answer: "to rIdicule" },
   {
     id: 352,
@@ -1682,7 +1664,7 @@ const base = [
   { id: 356, question: "бережливый", answer: "thrifty" },
   { id: 357, question: "приземленный", answer: "mundane" },
   { id: 358, question: "засиживаться", answer: "to outstay one’s welcome." },
-  { id: 359, question: "смягчать /ослаблять", answer: "to tone down" },
+  { id: 359, question: "смягчить", answer: "to tone down" },
   { id: 360, question: "притворяться в чем-то", answer: "to put it on" },
   { id: 361, question: "усваивать", answer: "to cotton on" },
   { id: 362, question: "готовиться психологически", answer: "to psych up" },
@@ -1697,13 +1679,13 @@ const base = [
   { id: 371, question: "незначительный", answer: "inconsiderable" },
   { id: 372, question: "жадно", answer: "voraciously" },
   { id: 373, question: "грызть", answer: "to gnaw" },
-  { id: 374, question: "выгодная партия", answer: "a catch" },
+  { id: 374, question: "выгодная партия", answer: " catch" },
   { id: 375, question: "просочиться", answer: "percolate" },
   { id: 376, question: "непрошенный", answer: "unsolicited" },
   { id: 377, question: "несклонный", answer: "disinclined" },
   { id: 378, question: "отказываться", answer: "to opt out" },
   { id: 379, question: "проливающий свет", answer: "eye-opening" },
-  { id: 380, question: "причуда", answer: "a quirk" },
+  { id: 380, question: "причуда", answer: " quirk" },
   {
     id: 381,
     question:
@@ -1715,7 +1697,7 @@ const base = [
   { id: 384, question: "внимательно рассматривать", answer: "to peruse" },
   {
     id: 385,
-    question: "грозный; неприступный; непривлекательный",
+    question: "грозный/ неприступный/ непривлекательный",
     answer: "forbidding",
   },
   { id: 386, question: "авантюрный", answer: "foolhardy" },
@@ -1729,10 +1711,10 @@ const base = [
   {
     id: 390,
     question: "получать удовольствие",
-    answer: "get a kick out of something",
+    answer: "get  kick out of something",
   },
   { id: 391, question: "посещение нескольких пабов", answer: "pub crawl" },
-  { id: 392, question: "значение /последствие", answer: "implication" },
+  { id: 392, question: "значение", answer: "implication" },
   { id: 393, question: "памятка", answer: "jotting" },
   { id: 394, question: "свободное время", answer: "downtime" },
   { id: 395, question: "успокаивающий", answer: "therapeutic" },
@@ -1773,19 +1755,19 @@ const base = [
   {
     id: 418,
     question: "приводить дела в порядок",
-    answer: "get your ducks in a row",
+    answer: "get your ducks in  row",
   },
   { id: 419, question: "сходиться во мнениях", answer: "see eye to eye" },
-  { id: 420, question: "глухое, забытое место; глушь", answer: "backwater" },
-  { id: 421, question: "cтремительный рост", answer: "skyrocketing" },
+  { id: 420, question: "глушь", answer: "backwater" },
+  { id: 421, question: "стремительный рост", answer: "skyrocketing" },
   { id: 422, question: "грабеж", answer: "rapine (ˈræpaɪn)" },
   { id: 423, question: "редкая вещь", answer: "curio" },
   { id: 424, question: "умозаключение", answer: "inference" },
   { id: 425, question: "вызывающий", answer: "brassy" },
   { id: 426, question: "расширять горизонты", answer: "broaden your horizons" },
-  { id: 427, question: "приступ растерянности /тошнота", answer: "qualm" },
-  { id: 428, question: "a sharp blow", answer: "thwack" },
-  { id: 429, question: "ослабевать /flicker", answer: "to waver" },
+  { id: 427, question: "приступ растерянности", answer: "qualm" },
+  { id: 428, question: "хлёсткий удар", answer: "thwack" },
+  { id: 429, question: "ослабевать", answer: "to waver" },
   { id: 430, question: "несоответственный", answer: "incoungruous" },
   { id: 431, question: "укомплектовать /управлять", answer: "to man" },
   { id: 432, question: "напрягаться /укреплять", answer: "stiffen" },
@@ -1797,17 +1779,17 @@ const base = [
   { id: 438, question: "оскорблять других", answer: "slag other people off" },
   { id: 439, question: "говорливый", answer: "loquacious" },
   { id: 440, question: "предаться /умереть", answer: "succumb" },
-  { id: 441, question: "have a drink", answer: "wet one's wistle" },
+  { id: 441, question: "принять на грудь", answer: "wet one's wistle" },
   { id: 442, question: "клубок /рычать /брюзжать", answer: "snarl" },
   { id: 443, question: "дождь со снегом", answer: "sleet" },
   { id: 444, question: "смягчать", answer: "mitigate" },
   { id: 445, question: "напортачить", answer: "screw up" },
-  { id: 446, question: "(informal) измотанный", answer: "knackered" },
+  { id: 446, question: "измотанный", answer: "knackered" },
   { id: 447, question: "вычисление", answer: "computation" },
   { id: 448, question: "формулировка", answer: "wording" },
   {
     id: 446,
-    question: "a subdivision of a complex structure or process",
+    question: "побочный эффект/последствие",
     answer: "ramification",
   },
   {
@@ -1815,7 +1797,7 @@ const base = [
     question: "я был потрясен",
     answer: "I was blown away with the beauty",
   },
-  { id: 451, question: "у меня нет слов", answer: "I'm at a loss for words" },
+  { id: 451, question: "у меня нет слов", answer: "I'm at  loss for words" },
   { id: 452, question: "неудачный дубль", answer: "blooper" },
   { id: 453, question: "я потрясен", answer: "I am running out of adjectives" },
   { id: 454, question: "пиво с лимонадом", answer: "shandy" },
@@ -1836,21 +1818,21 @@ const base = [
   { id: 469, question: "разочаровывающий", answer: "anticlimactic" },
   { id: 470, question: "околдованный", answer: "bewitched" },
   { id: 471, question: "плотина", answer: "weir" },
-  { id: 472, question: "to be excited by", answer: "get off on" },
+  { id: 472, question: "тащиться от /юрид. отмазаться", answer: "get off on" },
   {
     id: 473,
-    question: "to be old or getting old",
+    question: "постаревший",
     answer: "to be long in the tooth",
   },
   { id: 474, question: "я понятия не имею", answer: "I do not have a clue" },
   { id: 475, question: "бесплодный /пустошь", answer: "barren" },
-  { id: 476, question: "явный /прозрачный", answer: "sheer" },
-  { id: 477, question: "say smth. quiqly and irritably", answer: "snap" },
+  { id: 476, question: "понятный /прозрачный", answer: "sheer" },
+  { id: 477, question: "огрызнуться", answer: "snap (at smb.)" },
   { id: 478, question: "навес", answer: "awning" },
   { id: 479, question: "ошеломленный", answer: "dumbstruck" },
   {
     id: 480,
-    question: "(inf) a petty quarrel between friends or lovers",
+    question: "(инф) размолвка",
     answer: "tiff",
   },
   { id: 481, question: "давнишний", answer: "lingering" },
@@ -1859,7 +1841,7 @@ const base = [
     question: "чертежник /рисовальщик",
     answer: "draughtsman/ draftsman",
   },
-  { id: 483, question: "try to satisfy", answer: "cater to" },
+  { id: 483, question: "обслуживать, потакать", answer: "cater to" },
   { id: 484, question: "вотчина", answer: "fiefdom" },
   { id: 485, question: "самодовольный", answer: "smug" },
   { id: 486, question: "вмешаться", answer: "chime in" },
@@ -1869,7 +1851,7 @@ const base = [
   { id: 490, question: "тревожащий", answer: "unsettling" },
   {
     id: 491,
-    question: "прорыв /a large meal or social gathering",
+    question: "прорыв / пиршество /Большая победа",
     answer: "blowout",
   },
   { id: 492, question: "поморщиться от", answer: "wince at" },
@@ -1878,13 +1860,13 @@ const base = [
   { id: 495, question: "не скрывать", answer: "to make no bones about" },
   {
     id: 496,
-    question: "разобраться /решить проблему",
+    question: "решить проблему",
     answer: "sort/make it out",
   },
   {
     id: 497,
-    question: "speak about smb/smth with great enthusiasm",
-    answer: "rhapsodize",
+    question: "восторженно говорить",
+    answer: "rhapsodise (about smb/smth)",
   },
   {
     id: 498,
@@ -1893,7 +1875,7 @@ const base = [
   },
   { id: 499, question: "покрытый туманом", answer: "shrouded" },
   { id: 500, question: "смекалка", answer: "gumption" },
-  { id: 501, question: "поднимать /воспитывать", answer: "rear" },
+  { id: 501, question: "воспитывать", answer: "rear" },
   { id: 502, question: "кожсырье", answer: "hide" },
   { id: 503, question: "обмотка /часть (территории)", answer: "swathe" },
   { id: 504, question: "стирать из памяти", answer: "obliterate" },
@@ -1913,7 +1895,7 @@ const base = [
   },
   { id: 515, question: "клевета", answer: "mud-slinging" },
   { id: 516, question: "неравенство", answer: "disparity" },
-  { id: 517, question: "потрясающий", answer: "startling" },
+  { id: 517, question: "ошеломляющий", answer: "startling" },
   { id: 518, question: "сгибание /интонация", answer: "inflection" },
   { id: 519, question: "ослепительный", answer: "dazzling" },
   { id: 520, question: "аннотация /реклама", answer: "blurb" },
@@ -1924,8 +1906,8 @@ const base = [
   },
   { id: 522, question: "кружится голова", answer: "to feel faint" },
   { id: 523, question: "поднимать /вертикальные колебания", answer: "heave" },
-  { id: 524, question: "грязный /отвратительный", answer: "filthy" },
-  { id: 525, question: "потертый", answer: "threadbare (carpet)" },
+  { id: 524, question: "мутный", answer: "filthy" },
+  { id: 525, question: "истертый", answer: "threadbare (carpet)" },
   { id: 526, question: "неистовый", answer: "frenetic" },
   {
     id: 527,
@@ -1944,40 +1926,40 @@ const base = [
   },
   { id: 534, question: "у него сорвало крышу", answer: "he blew his gasket" },
   { id: 535, question: "ров", answer: "moat" },
-  { id: 536, question: "сказываться на чем-то", answer: "take a toll on smth" },
+  { id: 536, question: "сказываться на чем-то", answer: "take  toll on smth" },
   { id: 537, question: "постоять за себя", answer: "speak up" },
   { id: 538, question: "отговорка /увертка", answer: "subterfuge" },
   { id: 539, question: "злорадство", answer: "shadenfreude" },
   { id: 540, question: "препирательство", answer: "altercation" },
   { id: 541, question: "партия", answer: "batch" },
-  { id: 542, question: "extremely drunk", answer: "get plastered" },
+  { id: 542, question: "очень пьяный", answer: "get plastered" },
   { id: 543, question: "доноситься (о запахе)", answer: "waft" },
-  { id: 544, question: "worn and shabby", answer: "tatty" },
+  { id: 544, question: "изношенный", answer: "tatty" },
   { id: 545, question: "развязать /расслабить", answer: "unknot" },
-  { id: 546, question: "суровый /грубый /песчаный", answer: "gritty" },
+  { id: 546, question: "песчаный", answer: "gritty" },
   { id: 547, question: "непредусмотрительно", answer: "in hindsight" },
   { id: 548, question: "ужасный", answer: "gruesome" },
   {
     id: 549,
-    question: "an uncontrolled emothional outburst",
-    answer: "have a meltdown",
+    question: "выйти из себя",
+    answer: "have  meltdown",
   },
   { id: 550, question: "быть в долгах", answer: "to be in the red" },
   { id: 551, question: "быть в плюсе", answer: "to be in the black" },
   {
     id: 552,
-    question: "people in positions of authority",
+    question: "начальство",
     answer: "higher-ups",
   },
   {
     id: 553,
-    question: "to have the same understanding of something as someone else",
-    answer: "be on the same page",
+    question: "жадность",
+    answer: "covetousness",
   },
   { id: 554, question: "приток", answer: "tributary" },
   {
     id: 555,
-    question: "to be quick to understand and react to things",
+    question: "быть в теме /быть начеку",
     answer: "to be on the ball",
   },
   {
@@ -1988,18 +1970,18 @@ const base = [
   { id: 557, question: "категорически", answer: "adamantly" },
   {
     id: 558,
-    question: "to be undecided about something",
-    answer: "to be on the fence",
+    question: "сидеть на двух стульях",
+    answer: "to be on the fence (about smth.)",
   },
   { id: 559, question: "тихо", answer: "from under his/her breath" },
-  { id: 560, question: "in a bored way", answer: "in a jaded tone" },
-  { id: 561, question: "dirt or mud", answer: "muck" },
+  { id: 560, question: "скучно, без энтузиазма", answer: "in  jaded tone" },
+  { id: 561, question: "жижа / дрянь", answer: "muck" },
   { id: 562, question: "навоз", answer: "manUre" },
-  { id: 563, question: "pleasantly warm", answer: "balmy" },
-  { id: 564, question: "a very strong wind", answer: "gale" },
+  { id: 563, question: "тёплый (о погоде, воздухе)/ чокнутый", answer: "balmy" },
+  { id: 564, question: "штормовой ветер", answer: "gale" },
   { id: 565, question: "порыв ветра", answer: "gust" },
   { id: 566, question: "высечь", answer: "flog" },
-  { id: 567, question: "измотанный", answer: "get frazzled" },
+  { id: 567, question: "нервно вымотаться", answer: "get frazzled" },
   { id: 568, question: "комендантский час", answer: "curfew" },
   {
     id: 569,
@@ -2010,17 +1992,17 @@ const base = [
   { id: 571, question: "подвижный", answer: "buoyant" },
   {
     id: 572,
-    question: "головокружительный от восторга",
+    question: "головокружение от восторга",
     answer: "giddy with excitement",
   },
   { id: 573, question: "тетерев", answer: "red grouse" },
   { id: 574, question: "горная куропатка", answer: "ptarmigan" },
   { id: 575, question: "повысить", answer: "crank up" },
-  { id: 576, question: "списание", answer: "a write-off" },
+  { id: 576, question: "списание", answer: " write-off" },
   { id: 577, question: "холм /насыпь", answer: "mound" },
   { id: 578, question: "пыхтеть", answer: "huffle" },
   { id: 579, question: "быть сбитым с толку", answer: "to be fazed" },
-  { id: 580, question: "заварить чай", answer: "to make a brew" },
+  { id: 580, question: "заварить чай", answer: "to make  brew" },
   { id: 581, question: "быть ошарашенным", answer: "gobsmacked" },
   { id: 582, question: "десятина", answer: "tithe" },
   { id: 583, question: "сияющий /широко улыбающийся", answer: "beaming" },
@@ -2032,7 +2014,7 @@ const base = [
     question: "испугать кого-то до смерти",
     answer: "to scare the live out of someone",
   },
-  { id: 588, question: "старая дева", answer: "a spinster" },
+  { id: 588, question: "старая дева", answer: " spinster" },
   {
     id: 589,
     question: "произносить пустые слова",
@@ -2042,7 +2024,7 @@ const base = [
   {
     id: 591,
     question: "с самодовольной походкой",
-    answer: "with a swagger and a strut",
+    answer: "with  swagger and  strut",
   },
   { id: 592, question: "надменный", answer: "supercilious" },
   {
@@ -2053,17 +2035,17 @@ const base = [
   { id: 594, question: "страшилка", answer: "bugbear" },
   { id: 595, question: "заставлять", answer: "complel" },
   { id: 596, question: "в последний момент", answer: "at the eleventh hour" },
-  { id: 597, question: "сразу, без раздумий", answer: "at the drop of a hat" },
+  { id: 597, question: "сразу, без раздумий", answer: "at the drop of  hat" },
   { id: 598, question: "жертвы", answer: "casualties" },
   { id: 599, question: "баклан /жадина", answer: "cormorant" },
-  { id: 600, question: "деревянный кубок", answer: "a mazer bowl" },
+  { id: 600, question: "деревянный кубок", answer: " mazer bowl" },
   { id: 601, question: "завершить", answer: "wrap up" },
   { id: 602, question: "проповедь", answer: "sermon" },
   { id: 603, question: "короче говоря", answer: "long story short" },
   {
     id: 604,
     question: "публично выругать коллегу",
-    answer: "publicly bollocking a colleague",
+    answer: "publicly bollocking  colleague",
   },
   { id: 605, question: "раздраженный", answer: "peeved" },
   { id: 606, question: "оковы", answer: "fetter" },
@@ -2080,24 +2062,24 @@ const base = [
   { id: 617, question: "тщательность", answer: "austerity" },
   {
     id: 618,
-    question: "gradually and relentlessly make something smaller or weaker",
+    question: "подтачивать /постепенно справляться с задачей (продвигаться)",
     answer: "chip away at",
   },
   { id: 619, question: "включить чайник", answer: "click on the kettle" },
   {
     id: 620,
-    question: "in the hope of succes but without any specific plan",
+    question: "на авось /по спецификации",
     answer: "on spec",
   },
   { id: 621, question: "деревенщина", answer: "hillbilly" },
   {
     id: 622,
-    question: "VULG mock or make fun of (someone or something).",
+    question: "издеваться над",
     answer: "take the piss out of",
   },
   { id: 623, question: "затяжной", answer: "protracted" },
   { id: 624, question: "проход", answer: "walk-through" },
-  { id: 625, question: "следовать /возникать", answer: "ensue" },
+  { id: 625, question: "следовать", answer: "ensue" },
   { id: 626, question: "переноска/тащить волоком (лодку)", answer: "pOrtage" },
   { id: 627, question: "зяблик", answer: "chaffinch" },
   { id: 628, question: "малиновка", answer: "robin" },
@@ -2114,18 +2096,18 @@ const base = [
   { id: 635, question: "стеклопакет", answer: "paned" },
   { id: 636, question: "огромный", answer: "tremendous" },
   { id: 637, question: "серовато-коричневый", answer: "taupe" },
-  { id: 638, question: "(British slang) a private soldier", answer: "squaddy" },
+  { id: 638, question: "наемный солдат (брит)", answer: "squaddy" },
   { id: 639, question: "фанатик", answer: "zealot" },
   { id: 640, question: "извиваться", answer: "squirm" },
   { id: 641, question: "недоумение", answer: "bewilderment" },
   {
     id: 642,
     question: "вести себя вызывающе",
-    answer: "have a chip on one's shoulder",
+    answer: "have  chip on one's shoulder",
   },
   { id: 643, question: "мрачный", answer: "sullen /dIsmal" },
   { id: 644, question: "сворачиваться", answer: "sulk" },
-  { id: 645, question: "явный", answer: "blatant" },
+  { id: 645, question: "явный", answer: "blatant /overt /[ˈəuvə:t]" },
   { id: 646, question: "насмешка", answer: "sneer" },
   { id: 647, question: "ничтожный", answer: "measly" },
   { id: 648, question: "главный удар", answer: "brunt" },
@@ -2135,7 +2117,7 @@ const base = [
   {
     id: 652,
     question:
-      "a young person characterized by brash behaviour with low social status",
+      "гопник",
     answer: "chav",
   },
   { id: 653, question: "наглый", answer: "brash" },
@@ -2151,13 +2133,13 @@ const base = [
   { id: 663, question: "оттенок", answer: "tinge" },
   { id: 664, question: "десны", answer: "gums" },
   { id: 665, question: "банальности", answer: "talk in platitudes" },
-  { id: 666, question: "мужлан", answer: "yokel" },
+  {"id":666,"question":"забрызганный чем-то грязным","answer":"bedraggled"},
   { id: 667, question: "ярмо", answer: "yoke" },
   { id: 668, question: "травянистый", answer: "herbaceous" },
   { id: 669, question: "смущать", answer: "bemuse" },
   { id: 670, question: "суетиться", answer: "fussing" },
   { id: 671, question: "спасать", answer: "salvage" },
-  { id: 672, question: "inf. сложная задача", answer: "a stretch" },
+  { id: 672, question: "инф. сложная задача", answer: " stretch" },
   {
     id: 673,
     question: "товарищ по тренировкам",
@@ -2175,13 +2157,13 @@ const base = [
   { id: 683, question: "подавлять /ослаблять /притуплять", answer: "deaden" },
   { id: 684, question: "мастерство /художественность", answer: "artistry" },
   { id: 685, question: "проклятый", answer: "sodding" },
-  { id: 686, question: "навес /балдахин", answer: "canopy" },
+  { id: 686, question: "балдахин", answer: "canopy" },
   { id: 687, question: "живая изгородь", answer: "hedgerow" },
   { id: 688, question: "подозрительный", answer: "dodgy" },
   { id: 689, question: "гребень", answer: "ridge" },
   { id: 690, question: "плоский", answer: "shallow-pitched" },
   { id: 691, question: "шифер", answer: "slate" },
-  { id: 692, question: "жижа", answer: "slurry" },
+  { id: 692, question: "суспензия / жидкая смесь", answer: "slurry" },
   { id: 693, question: "тюк", answer: "bale" },
   { id: 694, question: "скотобойня", answer: "slaughterhouse" },
   { id: 695, question: "земля", answer: "sod" },
@@ -2192,10 +2174,10 @@ const base = [
   { id: 700, question: "непоседливость", answer: "fidgety" },
   { id: 701, question: "в двух словах", answer: "sum it up" },
   { id: 702, question: "просеивать", answer: "sift" },
-  { id: 703, question: "болтовня /бормотать", answer: "jabber" },
+  { id: 703, question: "болтовня", answer: "jabber" },
   { id: 704, question: "котлета", answer: "patty" },
   { id: 705, question: "это безумие", answer: "it's bonkers" },
-  { id: 706, question: "зацепило", answer: "have struck a chord" },
+  { id: 706, question: "зацепило", answer: "have struck  chord" },
   { id: 707, question: "отвали", answer: "sod off" },
   { id: 708, question: "закон подлости", answer: "sod's law" },
   { id: 709, question: "малая часть", answer: "modicum" },
@@ -2204,13 +2186,13 @@ const base = [
     question: "решить все проблемы",
     answer: "put the world to rights",
   },
-  { id: 711, question: "набрать ванну", answer: "run a bath" },
-  { id: 712, question: "суетливый /шумный", answer: "bustling" },
+  { id: 711, question: "набрать ванну", answer: "run  bath" },
+  {"id":712,"question":"тазобедренная часть/окорок","answer":"haunch"},
   { id: 713, question: "нервный", answer: "jittery" },
   {
     id: 714,
     question: "иметь зуб на кого-то",
-    answer: "have a grudge against",
+    answer: "have  grudge against",
   },
   { id: 715, question: "наводить ужас", answer: "give smb. the willies" },
   { id: 716, question: "навязывать", answer: "impose" },
@@ -2238,7 +2220,7 @@ const base = [
   {
     id: 738,
     question: "посмотреть уничтожающе",
-    answer: "give smb. a withering (look)",
+    answer: "give smb.  withering (look)",
   },
   { id: 739, question: "ненавидеть", answer: "loath" },
   { id: 740, question: "маловероятный исход", answer: "longshot" },
@@ -2250,13 +2232,13 @@ const base = [
   { id: 746, question: "скалы", answer: "crags" },
   { id: 747, question: "гигиеническая помада", answer: "chapstick" },
   { id: 748, question: "уютный", answer: "snug" },
-  { id: 749, question: "вялый /жеманный /томящийся", answer: "languid" },
-  { id: 750, question: "хлюпать", answer: "squelch" },
+  { id: 749, question: "томящийся", answer: "languid" },
+  { id: 750, question:"тоскливый",answer:"dreary" },
   { id: 751, question: "сбивать с толку /расстраивать", answer: "baffle" },
   { id: 752, question: "язвить", answer: "quip" },
-  { id: 753, question: "тоскливый", answer: "dreary" },
+  {"id":753,"question":"вмешательство/непрошенный гость","answer":"interloper"},
   { id: 754, question: "острая боль", answer: "pang" },
-  { id: 755, question: "шататься", answer: "mill around" },
+  { id: 755, question: "шататься", answer: "mill around /totter around" },
   { id: 756, question: "пена", answer: "scum /froth" },
   { id: 757, question: "перестановка", answer: "permutation" },
   { id: 758, question: "коренастый", answer: "stockily built" },
@@ -2283,7 +2265,7 @@ const base = [
   { id: 779, question: "бродить без цели", answer: "mooch around" },
   { id: 780, question: "однообразный", answer: "drab" },
   { id: 781, question: "мокрый /слякотный", answer: "soggy" },
-  { id: 782, question: "передышка", answer: "respite" },
+  {"id":782,"question":"рваный","answer":"ragged"},
   { id: 783, question: "осторожно", answer: "gingerly" },
   { id: 784, question: "завораживать", answer: "enthral with" },
   { id: 785, question: "инф полицейский", answer: "plod" },
@@ -2297,7 +2279,7 @@ const base = [
   {
     id: 793,
     question: "разбогатеть за ночь",
-    answer: "to make a killing overnight",
+    answer: "to make  killing overnight",
   },
   { id: 794, question: "сбой", answer: "glitch" },
   { id: 795, question: "неутолимая жажда", answer: "insatiable thirst for" },
@@ -2307,7 +2289,7 @@ const base = [
   { id: 799, question: "шутка", answer: "banter" },
   { id: 800, question: "церковная башня", answer: "church spire" },
   { id: 801, question: "шпиль", answer: "steeple" },
-  { id: 802, question: "в двух шагах", answer: "a stone's throw" },
+  { id: 802, question: "в двух шагах", answer: " stone's throw" },
   { id: 803, question: "взлететь", answer: "take off" },
   { id: 804, question: "хромой", answer: "lame" },
   { id: 805, question: "сигнал пропал", answer: "the signal cut off" },
@@ -2317,12 +2299,12 @@ const base = [
   {
     id: 809,
     question:
-      " inf used to draw attention to smb who has just said something stupid or who is showing that they are too proud.",
-    answer: "hark at smb",
+      "Послушайте-ка его",
+    answer: "hark at him",
   },
-  { id: 810, question: "лечь спать", answer: "to turn in" },
+  { id: 810, question: "лечь спать /Выдать кого-то властям / Сдавать что-то (работу, документы, задание)", answer: "to turn in" },
   { id: 811, question: "прийти", answer: "to turn up" },
-  { id: 812, question: "снаряжение", answer: "harness" },
+  { id: 812, question: "снаряжение /обуздать, использовать, направлять", answer: "harness" },
   { id: 813, question: "происходить от", answer: "derive from" },
   { id: 814, question: "поддерживать", answer: "bolster" },
   { id: 815, question: "взъерошить", answer: "rumple" },
@@ -2355,7 +2337,7 @@ const base = [
   { id: 834, question: "обманывать", answer: "delude" },
   { id: 835, question: "отговаривать", answer: "dissuade" },
   { id: 836, question: "приписывать", answer: "chalk it up to smth" },
-  { id: 837, question: "пить на одном дыхании / пыхтеть", answer: "chug" },
+  { id: 837, question: "пить на одном дыхании", answer: "chug" },
   { id: 838, question: "остроумный", answer: "witty" },
   { id: 839, question: "нарядный", answer: "dapper" },
   { id: 840, question: "пить / осушать", answer: "quaff" },
@@ -2363,12 +2345,12 @@ const base = [
   { id: 842, question: "чванство", answer: "swagger" },
   { id: 843, question: "улаживать", answer: "settle" },
   { id: 844, question: "злой / грешник", answer: "wicked" },
-  { id: 845, question: "вопить / крик", answer: "whoop" },
+  { id: 845, question: "крик", answer: "whoop" },
   { id: 846, question: "взаимные обвинения", answer: "recriminatory" },
   { id: 847, question: "пререкания", answer: "bickering" },
   { id: 848, question: "блеск", answer: "glitter" },
   { id: 849, question: "мерцание", answer: "glimmer" },
-  { id: 850, question: "ужасающий", answer: "horrendous" },
+  { id: 850, question: "ужасающий", answer: "horrendous /appalling" },
   { id: 851, question: "ворчливый", answer: "grupmy" },
   { id: 852, question: "мастер / старик", answer: "gaffer" },
   { id: 853, question: "ящик / тара", answer: "crate" },
@@ -2409,7 +2391,7 @@ const base = [
   { id: 880, question: "низкого уровня", answer: "lower end" },
   { id: 881, question: "перспектива /вид", answer: "outlook" },
   { id: 882, question: "неблагоприятный /враждебный", answer: "adverse" },
-  { id: 883, question: "предварительный /неопределенный", answer: "tentative" },
+  { id: 883, question: "предварительный /неопределенный /неуверенный", answer: "tentative" },
   { id: 884, question: "перевозка", answer: "haul" },
   { id: 885, question: "стимул", answer: "Impetus" },
   { id: 886, question: "капитал", answer: "principal" },
@@ -2420,7 +2402,7 @@ const base = [
   { id: 891, question: "щелчок языком /выражать неодобрение", answer: "tut" },
   { id: 892, question: "иметь наглость", answer: "to have the gall to" },
   { id: 893, question: "быть раскрытым", answer: "to be divulged" },
-  { id: 894, question: "пряный /острый", answer: "tangy" },
+  { id: 894, question: "пряный", answer: "tangy" },
   { id: 895, question: "пялиться", answer: "gawp" },
   {
     id: 896,
@@ -2429,23 +2411,23 @@ const base = [
   },
   { id: 897, question: "снимки с отпуска", answer: "holiday snaps" },
   { id: 898, question: "нравиться кому-то", answer: "to fancy someone" },
-  { id: 899, question: "обижаться", answer: "to be in a huff" },
-  { id: 900, question: "быть в панике", answer: "to be in a flap" },
+  { id: 899, question: "обижаться", answer: "to be in  huff" },
+  { id: 900, question: "быть в панике", answer: "to be in  flap" },
   { id: 901, question: "укол боли", answer: "twinge" },
   {
     id: 902,
     question: "быть в затруднении",
-    answer: "to be in a fix /jam /pickle",
+    answer: "to be in  fix /jam /pickle",
   },
   { id: 903, question: "виноторговец", answer: "vintner" },
   {
     id: 904,
     question: "быть в замешательстве",
-    answer: "to be in a muddle /state /tizzy /stew",
+    answer: "to be in  muddle /state /tizzy /stew",
   },
   { id: 905, question: "вопить", answer: "to wail" },
-  { id: 906, question: "высокомерный /сноб", answer: "aloof" },
-  { id: 907, question: "веселый /радостный", answer: "gleeful" },
+  { id: 906, question: "отчужденный", answer: "aloof" },
+  { id: 907, question: "радостный", answer: "gleeful" },
   { id: 908, question: "висеть /полулежать", answer: "to loll" },
   {
     id: 909,
@@ -2455,7 +2437,7 @@ const base = [
   { id: 910, question: "ищейка", answer: "lurcher" },
   { id: 911, question: "кеды", answer: "plimsolls" },
   { id: 912, question: "ежевика", answer: "bramble" },
-  { id: 913, question: "дуться", answer: "pout" },
+  { id: 913, question: "дуться", answer: "pout about" },
   { id: 914, question: "хмуриться /хмурое лицо", answer: "scowl" },
   { id: 915, question: "заманчивый", answer: "enticing" },
   { id: 916, question: "предостережение", answer: "caveat" },
@@ -2463,13 +2445,13 @@ const base = [
   { id: 918, question: "отлив /отступать", answer: "ebb" },
   { id: 919, question: "свежесобранный", answer: "freshly-gleaned" },
   { id: 920, question: "собирать /собирать остатки", answer: "to glean" },
-  { id: 921, question: "грубый /крупный", answer: "coarse" },
+  { id: 921, question: "крупный", answer: "coarse /hefty" },
   { id: 922, question: "точить /точило", answer: "hone" },
   { id: 923, question: "душный /сухой", answer: "sultry-sweet" },
   { id: 924, question: "жимолость", answer: "honeysuckle" },
   { id: 925, question: "жаждать /желать", answer: "crave" },
   { id: 926, question: "край /кайма", answer: "hem" },
-  { id: 927, question: "изношенный /потрепанный", answer: "frayed" },
+  { id: 927, question: "потертый", answer: "frayed" },
   { id: 928, question: "чаща /заросли", answer: "thicket" },
   { id: 929, question: "лес /лесной массив /сопка", answer: "fell" },
   {
@@ -2479,7 +2461,7 @@ const base = [
   },
   { id: 931, question: "неподрезанный", answer: "unpruned" },
   { id: 932, question: "мучиться /страдать /томиться", answer: "languish" },
-  { id: 933, question: "что-нибудь /anything", answer: "owt" },
+  { id: 933, question: "что-нибудь (диалектное Север Англии)", answer: "owt" },
   { id: 934, question: "разбивать /разрушать", answer: "shatter" },
   { id: 935, question: "толчок /толчки", answer: "jolt" },
   { id: 936, question: "засуха", answer: "drought" },
@@ -2487,7 +2469,7 @@ const base = [
   { id: 938, question: "сплетенный", answer: "entwined" },
   { id: 939, question: "эркерное окно", answer: "bay-window" },
   { id: 940, question: "манить /манящий", answer: "beckon" },
-  { id: 941, question: "цепляться /цепляться", answer: "cling" },
+  { id: 941, question: "цепляться", answer: "cling" },
   { id: 942, question: "унылый /подавленный", answer: "despondent" },
   { id: 943, question: "трущобы", answer: "slums" },
   { id: 944, question: "головокружительный", answer: "woozy" },
@@ -2498,7 +2480,7 @@ const base = [
     question: "любитель экзотической еды",
     answer: "adventurous eater",
   },
-  { id: 948, question: "принести убытки", answer: "take a toll" },
+  { id: 948, question: "принести убытки", answer: "take  toll" },
   { id: 949, question: "трибуны", answer: "bleachers" },
   { id: 950, question: "выемка /вырезка", answer: "nick" },
   { id: 951, question: "вовремя", answer: "to be in the nick of time" },
@@ -2524,10 +2506,10 @@ const base = [
     question: "заставить кого-то рассмеяться",
     answer: "to crack somebody up",
   },
-  { id: 962, question: "мечта", answer: "a pipe dream" },
+  { id: 962, question: "мечта", answer: " pipe dream" },
   { id: 963, question: "найти свой путь", answer: "to find their groove" },
   { id: 964, question: "быть в своей тарелке", answer: "to be in the groove" },
-  { id: 965, question: "клин /кусок", answer: "wedge" },
+  { id: 965, question: "клин", answer: "wedge" },
   { id: 966, question: "детективы", answer: "police procedurals" },
   {
     id: 967,
@@ -2539,7 +2521,7 @@ const base = [
   {
     id: 970,
     question: "зайти в паб поесть",
-    answer: "pop into a pub for some food",
+    answer: "pop into  pub for some food",
   },
   { id: 971, question: "штанга", answer: "barbell" },
   { id: 972, question: "смелость /смелый", answer: "pluck" },
@@ -2556,7 +2538,7 @@ const base = [
   {
     id: 975,
     question: "здесь всегда было не очень",
-    answer: "to be a bit patchy around here at the best of times",
+    answer: "to be  bit patchy around here at the best of times",
   },
   { id: 976, question: "момент тишины", answer: "tumbleweed moment" },
   {
@@ -2574,9 +2556,9 @@ const base = [
     question: "продавец грязных лжи",
     answer: "peddler of sordid lies",
   },
-  { id: 980, question: "препятствовать /корзина", answer: "hamper" },
+  { id: 980, question: "препятствовать /корзина", answer: "hamper, hinder" },
   { id: 981, question: "резко сворачивать /резкое движение", answer: "swerve" },
-  { id: 982, question: "непристойность /грязь /нищета", answer: "squalor" },
+  { id: 982, question: "непристойность /нищета", answer: "squalor" },
   { id: 983, question: "соединенный /объединенный", answer: "coalesced" },
   { id: 984, question: "кусок /глыба", answer: "lump" },
   { id: 985, question: "принести /приносить", answer: "fetch" },
@@ -2591,13 +2573,13 @@ const base = [
   { id: 994, question: "утрата", answer: "fOrfeiting" },
   { id: 995, question: "возбуждение /подъем", answer: "arousal" },
   { id: 996, question: "изысканный", answer: "debonair" },
-  { id: 997, question: "ужасный /ужасающий", answer: "appalling" },
-  { id: 998, question: "потеря /утрата", answer: "bereavement" },
+  {"id":997,"question":"эластичный","answer":"resilient"},
+  { id: 998, question: "потеря", answer: "bereavement" },
   { id: 999, question: "шелест /шелестеть", answer: "rustle" },
   { id: 1000, question: "знакомство /знакомый", answer: "acquaintance" },
   { id: 1001, question: "быть в курсе", answer: "to be in the know" },
   { id: 1002, question: "набожно", answer: "devoutly" },
-  { id: 1003, question: "возмутительный /непристойный", answer: "outrageous" },
+  { id: 1003, question: "возмутительный", answer: "outrageous" },
   {
     id: 1004,
     question: "воспользоваться случаем /использовать по максимуму",
@@ -2615,7 +2597,7 @@ const base = [
     answer: "be at the end of your tether /rope",
   },
   { id: 1008, question: "критика, раздражение", answer: "niggle" },
-  { id: 1009, question: "безразлично", answer: "in a dispassionate manner" },
+  { id: 1009, question: "безразлично", answer: "in  dispassionate manner" },
   {
     id: 1010,
     question: "вспышка характера",
@@ -2637,17 +2619,17 @@ const base = [
     question: "на седьмом небе от счастья",
     answer: "to be on cloud nine /to be over the moon",
   },
-  { id: 1015, question: "ссора, конфликт", answer: "a run-in" },
-  { id: 1016, question: "вызвать эмоции", answer: "get a rise out of smb" },
+  { id: 1015, question: "конфликт", answer: " run-in" },
+  { id: 1016, question: "вызвать эмоции", answer: "get  rise out of smb" },
   {
     id: 1017,
     question: "небольшой страх",
-    answer: "a slight feeling of trepidation about smth",
+    answer: " slight feeling of trepidation about smth",
   },
   {
     id: 1018,
     question: "камень с души",
-    answer: "it's a real weight off my mind",
+    answer: "it's  real weight off my mind",
   },
   {
     id: 1019,
@@ -2660,24 +2642,24 @@ const base = [
     question: "быть в контакте с чувствами",
     answer: "to be in touch with our feelings",
   },
-  { id: 1022, question: "раздражаться", answer: "tempers start to fray" },
+  { id: 1022, question: "беситься", answer: "tempers start to fray" },
   {
     id: 1023,
     question: "эмоции на поверхности",
     answer: "emotions are quite close to the surface",
   },
-  { id: 1024, question: "накапливаться", answer: "things are building up" },
+  {"id":1024,"question":"взвешенный/готовый к действию","answer":"poised"},
   { id: 1025, question: "злость", answer: "the red mist descends" },
   {
     id: 1026,
-    question: "a tendency to lose one's temper quickly",
-    answer: "to have a short fuse",
+    question: "быстро заводиться",
+    answer: "to have  short fuse",
   },
   { id: 1027, question: "вызывать негатив", answer: "it breeds resentment" },
   {
     id: 1028,
     question: "вздохнуть с облегчением",
-    answer: "to heave a huge sigh of relief",
+    answer: "to heave  huge sigh of relief",
   },
   {
     id: 1029,
@@ -2703,10 +2685,10 @@ const base = [
   {
     id: 1034,
     question: "быть в гадком настроении",
-    answer: "to be in a foul mood",
+    answer: "to be in  foul mood",
   },
   { id: 1035, question: "озадаченный /расстроенный", answer: "baffled" },
-  { id: 1036, question: "поездка /прогулка /пикник", answer: "outing" },
+  { id: 1036, question: "поездка /пикник", answer: "outing" },
   {
     id: 1037,
     question: "его навыки ставят мои в тени",
@@ -2775,7 +2757,7 @@ const base = [
   { id: 1074, question: "чирок", answer: "teal" },
   { id: 1075, question: "докучаемый", answer: "badgered" },
   { id: 1076, question: "гарцевать /важничать", answer: "prance about" },
-  { id: 1077, question: "пастбище", answer: "загон" },
+  {"id":1077,"question":"отсрочка /передышка","answer":"rEspite"},
   { id: 1078, question: "рвать", answer: "yank (flowers)" },
   { id: 1079, question: "возражать", answer: "retort" },
   { id: 1080, question: "построить небрежно", answer: "jerry-build" },
@@ -2784,7 +2766,7 @@ const base = [
   { id: 1083, question: "выпрямить /приминать", answer: "flatten" },
   { id: 1084, question: "крен, покачнуться", answer: "lurch" },
   { id: 1085, question: "неряшливый", answer: "frumpy" },
-  { id: 1086, question: "шумный /бурный", answer: "tumultuous" },
+  { id: 1086, question: "бурный", answer: "tumultuous" },
   {
     id: 1087,
     question: "отправить к черту",
@@ -2792,12 +2774,12 @@ const base = [
   },
   {
     id: 1088,
-    question: "поддерживать /отстаивать /подтверждать",
+    question: "отстаивать /подтверждать",
     answer: "uphold",
   },
   { id: 1089, question: "развратный", answer: "promiscuous" },
   { id: 1090, question: "тщеславный", answer: "conceited" },
-  { id: 1091, question: "крупный", answer: "hefty" },
+  {"id":1091,"question":"дроссель /регулировать /душить","answer":"throttle"},
   { id: 1092, question: "в подходящий момент", answer: "an apt time" },
   { id: 1093, question: "сдвинутый", answer: "loopy" },
   { id: 1094, question: "отчитать /выговорить", answer: "pull him up on it" },
@@ -2807,7 +2789,7 @@ const base = [
   { id: 1098, question: "отмахиваться", answer: "bat away" },
   { id: 1099, question: "бороться", answer: "contend" },
   { id: 1100, question: "неприукрашенный", answer: "unvarnished" },
-  { id: 1101, question: "штука", answer: "a thingy" },
+  { id: 1101, question: "штука", answer: " thingy" },
   { id: 1102, question: "проверить", answer: "check up on" },
   { id: 1103, question: "сократить", answer: "curtail" },
   { id: 1104, question: "родственнический", answer: "nepotistic" },
@@ -2815,23 +2797,23 @@ const base = [
   {
     id: 1106,
     question: "после того как вы пройдете площадь, поверните направо",
-    answer: "after you go past the sqaire, take a right",
+    answer: "after you go past the sqaire, take  right",
   },
   { id: 1107, question: "односторонне, однобоко", answer: "lopsIdedly" },
   { id: 1108, question: "хлюпать (по грязи)", answer: "squelch" },
   { id: 1109, question: "предположить", answer: "surmise" },
   { id: 1110, question: "выпуклый", answer: "embossed" },
-  { id: 1111, question: "шататься /разрушаться", answer: "totter" },
+  { id: 1111, question: "разрушаться", answer: "totter" },
   { id: 1112, question: "сандалии на каблуке", answer: "wedge sandals" },
   { id: 1113, question: "клок", answer: "hank" },
   { id: 1114, question: "слюнявые мальчики", answer: "drooling boys" },
-  { id: 1115, question: "c бравадой, шиком", answer: "with great panache" },
+  { id: 1115, question: "с бравадой", answer: "with great panache" },
   { id: 1116, question: "остекленевшие глаза", answer: "eyes flinty" },
   { id: 1117, question: "приторный", answer: "treacly" },
   { id: 1118, question: "бродить", answer: "loiter" },
   { id: 1119, question: "растрепанный", answer: "straggly" },
-  { id: 1120, question: "лентяй, бездельник", answer: "a slouch" },
-  { id: 1121, question: "бурный /объемный", answer: "billowy" },
+  { id: 1120, question: "лентяй, бездельник", answer: " slouch" },
+  { id: 1121, question: "объемный", answer: "billowy" },
   { id: 1122, question: "камень преткновения", answer: "touchstoune" },
   { id: 1123, question: "брызгать", answer: "slosh" },
   {
@@ -2848,13 +2830,13 @@ const base = [
   { id: 1127, question: "береговая кулик", answer: "sandpiper" },
   { id: 1128, question: "сколотый зуб", answer: "chipped tooth" },
   { id: 1129, question: "добросовестный, законный", answer: "bona fide" },
-  { id: 1130, question: "задумчивый", answer: "musing /wistful" },
+  { id: 1130, question: "задумчивый", answer: "musing /wistful /brooding" },
   { id: 1131, question: "вырубиться", answer: "pass out" },
   { id: 1132, question: "быть разорванным", answer: "to be torn" },
   { id: 1133, question: "капризный", answer: "mardy" },
   { id: 1134, question: "крепкая (хватка)", answer: "tenAcious" },
   { id: 1135, question: "рыться", answer: "rummage" },
-  { id: 1136, question: "мрачный/суровый /холодный", answer: "bleak" },
+  { id: 1136, question: "суровый /холодный", answer: "bleak" },
   { id: 1137, question: "здравый смысл", answer: "common sense" },
   { id: 1138, question: "похвала", answer: "kudos to you for" },
   { id: 1139, question: "раздражительный", answer: "twitchy" },
@@ -2870,7 +2852,7 @@ const base = [
     answer: "under every now and then",
   },
   { id: 1147, question: "крепче", answer: "sturdier" },
-  { id: 1148, question: "раздражать", answer: "irk" },
+  { id: 1148, question: "подбешивать", answer: "irk" },
   { id: 1149, question: "предчувствие", answer: "foreboding" },
   { id: 1150, question: "чувствовать тошноту", answer: "to feel quesy" },
   { id: 1151, question: "удача", answer: "fluke" },
@@ -2883,7 +2865,7 @@ const base = [
   { id: 1158, question: "болтливый", answer: "gArrulous" },
   { id: 1159, question: "бросать", answer: "fling" },
   { id: 1160, question: "затаить злобу", answer: "to have it in for smb" },
-  { id: 1161, question: "вредный /злорадный", answer: "mIschievous" },
+  { id: 1161, question: "вредный", answer: "mIschievous" },
   { id: 1162, question: "хохот", answer: "guffaw /gefO" },
   { id: 1163, question: "греметь", answer: "rattle" },
   { id: 1164, question: "цапля", answer: "heron" },
@@ -2896,13 +2878,13 @@ const base = [
   { id: 1171, question: "застенчиво", answer: "coyly" },
   { id: 1172, question: "раздуваться", answer: "swell" },
   { id: 1173, question: "гагара", answer: "guillemot" },
-  { id: 1174, question: "баклан /олуша", answer: "gannet" },
+  { id: 1174, question: "олуша", answer: "gannet" },
   { id: 1175, question: "высоко", answer: "aloft" },
   { id: 1176, question: "зависть", answer: "grudge" },
   { id: 1177, question: "законопослушный", answer: "law-abiding" },
   {
     id: 1178,
-    question: "корочка/ inf I ve been earning a crust as a journalist",
+    question: "корочка",
     answer: "crusty",
   },
   { id: 1179, question: "мишура", answer: "tinsel" },
@@ -2913,18 +2895,18 @@ const base = [
     answer: "ramp up another notch",
   },
   { id: 1182, question: "свисать/лицо обвисло", answer: "droop" },
-  { id: 1183, question: "inf опасный", answer: "hairy" },
+  { id: 1183, question: "инф опасный", answer: "hairy" },
   { id: 1184, question: "покалывание", answer: "tingle" },
   { id: 1185, question: "напиток перед сном", answer: "nightcap" },
   { id: 1186, question: "предвестники", answer: "harbingers" },
-  { id: 1187, question: "визг /шквал", answer: "sqaull" },
+  { id: 1187, question: "визг", answer: "sqaull" },
   { id: 1188, question: "отпрянуть", answer: "recoil" },
   { id: 1189, question: "остаток", answer: "remnant" },
   { id: 1190, question: "выкупить", answer: "redeem" },
   { id: 1191, question: "сбить с ног", answer: "knock him flat" },
   {
     id: 1192,
-    question: "выговорить /привлечь к ответственности",
+    question: "привлечь к ответственности",
     answer: "pull someone up for/over/on",
   },
   { id: 1193, question: "волноваться", answer: "fluster up" },
@@ -2947,14 +2929,14 @@ const base = [
     question: "отвисла челюсть",
     answer: "jaw drops open /jaw hits the floor",
   },
-  { id: 1201, question: "долить в бокал", answer: "top up a glass" },
+  { id: 1201, question: "долить в бокал", answer: "top up  glass" },
   { id: 1202, question: "добраться до Бристоля", answer: "get up to Bristol" },
   {
     id: 1203,
     question: "говорить не в свою очередь",
     answer: "speak out of turn",
   },
-  { id: 1204, question: "спрятать телефон", answer: "conceal a phone" },
+  { id: 1204, question: "спрятать телефон", answer: "conceal  phone" },
   {
     id: 1205,
     question: "во всех подробностях",
@@ -2965,8 +2947,8 @@ const base = [
     question: "не в удобное время",
     answer: "did I catch you at work?",
   },
-  { id: 1207, question: "держать чашку", answer: "cradle a cup" },
-  { id: 1208, question: "представлять /шикарный", answer: "fancy" },
+  { id: 1207, question: "держать чашку", answer: "cradle  cup" },
+  {"id":1208,"question":"непроницаемый/невосприимчивый","answer":"imprevious"},
   { id: 1209, question: "выселить", answer: "evict" },
   { id: 1210, question: "боевая раскраска", answer: "war paint" },
   { id: 1211, question: "отвратительный", answer: "heinous" },
@@ -2975,21 +2957,17 @@ const base = [
   { id: 1214, question: "осознать, впитать", answer: "sink in" },
   { id: 1215, question: "отвлекать /перенаправлять", answer: "divert" },
   { id: 1216, question: "печально известный", answer: "notorious" },
-  {
-    id: 1217,
-    question: "сомнительные развлечения",
-    answer: "nefarious activities",
-  },
+  {"id":1217,"question":"колхоз","answer":"kibbutz"},
   { id: 1218, question: "плащ (у рыцаря)", answer: "tabard" },
   { id: 1219, question: "новомодный", answer: "newfangled" },
-  { id: 1220, question: "столкнуться c чем-то", answer: "come across smth" },
+  { id: 1220, question: "столкнуться с чем-то", answer: "come across smth" },
   { id: 1221, question: "быть за", answer: "to be in favour" },
   { id: 1222, question: "одноименный", answer: "epOnymous" },
-  { id: 1223, question: "медленно расслабленно идти", answer: "amble" },
+  {"id":1223,"question":"истощение/распад","answer":"attrition"},
   { id: 1224, question: "быть великодушным к", answer: "to be magnАnimous to" },
-  { id: 1225, question: "inf быть смещенным с поста", answer: "get the boot" },
-  { id: 1226, question: "мрачный, мистичный", answer: "sAturnine" },
-  { id: 1227, question: "задумчивый", answer: "brooding" },
+  { id: 1225, question: "инф быть смещенным с поста", answer: "get the boot" },
+  { id: 1226, question: "мистичный", answer: "sAturnine" },
+  {"id":1227,"question":"понижение в должности","answer":"demotion"},
   { id: 1228, question: "с прямой спиной", answer: "back rAmrod straight" },
   { id: 1229, question: "протяжный плач на высокой ноте", answer: "wail" },
   { id: 1230, question: "голосистый", answer: "vocIferous" },
@@ -2999,7 +2977,7 @@ const base = [
     question: "ограниченное, сжатое (пространство, объем)",
     answer: "confined",
   },
-  { id: 1233, question: "inf ничего", answer: "zilch" },
+  { id: 1233, question: "инф ничего", answer: "zilch" },
   { id: 1234, question: "раскаивавшийся", answer: "rEpented" },
   {
     id: 1235,
@@ -3009,29 +2987,29 @@ const base = [
   { id: 1236, question: "бешенство (у животных)", answer: "rabies" },
   { id: 1237, question: "сжатый", answer: "succInct" },
   { id: 1238, question: "подлый", answer: "sneaky" },
-  { id: 1239, question: "аккуратный", answer: "snug" },
+  {"id":1239,"question":"отзвук / негативное влияние","answer":"repercussion"},
   { id: 1240, question: "лень", answer: "sloth" },
-  { id: 1241, question: "ненавидеть", answer: "loathe" },
+  {"id":1241,"question":"мотивация","answer":"incentive"},
   { id: 1242, question: "брезгливый (к)", answer: "squEamish (about)" },
   { id: 1243, question: "печальный", answer: "lugUbrious" },
-  { id: 1244, question: "inf быть сексуальным", answer: "to be quite a dish" },
+  { id: 1244, question: "инф быть сексуальным", answer: "to be quite a dish" },
   { id: 1245, question: "паршивая крыса", answer: "lousy tipper" },
   { id: 1246, question: "коллекция мелких вещей", answer: "bits and bobs" },
   { id: 1247, question: "берлога (перен смысл)", answer: "bolthole" },
   { id: 1248, question: "работяги /шушера", answer: "riff-raff" },
   { id: 1249, question: "иметь что-то в опыте", answer: "under my belt" },
   { id: 1250, question: "шнурок", answer: "lanyard" },
-  { id: 1251, question: "огромный /избиение", answer: "whopping" },
+  { id: 1251, question: "избиение", answer: "whopping" },
   { id: 1252, question: "золотое дно", answer: "windfall" },
   {
     id: 1253,
-    question: "зашибись /smth that is very good",
-    answer: "a stonker",
+    question: "потрясающий",
+    answer: "a stonker of smth.",
   },
   { id: 1254, question: "пылесборники в интерьере", answer: "knick-knacks" },
   { id: 1255, question: "категория допуска", answer: "security clearance" },
   { id: 1256, question: "справиться с чем-то", answer: "to pull it off" },
-  { id: 1257, question: "довести до конца", answer: "wrap up" },
+  {"id":1257,"question":"влажный","answer":"dank"},
   { id: 1258, question: "скосить /застрелить", answer: "mow down" },
   { id: 1259, question: "простейшая версия", answer: "plain vanilla" },
   { id: 1260, question: "пфф", answer: "pish posh" },
@@ -3047,15 +3025,15 @@ const base = [
   },
   { id: 1263, question: "грязнуля", answer: "little scruff" },
   { id: 1264, question: "хитрый взгляд /смотреть искоса", answer: "leer" },
-  { id: 1265, question: "предчувствие", answer: "foreboding" },
-  { id: 1266, question: "отвратительный", answer: "hideous" },
+  {"id":1265,"question":"уступить /признать","answer":"concede"},
+  {"id":1266,"question":"недружелюбный","answer":"insentive"},
   { id: 1267, question: "заглядывать из-за спины", answer: "gander" },
   { id: 1268, question: "корпоративный ретрит", answer: "office retreat" },
   { id: 1269, question: "дрожь", answer: "quiver" },
   { id: 1270, question: "шлюпка", answer: "dinghy" },
   { id: 1271, question: "привязь", answer: "tether" },
   { id: 1272, question: "подробнейший", answer: "blow-by-blow" },
-  { id: 1273, question: "низкий /подлый", answer: "nefarious" },
+  {"id":1273,"question":"путешествие","answer":"jaunt"},
   { id: 1274, question: "причудливый", answer: "quirky" },
   { id: 1275, question: "претендент", answer: "contender" },
   {
@@ -3078,14 +3056,14 @@ const base = [
     question: "молить об одолжении",
     answer: "call in all kinds of favour",
   },
-  { id: 1284, question: "шататься", answer: "totter around" },
+  {"id":1284,"question":"драться/шумно ссориться","answer":"brawl"},
   { id: 1285, question: "мерзкий", answer: "ghoulish" },
   { id: 1286, question: "пресыщенный", answer: "jaded" },
   { id: 1287, question: "первоклассный", answer: "copacetic" },
   {
     id: 1288,
     question: "сильноветряный (день)",
-    answer: "whuthering (day) /A",
+    answer: "whuthering (day) /",
   },
   {
     id: 1289,
@@ -3095,68 +3073,81 @@ const base = [
   { id: 1290, question: "сглазить", answer: "jinx" },
   { id: 1291, question: "шикарный", answer: "swanky" },
   { id: 1292, question: "лишенный света", answer: "aphotic" },
-  {"id":1293,"question":"буровая установка","answer":"rig"},{"id":1294,"question":"задиристый /дерзкий","answer":"cocky"},{"id":1295,"question":"роща","answer":"grove"},{"id":1296,"question":"распутный /неряшливый","answer":"slutty"},{"id":1297,"question":"отсрочить","answer":"defer"},{"id":1298,"question":"огрызаться","answer":"snap at"},{"id":1299,"question":"воровать","answer":"pilfer"},{"id":1300,"question":"разрушенный /опустошенный","answer":"gutted"},{"id":1301,"question":"сторонник порядка","answer":"stickler"},{"id":1302,"question":"перхоть","answer":"dandruff"},{"id":1303,"question":"шило","answer":"bodkin"},{"id":1304,"question":"дело /содеянное","answer":"deed"},{"id":1305,"question":"позиция /стойка","answer":"stance"},{"id":1306,"question":"доска","answer":"plank"},{"id":1307,"question":"приманка","answer":"bait"},{"id":1308,"question":"слабый","answer":"feeble"},{"id":1309,"question":"безжалостный","answer":"ruthless"},{"id":1310,"question":"топь","answer":"slough"},{"id":1311,"question":"брошенный","answer":"derelict"},{"id":1312,"question":"крыльцо /сутулость /наклоняться","answer":"stoop"},{"id":1313,"question":"взмах /вилять","answer":"wag"},{"id":1314,"question":"явный","answer":"overt /[ˈəuvə:t]"},{"id":1315,"question":"прямой /откровенный","answer":"outright"},{"id":1316,"question":"неаккуратный /сентиментальный","answer":"sloppy"},{"id":1317,"question":"отклонить","answer":"deflect"},
-  {"id":1318,"question":"плот","answer":"raft"},{"id":1319,"question":"земельный участок / место","answer":"stead"},{"id":1320,"question":"шквал","answer":"flurry /a"},{"id":1321,"question":"упрек","answer":"rebuke"},{"id":1322,"question":"грубая ошибка /промах ","answer":"blunder"},{"id":1323,"question":"отсрочка","answer":"rEspite"},{"id":1324,"question":"шарнир","answer":"swivel"},{"id":1325,"question":"дроссель /регулировать /душить","answer":"throttle"},
-  {"id":1326,"question":"устойчивый /эластичный","answer":"resilient"},
-  {"id":1327,"question":"взъерошенный/забрызганный грязью","answer":"bedraggled"},{"id":1328,"question":"тазобедренная часть/окорок","answer":"haunch"},{"id":1329,"question":"высмеивать/колкость","answer":"taunt"},{"id":1330,"question":"спешить/нестись","answer":"scurry"},{"id":1331,"question":"непроницаемый/невосприимчивый","answer":"imprevious"},{"id":1332,"question":"взвешенный/готовый к действию","answer":"poised"},{"id":1333,"question":"пребывание","answer":"soujourn"},{"id":1334,"question":"привлекательный","answer":"endearing"},{"id":1335,"question":"рваный/изношенный","answer":"ragged"},{"id":1336,"question":"смущенный","answer":"abashed"},{"id":1337,"question":"ругать/бранить","answer":"scold"},{"id":1338,"question":"драться/шумная ссора","answer":"brawl"},{"id":1339,"question":"неприятный/недружелюбный","answer":"insentive"},{"id":1340,"question":"мотивация/стимул","answer":"incentive"},{"id":1341,"question":"понижение в должности","answer":"demotion"},{"id":1342,"question":"колхоз","answer":"kibbutz"},{"id":1343,"question":"вмешательство/непрошенный гость","answer":"interloper"},{"id":1344,"question":"сдавливание/подавление","answer":"squelching"},{"id":1345,"question":"препирательство","answer":"altercation"},{"id":1346,"question":"отстраненный/недружелюбный","answer":"aloof"},{"id":1347,"question":"насупиться","answer":"scowl"},{"id":1348,"question":"истощение/распад","answer":"attrition"},{"id":1349,"question":"кучка земли/курган","answer":"mound"},{"id":1350,"question":"прогулка/путешествие","answer":"jaunt"},{"id":1351,"question":"враг","answer":"foe"},{"id":1352,"question":"уступить/признать","answer":"concede"},{"id":1353,"question":"последствие","answer":"repercussion"},{"id":1354,"question":"влажный/мрачный","answer":"dank"},
-  {"id":1355,"question":"мрачный/тоскливый","answer":"dreary"}
-];
+  {"id":1293,"question":"буровая установка","answer":"rig"},{"id":1294,"question":"дерзкий","answer":"cocky"},{"id":1295,"question":"роща","answer":"grove"},{"id":1296,"question":"распутный","answer":"slutty"},{"id":1297,"question":"отсрочить","answer":"defer"},{"id":1298,"question":"огрызаться","answer":"snap at"},{"id":1299,"question":"воровать","answer":"pilfer"},{"id":1300,"question":"разрушенный /опустошенный","answer":"gutted"},{"id":1301,"question":"сторонник порядка","answer":"stickler"},{"id":1302,"question":"перхоть","answer":"dandruff"},{"id":1303,"question":"шило","answer":"bodkin"},{"id":1304,"question":"дело /содеянное","answer":"deed"},{"id":1305,"question":"позиция /стойка","answer":"stance"},{"id":1306,"question":"доска","answer":"plank"},{"id":1307,"question":"приманка","answer":"bait"},{"id":1308,"question":"слабый","answer":"feeble"},{"id":1309,"question":"безжалостный","answer":"ruthless"},{"id":1310,"question":"топь","answer":"slough"},{"id":1311,"question":"брошенный","answer":"derelict"},{"id":1312,"question":"крыльцо /сутулость","answer":"stoop"},{"id":1313,"question":"взмах /вилять","answer":"wag"},
+  {"id":1314,"question":"бранить","answer":"scold"},
+  {"id":1315,"question":"прямой","answer":"outright"},{"id":1316,"question":"неаккуратный /сентиментальный","answer":"sloppy"},{"id":1317,"question":"отклонить","answer":"deflect"},
+  {"id":1318,"question":"плот","answer":"raft"},{"id":1319,"question":"земельный участок / место","answer":"stead"},{"id":1320,"question":"шквал","answer":"flurry /"},{"id":1321,"question":"упрек","answer":"rebuke"},{"id":1322,"question":"грубая ошибка /промах ","answer":"blunder"},
 
-const lastId = base[base.length - 1].id;
-
-const proverbList = [
-    "Don’t cross the bridge until you come to it.<br />Не говори «гоп», пока не перепрыгнешь.",
-    "Don’t make a mountain out of an anthill.<br />Не делай из мухи слона.",
-    "Put your best foot forward.<br />Старайся предстать в наилучшем свете.",
-    "It’s better to be safe than sorry.<br />Береженого Бог бережет.",
-    "Don’t bite off more than you can chew.<br />Не бери на себя слишком много.",
-    "Still waters run deep.<br />В тихом омуте черти водятся.",
-    "You scratch my back, I’ll scratch yours.<br />Ты — мне, я — тебе.",
-    "The squeaky wheel gets the grease.<br />Под лежачий камень вода не течет.",
-    "No man is an island.<br />Один в поле не воин.",
-    "Birds of a feather flock together.<br />Рыбак рыбака видит издалека.",
-    "There's no such thing as a free lunch.<br />Бесплатный сыр — только в мышеловке.",
-    "The early bird catches the worm.<br />Кто рано встает, тому Бог подает.",
-    "Beggars can't be choosers.<br />На безрыбье и рак — рыба",
-    "A little knowledge is a dangerous thing.<br />Полузнание хуже невежества.",
-    "All good things must come to an end.<br />Хорошего понемножку.",
-    "One drop of poison infects the whole tun of wine.<br />Ложка дегтя в бочке меда."
-];
-
-let data;
-if (localStorage.getItem("data") != null) {
-    data = JSON.parse(localStorage.getItem('data'));
-        
-} else {
-    data = base;
-    localStorage.setItem('data', JSON.stringify(data));
-}
-
-function clearFields() {
-    document.querySelector('#question').value = "";
-    document.querySelector('#question').focus();
-    document.querySelector('#answer').value = "";
-}
-
-// csv-file
-function downloadCSV() {
-    const JsonFields = ["id", "question", "answer"];
-    let csvStr = JsonFields.join(",") + "\n";
-
-    data.forEach(element => {
-        
-        id = element.id;
-        question = element.question;
-        answer = element.answer;
-
-        csvStr += id + ',' + question + ',' + answer + ',' + "\n";
-    })
  
-    var hiddenElement = document.createElement('a');
-    hiddenElement.href = 'data:text/csv;charset=utf-8,' + encodeURI(csvStr);
-    hiddenElement.target = '_blank';
-    hiddenElement.download = 'output.csv';
-    hiddenElement.click();
-}
+
+
+
+
+
+
+
+
+
+
+
+
+];
+
+// const lastId = base[base.length - 1].id;
+
+// const proverbList = [
+//     "Don’t cross the bridge until you come to it.<br />Не говори «гоп», пока не перепрыгнешь.",
+//     "Don’t make  mountain out of an anthill.<br />Не делай из мухи слона.",
+//     "Put your best foot forward.<br />Старайся предстать в наилучшем свете.",
+//     "It’s better to be safe than sorry.<br />Береженого Бог бережет.",
+//     "Don’t bite off more than you can chew.<br />Не бери на себя слишком много.",
+//     "Still waters run deep.<br />В тихом омуте черти водятся.",
+//     "You scratch my back, I’ll scratch yours.<br />Ты — мне, я — тебе.",
+//     "The squeaky wheel gets the grease.<br />Под лежачий камень вода не течет.",
+//     "No man is an island.<br />Один в поле не воин.",
+//     "Birds of  feather flock together.<br />Рыбак рыбака видит издалека.",
+//     "There's no such thing as  free lunch.<br />Бесплатный сыр — только в мышеловке.",
+//     "The early bird catches the worm.<br />Кто рано встает, тому Бог подает.",
+//     "Beggars can't be choosers.<br />На безрыбье и рак — рыба",
+//     " little knowledge is  dangerous thing.<br />Полузнание хуже невежества.",
+//     "All good things must come to an end.<br />Хорошего понемножку.",
+//     "One drop of poison infects the whole tun of wine.<br />Ложка дегтя в бочке меда."
+// ];
+
+// let data;
+// if (localStorage.getItem("data") != null) {
+//     data = JSON.parse(localStorage.getItem('data'));
+        
+// } else {
+//     data = base;
+//     localStorage.setItem('data', JSON.stringify(data));
+// }
+
+// function clearFields() {
+//     document.querySelector('#question').value = "";
+//     document.querySelector('#question').focus();
+//     document.querySelector('#answer').value = "";
+// }
+
+// // csv-file
+// function downloadCSV() {
+//     const JsonFields = ["id", "question", "answer"];
+//     let csvStr = JsonFields.join(",") + "\n";
+
+//     data.forEach(element => {
+        
+//         id = element.id;
+//         question = element.question;
+//         answer = element.answer;
+
+//         csvStr += id + ',' + question + ',' + answer + ',' + "\n";
+//     })
+ 
+//     var hiddenElement = document.createElement('');
+//     hiddenElement.href = 'data:text/csv;charset=utf-8,' + encodeURI(csvStr);
+//     hiddenElement.target = '_blank';
+//     hiddenElement.download = 'output.csv';
+//     hiddenElement.click();
+// }
 
 module.exports = { base };
