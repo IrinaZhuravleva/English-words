@@ -1,5 +1,9 @@
+import { base } from './model.js'
+
 const showTranslation = document.querySelector('#show-translation');
 const translationIntoEnglish = document.querySelectorAll('table td:nth-child(2)');
+
+const data = localStorage.getItem('data') ? JSON.parse(localStorage.getItem('data')) : base;
 
 showTranslation.addEventListener('click', () => {   
     if (showTranslation.classList.contains('active')) {

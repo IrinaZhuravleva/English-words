@@ -1,4 +1,4 @@
-const base = [
+export const base = [
   {
     id: 0,
     question: "выносливый",
@@ -3076,78 +3076,68 @@ const base = [
   {"id":1293,"question":"буровая установка","answer":"rig"},{"id":1294,"question":"дерзкий","answer":"cocky"},{"id":1295,"question":"роща","answer":"grove"},{"id":1296,"question":"распутный","answer":"slutty"},{"id":1297,"question":"отсрочить","answer":"defer"},{"id":1298,"question":"огрызаться","answer":"snap at"},{"id":1299,"question":"воровать","answer":"pilfer"},{"id":1300,"question":"разрушенный /опустошенный","answer":"gutted"},{"id":1301,"question":"сторонник порядка","answer":"stickler"},{"id":1302,"question":"перхоть","answer":"dandruff"},{"id":1303,"question":"шило","answer":"bodkin"},{"id":1304,"question":"дело /содеянное","answer":"deed"},{"id":1305,"question":"позиция /стойка","answer":"stance"},{"id":1306,"question":"доска","answer":"plank"},{"id":1307,"question":"приманка","answer":"bait"},{"id":1308,"question":"слабый","answer":"feeble"},{"id":1309,"question":"безжалостный","answer":"ruthless"},{"id":1310,"question":"топь","answer":"slough"},{"id":1311,"question":"брошенный","answer":"derelict"},{"id":1312,"question":"крыльцо /сутулость","answer":"stoop"},{"id":1313,"question":"взмах /вилять","answer":"wag"},
   {"id":1314,"question":"бранить","answer":"scold"},
   {"id":1315,"question":"прямой","answer":"outright"},{"id":1316,"question":"неаккуратный /сентиментальный","answer":"sloppy"},{"id":1317,"question":"отклонить","answer":"deflect"},
-  {"id":1318,"question":"плот","answer":"raft"},{"id":1319,"question":"земельный участок / место","answer":"stead"},{"id":1320,"question":"шквал","answer":"flurry /"},{"id":1321,"question":"упрек","answer":"rebuke"},{"id":1322,"question":"грубая ошибка /промах ","answer":"blunder"},
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
+  {"id":1318,"question":"плот","answer":"raft"},
+  {"id":1319,"question":"земельный участок / место","answer":"stead"},
+  {"id":1320,"question":"шквал","answer":"flurry /"},
+  {"id":1321,"question":"упрек","answer":"rebuke"},
+  {"id":1322,"question":"грубая ошибка /промах ","answer":"blunder"},
 ];
 
-// const lastId = base[base.length - 1].id;
+const lastId = base[base.length - 1].id;
 
-// const proverbList = [
-//     "Don’t cross the bridge until you come to it.<br />Не говори «гоп», пока не перепрыгнешь.",
-//     "Don’t make  mountain out of an anthill.<br />Не делай из мухи слона.",
-//     "Put your best foot forward.<br />Старайся предстать в наилучшем свете.",
-//     "It’s better to be safe than sorry.<br />Береженого Бог бережет.",
-//     "Don’t bite off more than you can chew.<br />Не бери на себя слишком много.",
-//     "Still waters run deep.<br />В тихом омуте черти водятся.",
-//     "You scratch my back, I’ll scratch yours.<br />Ты — мне, я — тебе.",
-//     "The squeaky wheel gets the grease.<br />Под лежачий камень вода не течет.",
-//     "No man is an island.<br />Один в поле не воин.",
-//     "Birds of  feather flock together.<br />Рыбак рыбака видит издалека.",
-//     "There's no such thing as  free lunch.<br />Бесплатный сыр — только в мышеловке.",
-//     "The early bird catches the worm.<br />Кто рано встает, тому Бог подает.",
-//     "Beggars can't be choosers.<br />На безрыбье и рак — рыба",
-//     " little knowledge is  dangerous thing.<br />Полузнание хуже невежества.",
-//     "All good things must come to an end.<br />Хорошего понемножку.",
-//     "One drop of poison infects the whole tun of wine.<br />Ложка дегтя в бочке меда."
-// ];
+const proverbList = [
+    "Don’t cross the bridge until you come to it.<br />Не говори «гоп», пока не перепрыгнешь.",
+    "Don’t make  mountain out of an anthill.<br />Не делай из мухи слона.",
+    "Put your best foot forward.<br />Старайся предстать в наилучшем свете.",
+    "It’s better to be safe than sorry.<br />Береженого Бог бережет.",
+    "Don’t bite off more than you can chew.<br />Не бери на себя слишком много.",
+    "Still waters run deep.<br />В тихом омуте черти водятся.",
+    "You scratch my back, I’ll scratch yours.<br />Ты — мне, я — тебе.",
+    "The squeaky wheel gets the grease.<br />Под лежачий камень вода не течет.",
+    "No man is an island.<br />Один в поле не воин.",
+    "Birds of  feather flock together.<br />Рыбак рыбака видит издалека.",
+    "There's no such thing as  free lunch.<br />Бесплатный сыр — только в мышеловке.",
+    "The early bird catches the worm.<br />Кто рано встает, тому Бог подает.",
+    "Beggars can't be choosers.<br />На безрыбье и рак — рыба",
+    " little knowledge is  dangerous thing.<br />Полузнание хуже невежества.",
+    "All good things must come to an end.<br />Хорошего понемножку.",
+    "One drop of poison infects the whole tun of wine.<br />Ложка дегтя в бочке меда."
+];
 
-// let data;
-// if (localStorage.getItem("data") != null) {
-//     data = JSON.parse(localStorage.getItem('data'));
+let data;
+if (localStorage.getItem("data") != null) {
+    data = JSON.parse(localStorage.getItem('data'));
         
-// } else {
-//     data = base;
-//     localStorage.setItem('data', JSON.stringify(data));
-// }
+} else {
+    data = base;
+    localStorage.setItem('data', JSON.stringify(data));
+}
 
-// function clearFields() {
-//     document.querySelector('#question').value = "";
-//     document.querySelector('#question').focus();
-//     document.querySelector('#answer').value = "";
-// }
+function clearFields() {
+    document.querySelector('#question').value = "";
+    document.querySelector('#question').focus();
+    document.querySelector('#answer').value = "";
+}
 
-// // csv-file
-// function downloadCSV() {
-//     const JsonFields = ["id", "question", "answer"];
-//     let csvStr = JsonFields.join(",") + "\n";
+// csv-file
+function downloadCSV() {
+    const JsonFields = ["id", "question", "answer"];
+    let csvStr = JsonFields.join(",") + "\n";
 
-//     data.forEach(element => {
+    data.forEach(element => {
         
-//         id = element.id;
-//         question = element.question;
-//         answer = element.answer;
+        id = element.id;
+        question = element.question;
+        answer = element.answer;
 
-//         csvStr += id + ',' + question + ',' + answer + ',' + "\n";
-//     })
+        csvStr += id + ',' + question + ',' + answer + ',' + "\n";
+    })
  
-//     var hiddenElement = document.createElement('');
-//     hiddenElement.href = 'data:text/csv;charset=utf-8,' + encodeURI(csvStr);
-//     hiddenElement.target = '_blank';
-//     hiddenElement.download = 'output.csv';
-//     hiddenElement.click();
-// }
+    var hiddenElement = document.createElement('');
+    hiddenElement.href = 'data:text/csv;charset=utf-8,' + encodeURI(csvStr);
+    hiddenElement.target = '_blank';
+    hiddenElement.download = 'output.csv';
+    hiddenElement.click();
+}
 
-module.exports = { base };
+// module.exports = { base };

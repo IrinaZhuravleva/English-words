@@ -3,6 +3,8 @@
     "test": "jest test.spec.js"
   },
   "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.6",
     "jest": "^29.7.0"
   },
   "dependencies": {

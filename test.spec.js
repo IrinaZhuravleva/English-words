@@ -1,4 +1,5 @@
-const objectBase = require('./js/model.js');
+// const objectBase = require('./js/model.js');
+import { objectBase } from './js/model.js';
 const isCyrillic = (str) => /^[а-яёА-ЯЁDVC1-9., --!?/()\d]+$/.test(str);
 const isLatin = (str) => {
     if (str === "a") return false;
